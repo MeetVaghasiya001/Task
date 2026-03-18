@@ -5,14 +5,11 @@ def move_html():
     base_dir = 'C:/Users/meet.vaghasiya/meet/data_time'
     html_dir ='C:/Users/meet.vaghasiya/meet/HTML'
     json_dir ='C:/Users/meet.vaghasiya/meet/JSON'
-    os.makedirs(html_dir,exist_ok=True)
     
     for all_dirs in os.listdir(base_dir):
         html_month_path = os.path.join(html_dir,all_dirs)
         json_month_path = os.path.join(json_dir,all_dirs)
         date_urls = os.path.join(base_dir,all_dirs)
-        os.makedirs(html_month_path,exist_ok=True)
-        os.makedirs(json_month_path,exist_ok=True)
         
         for date_dir in os.listdir(date_urls):
             html_date_path = os.path.join(html_month_path,date_dir)
