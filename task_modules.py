@@ -17,6 +17,7 @@ def text_file(folder_path,filename,info):
         f.write(f'File Type:{info.st_mode}'+'\n')
         f.write(f'File Create:{datetime.fromtimestamp(info.st_ctime)}'+'\n')
         f.write(f'File Updated:{datetime.fromtimestamp(info.st_mtime)}'+'\n')
+    return txt_path
 
 def json_file(folder_path,filename,info):
     json_path = os.path.join(folder_path,'02.json')
@@ -30,6 +31,7 @@ def json_file(folder_path,filename,info):
         }
     with open(json_path,'w') as f:
         json.dump(data,f,indent=4,default=str)
+    return json_path
 
 def html_file(folder_path,filename,info):
     html_path = os.path.join(folder_path,'03.html')
@@ -50,6 +52,7 @@ def html_file(folder_path,filename,info):
             </body>
             </html>
             ''')
+    return html_path
 
 
 def remove_files(base_dir):
@@ -68,5 +71,11 @@ def remove_files(base_dir):
                         if os.path.exists(file_path):
                             os.remove(file_path)
     print('All Done👍👍👍')
+
+
+
+       
+
+
 
 
