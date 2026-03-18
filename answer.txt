@@ -1,0 +1,11 @@
+1. os.path.join() # join 2 paths
+2. os.listdir()   # list all directory for give args
+3. os.mkdir()     # create directory 
+4. os.makedirs()  # make nested directory
+5. os.walk()      # use to extract all files,dirs and root paths
+6. os.rmdir()    # remove directory
+7. os.removedirs()  # remove nester directory
+8. os.rename()    # use to rename file and directories
+9. os.path.isfile() # it check files
+10. os.path.isdir()  # it check folders
+11. os.path.exist()  # it check give that directory or file is exist or not 
