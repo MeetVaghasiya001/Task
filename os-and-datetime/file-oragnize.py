@@ -2,9 +2,9 @@ import os
 
 
 def move_html():
-    base_dir = 'C:/Users/meet.vaghasiya/meet/data_time'
-    html_dir ='C:/Users/meet.vaghasiya/meet/HTML'
-    json_dir ='C:/Users/meet.vaghasiya/meet/JSON'
+    base_dir = 'C:/Users/meet.vaghasiya/meet/os-and-datetime/data_time'
+    html_dir ='C:/Users/meet.vaghasiya/meet/os-and-datetime/data_time/HTML'
+    json_dir ='C:/Users/meet.vaghasiya/meet/os-and-datetime/data_time/JSON'
     
     for all_dirs in os.listdir(base_dir):
         html_month_path = os.path.join(html_dir,all_dirs)

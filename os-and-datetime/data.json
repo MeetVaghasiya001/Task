@@ -1,0 +1,87 @@
+{
+  "restaurant": {
+    "id": "res_12345",
+    "name": "Spicy Treats",
+    "rating": 4.3,
+    "reviews_count": 1280,
+    "cuisine": ["Indian", "Chinese"],
+    "location": {
+      "address": "123 Food Street",
+      "city": "Ahmedabad",
+      "lat": 23.0225,
+      "lng": 72.5714
+    },
+    "delivery": {
+      "fee": 30,
+      "time_min": 25,
+      "time_max": 40
+    },
+    "menu": [
+      {
+        "category_id": "cat_1",
+        "category_name": "Starters",
+        "items": [
+          {
+            "id": "item_101",
+            "name": "Paneer Tikka",
+            "description": "Grilled paneer with spices",
+            "price": 250,
+            "currency": "INR",
+            "is_available": true,
+            "images": [
+              "https://example.com/paneer_tikka.jpg"
+            ]
+          },
+          {
+            "id": "item_102",
+            "name": "Spring Rolls",
+            "description": "Crispy rolls with veggies",
+            "price": 180,
+            "currency": "INR",
+            "is_available": false,
+            "images": []
+          }
+        ]
+      },
+      {
+        "category_id": "cat_2",
+        "category_name": "Main Course",
+        "items": [
+          {
+            "id": "item_201",
+            "name": "Butter Chicken",
+            "description": "Creamy tomato-based curry",
+            "price": 320,
+            "currency": "INR",
+            "is_available": true,
+            "variants": [
+              {
+                "name": "Half",
+                "price": 180
+              },
+              {
+                "name": "Full",
+                "price": 320
+              }
+            ]
+          },
+          {
+            "id": "item_202",
+            "name": "Veg Hakka Noodles",
+            "description": "Stir-fried noodles",
+            "price": 200,
+            "currency": "INR",
+            "is_available": true
+          }
+        ]
+      }
+    ],
+    "offers": [
+      {
+        "title": "50% OFF",
+        "description": "Up to ₹100 discount",
+        "code": "SAVE50"
+      }
+    ]
+  }
+}

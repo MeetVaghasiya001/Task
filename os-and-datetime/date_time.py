@@ -3,7 +3,7 @@ from datetime import datetime,timedelta
 import os
 
 def date_task():
-    dir_path ='C:/Users/meet.vaghasiya/meet/data_time'
+    dir_path ='C:/Users/meet.vaghasiya/meet/os-and-datetime/data_time'
 
     today_date = datetime.now()
     end_date = datetime(2026,12,31,23,59,59)
@@ -32,7 +32,7 @@ def date_task():
 
 # date_task()
 
-# task_modules.remove_files('C:/Users/meet.vaghasiya/meet/data_time')
+# task_modules.remove_files('C:/Users/meet.vaghasiya/meet/os-and-datetime/data_time')
 # task_modules.html_file_move()
 
 

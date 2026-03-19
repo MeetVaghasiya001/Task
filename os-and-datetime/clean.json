@@ -1,0 +1,50 @@
+[
+    {
+        "restaurant": "Spicy Treats",
+        "rating": 4.3,
+        "Location": {
+            "address": "123 Food Street",
+            "city": "Ahmedabad",
+            "lat": 23.0225,
+            "lng": 72.5714
+        },
+        "item_name": "Paneer Tikka",
+        "price": 250
+    },
+    {
+        "restaurant": "Spicy Treats",
+        "rating": 4.3,
+        "Location": {
+            "address": "123 Food Street",
+            "city": "Ahmedabad",
+            "lat": 23.0225,
+            "lng": 72.5714
+        },
+        "item_name": "Spring Rolls",
+        "price": 180
+    },
+    {
+        "restaurant": "Spicy Treats",
+        "rating": 4.3,
+        "Location": {
+            "address": "123 Food Street",
+            "city": "Ahmedabad",
+            "lat": 23.0225,
+            "lng": 72.5714
+        },
+        "item_name": "Butter Chicken",
+        "price": 320
+    },
+    {
+        "restaurant": "Spicy Treats",
+        "rating": 4.3,
+        "Location": {
+            "address": "123 Food Street",
+            "city": "Ahmedabad",
+            "lat": 23.0225,
+            "lng": 72.5714
+        },
+        "item_name": "Veg Hakka Noodles",
+        "price": 200
+    }
+]
