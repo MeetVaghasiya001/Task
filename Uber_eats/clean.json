@@ -1,0 +1,1243 @@
+{
+    "name": "Sugar Dreams Bakery",
+    "location": {
+        "address": "15 South Country Road, East Patchogue, NY 11772",
+        "street_address": "15 South Country Road",
+        "city": "East Patchogue",
+        "country": "US",
+        "postal_code": "11772",
+        "region": "NY",
+        "latitude": 40.7674325,
+        "longitude": -72.9921
+    },
+    "rating": null,
+    "cuisine": [
+        "Desserts",
+        "Latin Fusion",
+        "Cakes"
+    ],
+    "image": [
+        "https://tb-static.uber.com/prod/image-proc/processed_images/5c56280ad2cbff47e83fece4501158b2/bb3c0a72d9475b425c5ee9e6ea716d2f.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/5c56280ad2cbff47e83fece4501158b2/1130cd428ee928d351d26efda1178b20.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/5c56280ad2cbff47e83fece4501158b2/db9ac6e65b00f2558664e469940eca31.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/5c56280ad2cbff47e83fece4501158b2/c86a2d4dc3dc568dc3ddf7b096104ac3.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/5c56280ad2cbff47e83fece4501158b2/36251f0b543c447bdd4e9925b1861023.jpeg",
+        "https://tb-static.uber.com/prod/image-proc/processed_images/5c56280ad2cbff47e83fece4501158b2/1da9a9e826d15157cea1c5bb8696f248.jpeg"
+    ],
+    "telephone": "+9293718873",
+    "menu": [
+        {
+            "catagory": "Whipped Cream Cakes",
+            "item": [
+                {
+                    "name": "Tres Leches Cake",
+                    "description": "Serves 8-10 people. Classic vanilla sponge soaked in a special blend of three different types of milk, filled with rich vanilla custard and dulce De leche, iced with vanilla whipped cream and topped with fresh fruit.",
+                    "price": 5200,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/02a9b24e9885273de6ca2fb918cec1b7/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Cannoli Cake",
+                    "description": "Serves 8-10 People. Vanilla cake filled with layers of Italian cannoli cream. Iced with whipped cream icing and topped with mini cannoli  NO NUTS AROUND .",
+                    "price": 4200,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/f36a67b20d20411268e6ae99eeacd306/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Strawberry Shortcake",
+                    "description": "Serves 8-10 people. A classic vanilla sponge cake filled with strawberry preserves, iced with a light layer of whipped cream outside and topped with whole fresh strawberries.",
+                    "price": 3800,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/7e95513051b7a755d5ccd0e239d6ade2/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                }
+            ]
+        },
+        {
+            "catagory": "Christmas sweet ideas",
+            "item": [
+                {
+                    "name": "Christmas sugar cookies",
+                    "description": "Assorted Christmas sugar cookies decorated with colorful icing in festive shapes like Santa, trees, and gingerbread. Individually wrapped, gift-ready.",
+                    "price": 650,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/80e0d301c0e2062ea85cbc86a3ccd918/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Christmas cakepops",
+                    "description": "Assorted cake pops shaped like trees, stockings, gingerbread, and Santa hats, coated in chocolate and festive sprinkles.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/3c279d410fd16b0062feeffe515d62fa/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "chocolate cover oreos",
+                    "description": "Oreo cookies dipped in chocolate and decorated with Christmas designs like Santa, snowman, tree, reindeer, and peppermint swirl.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/8796bc7b6a917dd334ff6ef2247625c2/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "2lb butter cookies. Comes wrapped and with a bow.",
+                    "description": "2 lb of classic butter cookies, gift-wrapped with a bow, holiday-ready and perfect for sharing or gifting.",
+                    "price": 4500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "1lb butter cookie tray comes wrapped with a bow.",
+                    "description": null,
+                    "price": 2300,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Christmas pretzels",
+                    "description": "Assorted pretzel twists decorated with festive holiday colors.",
+                    "price": 500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Christmas cupcakes",
+                    "description": "Assorted cupcakes decorated with Christmas designs and festive colors.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Christmas  saltine, caramel and chocolate cookies  Special 2lb",
+                    "description": "Crisp saltine cookies layered with caramel and chocolate, a festive 2 lb batch for the holidays.",
+                    "price": 2800,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Christmas chocolate lollipops",
+                    "description": "Festive chocolate lollipops featuring classic Christmas designs.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Christmas saltine carane chocolate mix 2lb gift tin",
+                    "description": "Assorted crackers topped with caramel, chocolate, and festive sprinkles. Come in a beutiful  chrisymas tin",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Labubu christmas cookies",
+                    "description": "Festive cookies shaped like Christmas characters with colorful icing and sprinkles.",
+                    "price": 650,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Pies",
+            "item": [
+                {
+                    "name": "Apple pie",
+                    "description": "Buttery crust with tender apple slices and a sweet crumb topping, perfect for a delightful dessert experience.",
+                    "price": 2600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Cherry crumb pie",
+                    "description": "Buttery crumb topping over juicy cherries, creating a delightful balance of sweet and tart flavors.",
+                    "price": 2600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Pumpkin pie",
+                    "description": "Creamy pumpkin pie with a perfect blend of spices, offering a delightful autumn treat.",
+                    "price": 2400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Cocunut  cream pie",
+                    "description": "Creamy coconut delight with a luscious filling and flaky crust, perfect for a sweet indulgence.",
+                    "price": 2600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Key lime pie",
+                    "description": "Tangy dessert with a graham cracker crust, filled with creamy key lime custard for a refreshing finish.",
+                    "price": 2100,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Lemon merengue pie",
+                    "description": "Tangy lemon filling topped with fluffy meringue on a crisp crust, a delightful balance of sweet and tart flavors.",
+                    "price": 3200,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Buttercream Cakes",
+            "item": [
+                {
+                    "name": "Black & White Cake",
+                    "description": "Serves 8-10 people. Layers of classic vanilla and rich chocolate sponge, filled with layers of vanilla and chocolate buttercream, iced with vanilla and chocolate buttercream outside and topped with buttercream swirl.",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/ffb134aed5bef9cf6275676a351c5c4d/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Cookies & Cream Cake",
+                    "description": "Serves 8-10 people. Layers of rich chocolate sponge filled with Oreo buttercream, iced with Oreo buttercream on the outside and topped with Oreo cookies annd buttercream swirls.",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/e3d4698f9311b7a755e86051e4227497/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Red Velvet Cake",
+                    "description": "Serves 8-10 people. Decadent layers of red velvet sponge, filled and iced with sweet cream cheese and topped with red velvet cake crumbs.",
+                    "price": 3900,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/26a744f44acde23fd560dddeee7544d8/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Carrot Cake",
+                    "description": "Serves 8-10 people. Traditional layers of carrot cake sponge, filled and iced with sweet cream cheese and topped with shredded coconut.",
+                    "price": 3900,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/d4b0ab87f643a4728f70ffb5233174f4/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Funfetti Cake",
+                    "description": "Serves 8-10 people. Layers of Vanilla cake, filled with funfetti Buttercream filling, iced in vanilla buttercream and topped with funfetti sprinkles.",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/faba7a2fed7581212557144f6d3334bc/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Mocha Cake",
+                    "description": "Serves 8-10 people. Rich layers ofchocolate cake soaked in coffee, filled and ice with mocha buttercream and topped with espresso beans.",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/51fd68b15f813e788e08ff3e959f0c13/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                }
+            ]
+        },
+        {
+            "catagory": "Cupcakes",
+            "item": [
+                {
+                    "name": "Peanut Butter",
+                    "description": "Serves one. Vanilla or chocolate cake with peanut butter buttercream and a chocolate drizzle.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Strawberry cupcakes",
+                    "description": "Serves one. Clasic Vanilla cake iced with strawberry buttercream, and topped with strawberry preserves.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Lemon",
+                    "description": "Serves one. Classic Vanilla cake iced with Lemon buttercream and lemon preserves.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Carrot",
+                    "description": "Serves one. Carrot cake with sweet cream cheese icing and coconut shavings.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Red Velvet",
+                    "description": "Serves one. Red velvet cake with sweet cream cheese icing and red velvet cake crumbs.",
+                    "price": 425,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Caramel Dream",
+                    "description": "Vanilla cake, topped with caramel buttercream.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Characters",
+                    "description": "Serves one. Classic vanilla or chocolate cupcakes, iced with vanilla buttercream and decorated with popular children's character designs.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "PUMPKIN CUPCAKES",
+                    "description": "DELICIOUS PUMPKIN CUPCAKE WITH CINNAMON CREME CHEESE FROSTING.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Cookies & Cream",
+                    "description": "Serves one. Rich chocolate cake iced with oreo buttercream, topped with crushed oreos.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Classic Vanilla",
+                    "description": "Serves one. Vanilla or Chocolate cake iced with vanilla buttercream, topped with rainbow sprinkles.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "chocolate cupcake",
+                    "description": "Moist, rich chocolate treat.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Cupcake Bouquets",
+            "item": [
+                {
+                    "name": "Small Floral Cupcake Bouquet",
+                    "description": "Vanilla and chocolate cupcakes, decorated with buttercream flowers in assorted colors. Contains three cupcakes.",
+                    "price": 2200,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/c6fde222203b08246fc90688e03ccd60/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Cupcake Bouquet",
+                    "description": "Variety of decorative cupcakes with floral designs and vibrant colors, arranged in a bouquet.",
+                    "price": 4500,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/219a59aa7d5facce76a13635384ef351/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Designer Cupcake Bouquets",
+                    "description": "A selection of intricately decorated cupcakes, arranged to resemble a bouquet, are available in vanilla and chocolate. The wrapper is designer and may vary depending on availability.",
+                    "price": 5000,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/bc449ac92b6d93469765b0158b40b251/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                }
+            ]
+        },
+        {
+            "catagory": "Cake Pops",
+            "item": [
+                {
+                    "name": "Red Velvet",
+                    "description": "Serves one. Red velvet cake dipped in white chocolate and topped with red velvet cake crumbs.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Funfetti",
+                    "description": "Serves one. Funfetti cake dipped in white chocolate and topped with confetti sprinkles.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Oreo",
+                    "description": "Serves one. Rich chocolate cake mixed with Oreos, dipped in white chocolate and topped with crushed Oreos.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Classic Vanilla",
+                    "description": "Serves one. Vanilla cake dipped in white chocolate and topped with rainbow sprinkles.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Classic Chocolate",
+                    "description": "Serves one. Rich chocolate cake dipped in milk chocolate, topped with chocolate sprinkles.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "vanilla confetti cakepop",
+                    "description": "Moist vanilla cake coated in a sweet confetti shell.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "chocolate confetti",
+                    "description": "Rich, bite-sized chocolate treats sprinkled with colorful confetti.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Pastries",
+            "item": [
+                {
+                    "name": "Lobster Tail",
+                    "description": "Layers of crispy pastry, filled with french cream and topped with powdered sugar. Serves 1.",
+                    "price": 695,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Sfogliatelle",
+                    "description": "Layers of crispy pastry, filled with sweet ricotta cheese and topped with powdered sugar. Serves 1.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Tiramisu Slice",
+                    "description": "A slice of coffe soaked cake, filled with tiramisu cream and topped with cocoa powder.",
+                    "price": 525,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "1 Dz Mini Pastries",
+                    "description": "Canolis / eclair /napoleons /mini tarts chocolate lemon lime /cream puff.",
+                    "price": 2800,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Eclair",
+                    "description": "Classic Eclair, filled with whipped cream and topped with chocolate ganache.",
+                    "price": 695,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Large Cannoli",
+                    "description": "Large cannoli shell, filled with our homemade cannoli cream and topped with chocolate chips.",
+                    "price": 495,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Mini Cannolis",
+                    "description": "Mini Cannolis, filled with our homemade cannoli cream and topped with chocolate chips.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "brownie with fudge",
+                    "description": "Decadent brownie topped with rich fudge, a perfect indulgence for chocolate lovers.",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "blondie  with caramel sauce",
+                    "description": "Rich, buttery blondie smothered in caramel sauce.",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "strawberry shorcake cup",
+                    "description": "Moist strawberry shortcake in a cup.",
+                    "price": 800,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "chocolate layer  mousse cup",
+                    "description": "Decadent layers of creamy chocolate mousse in a cup, perfect for a sweet indulgence.",
+                    "price": 850,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "tres leches cake",
+                    "description": "Moist cake soaked in three milks, topped with whipped cream and fresh strawberries for a sweet, creamy delight.",
+                    "price": 1250,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "fruit tart",
+                    "description": "Delight in a crisp pastry filled with fresh fruits, offering a sweet and tangy burst in every bite.",
+                    "price": 800,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Cheesecakes",
+            "item": [
+                {
+                    "name": "3\" Mini Fruit Topped Cheesecake",
+                    "description": "Serves 1. Creamy, NY style cheesecake, topped with your choice of fruit preserves GLUTEN FREE.",
+                    "price": 795,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "3\" Mini Cheesecake",
+                    "description": "Serves 1 GLUTEN FREE.",
+                    "price": 695,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "7\" Fruit Topped Cheesecake",
+                    "description": "Serves 8. Creamy NY style cheesecake, topped with your choice of fruit preserves GLUTEN FREE.",
+                    "price": 2950,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "7\" Plain Cheesecake",
+                    "description": "Serves 8 GLUTEN FREE.",
+                    "price": 2850,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Cookies",
+            "item": [
+                {
+                    "name": "Linzer Tart",
+                    "description": "Shortbread Cookies filled with raspberry jelly and topped with powdered sugar.",
+                    "price": 495,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocolate Covered Oreo",
+                    "description": "Oreos, covered in dark chocolate and white chocolate. Styles vary seasonally.",
+                    "price": 425,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Butter Cookies",
+                    "description": "Mixed butter cookies.",
+                    "price": 2500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Rainbow Cookies",
+                    "description": "Traditional Italian Tri Colored cookies, filled with raspberry jam and topped with chocolate.",
+                    "price": 2500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "French Macron",
+                    "description": "Available in various flavors to choose from GLUTEN FREE.",
+                    "price": 300,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Pignoli Cookies",
+                    "description": "Rich almond paste cookies topped with Pignoli nuts GLUTEN FREE!",
+                    "price": 3800,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Teacher and Nurse Appreaciation Cookies",
+            "item": [
+                {
+                    "name": "Teacher Appreciation Sugar Cookies",
+                    "description": "Delicious vanilla sugar cookie hand decorate with royal icing perfect for all those amazing teachers !",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/ce4949508a93e8a46688209062137be3/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Nurse Appreciation Cookies",
+                    "description": "Delicious vanilla sugar cookie hand decorate with royal icing perfect for all those amazing nurse !",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/1567f392cc228e89ecba71c2b8c4edaf/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                }
+            ]
+        },
+        {
+            "catagory": "Drinks",
+            "item": [
+                {
+                    "name": "fresh lemonade",
+                    "description": "Refreshing blend of fresh lemons, perfect for a thirst-quenching drink.",
+                    "price": 1000,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/8398646d174418a206372b5d88e05a8e/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Espresso Shot",
+                    "description": "Rich and bold coffee concentrate.",
+                    "price": 350,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Hot Coffee",
+                    "description": "Rich and bold coffee to start your day.",
+                    "price": 295,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Hot Tea",
+                    "description": "Steaming hot tea to warm your day.",
+                    "price": 300,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Gluten Free",
+            "item": [
+                {
+                    "name": "French Macron",
+                    "description": "Available in various flavors to choose from gluten free.",
+                    "price": 300,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/586e3865e590fc86965f345e31e47d1a/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "7\" Cheesecake",
+                    "description": "Plain, NY style, creamy Cheesecake GLUTEN FREE.",
+                    "price": 2850,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "7\" Fruit Topped Cheesecake",
+                    "description": "Serves 8. Creamy ny style cheesecake topped with your choice of fruit preserves gluten free.",
+                    "price": 2950,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Mini Cheesecake",
+                    "description": "Gluten Free.",
+                    "price": 695,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Mini Fruit Topped Cheesecake",
+                    "description": "Creamy, ny style cheesecake, topped with fruit preserves.",
+                    "price": 795,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Almond Horn",
+                    "description": "Almond paste cookie, topped with toasted sliced almonds.",
+                    "price": 525,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Easter Sweet Ideas",
+            "item": [
+                {
+                    "name": "Bunny Cake",
+                    "description": "Layers of moist sponge cake with rich buttercream frosting and a vanilla cake with strawberry filling.",
+                    "price": 4900,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/40e0540c77cc354d18493ee109c34e8e/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Chocolate Cake Basket",
+                    "description": "Moist chocolate cake with chocolate buttercream topped with a variety of colorful candy eggs and finished with a decorative chocolate handle on top.",
+                    "price": 3900,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/456e259501be4d14570ab677706aef84/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Pinata Chocolate Bunny",
+                    "description": "White 3d chocolate bunny filled with assorted candies come with wooden hammer.",
+                    "price": 3000,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/6bca07cb20881fef0d540e08363e7700/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Easter Cupcakes",
+                    "description": "Colorful Easter cupcakes topped with festive sprinkles, available in vanilla or chocolate.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocolate Cover Oreo",
+                    "description": "Delicious dark chocolate mix with white chocolate easter decorate oreo.",
+                    "price": 425,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocolate Lollipops",
+                    "description": "Dark and white chocolate lollipops.",
+                    "price": 325,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Easter Cakepops Chick",
+                    "description": "Cute chick-shaped cakepops covered in yellow icing, with edible candy eyes and orange beaks.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Easter Cakepop Bunnies",
+                    "description": "Easter cakepop bunnies feature bunny-shaped cake balls covered in pastel-colored candy with edible decorative details.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Easter Cakepops Eggs",
+                    "description": "Colorful cake pops shaped like Easter eggs, coated with assorted sprinkles and icing.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Easter Marshmallow Pops",
+                    "description": "Colorful marshmallows on sticks, decorated with sprinkles and icing.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Easter Hello Kitty Sugar Cookies",
+                    "description": "Cute Hello Kitty-shaped sugar cookies in pastel colors, decorated with detailed icing and sprinkles.",
+                    "price": 700,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Easter Caramel Apple",
+                    "description": "Caramel-coated apple dipped in white chocolate. Decorate like a chick or bunny.",
+                    "price": 800,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Easter Cookies",
+                    "description": "Easter decorate easter cookies.",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Dark Chocolate Bunnies",
+                    "description": "Delicious dark chocolate bunnies perfectly wrap ready to be gifted.",
+                    "price": 2500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Cute Basket Cake",
+                    "description": "Features mini chocolate eggs, colorful candies,vanilla cake with buttercream in a basket-shaped cake.",
+                    "price": 3900,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocolate Pi\u00f1ata Eggs",
+                    "description": "Delicious 3d egg filled with assorted of candies , come with a wooden hammer.",
+                    "price": 3000,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Mothers Day Ideas",
+            "item": [
+                {
+                    "name": "Meringue Cookies Bouquet",
+                    "description": "Delicate meringue cookies in assorted pastel colors arranged beautifully, creating a visually appealing bouquet.",
+                    "price": 2200,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/4e1c45561098c3ba109599534b841301/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Cookies Basket",
+                    "description": "Assorted cookies including a variety of sugar cookies.",
+                    "price": 1500,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/73d4d9533e691f0c6d528f2f1060adbb/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Meringue Cookie Bouquet",
+                    "description": "A bouquet of crisp meringue cookies made with sugar and egg whites, delicately decorated with colorful edible flowers.",
+                    "price": 800,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Sugar Cookie Card",
+                    "description": "Decorated sugar cookies with colorful icing, packed in a beautiful box with a sweet message.",
+                    "price": 900,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Mothers Day Cake Pops",
+                    "description": "Features a collection of vanilla flavors cake pops each adorned with festive decorations, specifically crafted .",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Mini Donnitas Bouquet",
+                    "description": "Six mini doughnuts topped with chocolate, extra decoration, and chocolate drizzle.",
+                    "price": 1600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Flower Brownie Popscicles",
+                    "description": "Brownie shaped like flowers on popsicle sticks,.",
+                    "price": 800,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Dubai Chocolate Flowers",
+                    "description": "Delicate floral-shaped chocolate with rich, creamy textures, filled with pistachio and kataifi.",
+                    "price": 1200,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Heart Shape Chocoflan",
+                    "description": "Rich chocolate cake layered with creamy flan, all shaped like a heart.",
+                    "price": 3400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Butterfly Shape Chocoflan",
+                    "description": "Rich chocolate cake topped with creamy flan, formed into a delicate butterfly shape.",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Heart Shape Flan",
+                    "description": "Dessert with smooth caramel flavor and creamy, sweet custard in a heart shape.",
+                    "price": 3400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Butterfly Shqpe Flan",
+                    "description": "Flan in the shape of a butterfly, adorned with a smooth, creamy texture and subtle caramel undertones.",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Cupcake Bouquet",
+                    "description": "A bouquet of 7 cupcakes with an assortment of flavors and intricate floral designs.",
+                    "price": 4500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Small Cupcake Bouqiet",
+                    "description": "3 cupcakes arranged in a colorful bouquet, featuring a variety of flavors and icing designs. Color and flower designs will differ according to the season.",
+                    "price": 2200,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Trio Brownies",
+                    "description": "Three assorted brownies: rich chocolate, brookies, and blondie, with four toppings: strawberry, caramel, fudge, and Nutella.",
+                    "price": 2200,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Mothers Day Flowers Pot Cake",
+                    "description": "Adorned with delicate flowers and vibrant butterflies, this cake offers layers of rich, moist sponge and smooth, creamy frosting.",
+                    "price": 3600,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Heart Shape Cake",
+                    "description": "Moist and decadent cake in a heart-shaped design, perfect for special occasions.",
+                    "price": 5900,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Flower Cupcakes",
+                    "description": "Single Delicate cupcakes adorned with intricate, colorful flower designs made from smooth, sweet frosting.",
+                    "price": 499,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocolate Cover Oreos",
+                    "description": "Chocolate cover oreos.",
+                    "price": 495,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Mothers Day Sugar Cookies",
+                    "description": "Decorative sugar cookies shaped like bears, flowers, teapots, and hearts. Each cookie is intricately designed and colorful, perfect for Mother's Day.",
+                    "price": 700,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "4th of july sweet ideas",
+            "item": [
+                {
+                    "name": "sugar cookies",
+                    "description": "sweet sugar cookies, perfect for festive celebrations.",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/a2ef2c89ccf4503bc2fe83e896690f08/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "chocolate cover oreo",
+                    "description": "Oreo cookies dipped in rich chocolate, perfect for a sweet celebration treat.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/fcfc9f15223b70114b80e2871f324570/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "holiday cupcakes",
+                    "description": "Festive cupcakes with vibrant colors and sweet flavors, perfect for celebrating special occasions.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Brownie pops",
+                    "description": "Decadent chocolate treats on sticks, perfect for festive celebrations and sweet indulgence.",
+                    "price": 499,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Confetti cake pops",
+                    "description": "Colorful cake pops with a burst of confetti sprinkles, perfect for a festive treat.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Graduations cookies bouquets",
+            "item": [
+                {
+                    "name": "Graduation Cookie Bouquet",
+                    "description": "A variety of decorated sugar cookies shaped like graduation caps, diplomas, adorned with colored icing and edible glitter.",
+                    "price": 3000,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/4d71aaa8276ddcc88875937bdb491515/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "congratulations graduate  Sugar Cookies Bouquet",
+                    "description": "sugar cookies arranged in a festive bouquet, perfect for congratulating graduates.",
+                    "price": 3000,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/9e5ec0c4995e9917e8d0fa3b14e34cad/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Graduation Cookies Bouquet",
+                    "description": "Assorted decorated cookies in various shapes such as caps, diplomas, and flower.",
+                    "price": 3000,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/f0ffa4144d84525b16f26669c0ac80b2/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                }
+            ]
+        },
+        {
+            "catagory": "ALFAJORES and Cake Jars Peruvian Desserts",
+            "item": [
+                {
+                    "name": "Vanilla Cake Jar with Passion Fruit Dulce De Leche",
+                    "description": "Layers of vanilla cake and passion fruit dulce de leche.",
+                    "price": 1900,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/b51714347d639efa1a02745e04c55c51/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Choco-lucuma Alfajores",
+                    "description": "Two delicate cookies sandwich a chocolate and lucuma spread, combining rich cocoa with the sweet, tropical flavor of Peruvian lucuma fruit. 3pcs.",
+                    "price": 1200,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/41f1dcf042e97a55b4bc5a09fd051b85/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Chocolate Cake Jar with Lucuma Dulce Leche",
+                    "description": "Layers of rich chocolate cake, creamy lucuma-flavored dulce de leche, and chocolate crumbs.",
+                    "price": 1900,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocolate Cake Jar with Dulce De Leche Y Fudge De Olla",
+                    "description": "Layers of rich chocolate cake, creamy dulce de leche, and chocolate fudge.",
+                    "price": 1900,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Tradicional Alfajores Jar with Lucuma Dulce De Leche De Olla",
+                    "description": "Creamy lucuma dulce de leche layered with traditional crumbly alfajores.",
+                    "price": 1400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocolate Cake Jar with Fudge De Olla",
+                    "description": "Layers of rich chocolate cake with a thick, luscious fudge sauce.",
+                    "price": 1900,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Chocoteja Gift Set",
+                    "description": "Three different chocolate treats: lucuma, passion fruit, and traditional with pecans.",
+                    "price": 1500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Choco Lucuma Cake Slice",
+                    "description": "Rich chocolate cake slice with layers of lucuma fruit filling.",
+                    "price": 850,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Maracuya Tres Leches",
+                    "description": "A soft sponge cake soaked in sweetened milk, filled with a tangy passion fruit cream.",
+                    "price": 850,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Pionono Slices",
+                    "description": "Soft sponge cake filled with creamy dulce de leche, rolled and dusted with powdered sugar. This is a box of 6 to 7 mini slices.",
+                    "price": 800,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Passion Fruit Alfajores",
+                    "description": "Tangy passion fruit filling sandwiched between two soft, buttery shortbread cookies, dusted with powdered sugar.",
+                    "price": 1200,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "One of the Kind Alfajores",
+                    "description": "1 piece of soft alfajores filled with dulce de leche and dusted with powdered sugar.",
+                    "price": 350,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Passion Fruit Alfajor Jar",
+                    "description": "Layers of crumbly shortbread cookies with creamy passion fruit filling.",
+                    "price": 1400,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        },
+        {
+            "catagory": "Halloween sweet treats",
+            "item": [
+                {
+                    "name": "Halloween chocolate cover oreos",
+                    "description": "Oreos cloaked in creamy chocolate, a sweet Halloween delight for your spooky celebrations.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/3c2ce3081160d47dab777a688a1890db/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Skully popsicle",
+                    "description": "Chilling skull-shaped popsicle, perfect for a spooky treat. Confetti popsicle with chocolate chip center.",
+                    "price": 700,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/6b6e3fe2a34d069d136fab3a04d82431/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Red velvelt Heart popsicle",
+                    "description": "Heart-shaped red velvet popsicle with a creamy cheesecake center, perfect for a festive indulgence.",
+                    "price": 700,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/4a0e25a10b1cf87ab5991a38cb44ce7a/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Chocolate Haunted house popsicle",
+                    "description": "Spooky chocolate popsicle with an Oreo center, perfect for Halloween treats.",
+                    "price": 700,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/0a9ad66cf49a5f3b13e5c9d6cb1c42a0/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Skully heart popsicle",
+                    "description": "A spooky treat with a sweet twist, perfect for Halloween indulgence. Confetti with oreo center",
+                    "price": 700,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/4e379ad32f11b61763c9d54a0e1ebb57/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Halloween pretzels",
+                    "description": "Sweet and salty pretzels, perfect for Halloween snacking.",
+                    "price": 500,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/a9ca150fb631a2800df7d96b41007779/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Halloween sugar cookies",
+                    "description": "Spooky sugar cookies, perfect for Halloween, crafted with festive designs and sweet flavors.",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/3f2d9ff554ffd62e31dbff5a343461dc/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                }
+            ]
+        },
+        {
+            "catagory": "Thangiving",
+            "item": [
+                {
+                    "name": "Sugar cookies",
+                    "description": "Delightful sugar cookies, perfect for festive gatherings, offering a sweet, buttery taste in every bite.",
+                    "price": 600,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/a2f64e539764715067fab97694797136/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "chocolate cover oreos",
+                    "description": "Delight in Oreo cookies enveloped in rich chocolate, perfect for a sweet Thanksgiving treat.",
+                    "price": 400,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/c7dd6d8259de7086936579655a2eddfc/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "1 lb butter cookies with a big chocolate cornucopia",
+                    "description": "Delight in buttery cookies paired with a grand chocolate cornucopia, perfect for festive indulgence.",
+                    "price": 4500,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/f3a41f7eeba89d125ad1618212bcdbf3/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Sugar cookies set give thanks",
+                    "description": "Delightful sugar cookies perfect for Thanksgiving, crafted to express gratitude with every bite.",
+                    "price": 1400,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/b3a680b72f48f563671eeb7da049667a/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Sugar cookies set thanks giving",
+                    "description": "Delight in a festive set of sugar cookies, perfect for Thanksgiving celebrations.",
+                    "price": 1400,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/b6e8bf94f20cd43dc5f82c42fe2e93c6/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Linzert tart platter 9 cookies",
+                    "description": "Delight in buttery cookies filled with sweet jam, perfect for a festive treat.",
+                    "price": 3200,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/6654830971d491ce150b49edd164267a/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "Thanksgiving cakepops turkey",
+                    "description": "Festive cakepops shaped like turkeys, perfect for Thanksgiving celebrations. They come individually wrapped.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": "https://tb-static.uber.com/prod/image-proc/processed_images/95cec4048ab5570f7da6d8529c703a59/70aa2a4db7f990373ca9c376323e3dea.jpeg"
+                },
+                {
+                    "name": "1/2 lb butter cookies with chocolate cornucopia",
+                    "description": "Buttery cookies paired with a chocolate cornucopia, perfect for a sweet Thanksgiving treat.",
+                    "price": 2500,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Thankgiving cupcakes",
+                    "description": "Festive cupcakes with Thanksgiving-themed decorations in autumn colors.",
+                    "price": 450,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Sugae cookie set gobble.gobble",
+                    "description": "Delight in a festive cookie set, perfect for Thanksgiving celebrations.",
+                    "price": 1400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "Sugar cookie set, thanks!",
+                    "description": "Assorted sugar cookies with a 'thanks' theme, perfect for Thanksgiving.",
+                    "price": 1400,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "1lb butter cookie tray comes wrapped with a bow.",
+                    "description": "Delightful butter cookies, elegantly wrapped with a bow, perfect for sharing and gifting.",
+                    "price": 2300,
+                    "avalible": true,
+                    "item_image": null
+                },
+                {
+                    "name": "2lb butter cookies. Comes wrapped and with a bow.",
+                    "description": "Delightful 2lb butter cookies, elegantly wrapped and bowed, perfect for festive gifting.",
+                    "price": 4200,
+                    "avalible": true,
+                    "item_image": null
+                }
+            ]
+        }
+    ]
+}
