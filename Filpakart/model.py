@@ -17,14 +17,14 @@ class Seller(BaseModel):
     start : Optional[str] = None
 
 class Product(BaseModel):
-    name : str 
-    description :str
+    name : Optional[str] = None 
+    description :Optional[str] = None
     item_images : List[str]
-    item_catagory : str 
-    brand : str 
-    price : Price 
-    ratings : Rating 
-    policy : str 
+    item_catagory : Optional[str] = None 
+    brand : Optional[str] = None 
+    price : Optional[Price] = None 
+    ratings :Optional[Rating] = None 
+    policy : Optional[str] = None 
     product_detailes : Dict[str,Any]
     seller_detailes : Optional[Seller] = None
 
