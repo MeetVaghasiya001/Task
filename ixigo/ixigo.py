@@ -121,7 +121,7 @@ for all_detailes in all_flight:
 
                 
         else:
-            pass
+            print('data was error!')
 
 conn.commit()
 conn.close()
