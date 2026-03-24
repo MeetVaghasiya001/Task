@@ -1,0 +1,894 @@
+{
+    "name": "Joint Smash Burgers - Central Market",
+    "cuisine": "Burger",
+    "timezone": "Asia/Kuala_Lumpur",
+    "opning_hour": {
+        "open": true,
+        "displayedHours": "09:00-21:00",
+        "sun": "9:00am-9:00pm",
+        "mon": "9:00am-9:00pm",
+        "tue": "9:00am-9:00pm",
+        "wed": "9:00am-9:00pm",
+        "thu": "9:00am-9:00pm",
+        "fri": "9:00am-9:00pm",
+        "sat": "9:00am-9:00pm"
+    },
+    "rating": 5.0,
+    "cordinates": {
+        "latitude": 3.145547,
+        "longitude": 101.695755
+    },
+    "delivery_options": [
+        "DELIVERY",
+        "TAKEAWAY"
+    ],
+    "menu": [
+        {
+            "catagory": "Smash Burgers",
+            "items": [
+                {
+                    "name": "Classic Cheeseburger",
+                    "price": 1950,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043035595/photo/edeb5bc813d942e6b5eca215440c44e2_1769742153437285667.webp",
+                    "description": "Single beef patty, melty American cheese, crunchy pickles, and our house sauce. A classic that never disappoints.",
+                    "modifires": [
+                        {
+                            "name": "MAKE IT COMBO",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Combo (Coke + Straight Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1200,
+                                        "amount_display": "12.00"
+                                    }
+                                },
+                                {
+                                    "name": "Combo (Coke + Curly Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1350,
+                                        "amount_display": "13.50"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "EXTRA",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "House Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 300,
+                                        "amount_display": "3.00"
+                                    }
+                                },
+                                {
+                                    "name": "Beef Patty",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 500,
+                                        "amount_display": "5.00"
+                                    }
+                                },
+                                {
+                                    "name": "American Cheddar Cheese",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                },
+                                {
+                                    "name": "Pickles (2pcs)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ADD ONS",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chic O Fries",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1900,
+                                        "amount_display": "19.00"
+                                    }
+                                },
+                                {
+                                    "name": "Chicken Strips",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 2150,
+                                        "amount_display": "21.50"
+                                    }
+                                },
+                                {
+                                    "name": "Coke",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                },
+                                {
+                                    "name": "Mineral Water",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Double Classic Cheeseburger",
+                    "price": 2650,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043040410/photo/menueditor_item_8966ad65955446b5b3a3c5772c8651bf_1770030589092807384.webp",
+                    "description": "Double beef patty, melty American cheese, crunchy pickles, and our house sauce. A classic that never disappoints.",
+                    "modifires": [
+                        {
+                            "name": "MAKE IT COMBO",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Combo (Coke + Straight Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1200,
+                                        "amount_display": "12.00"
+                                    }
+                                },
+                                {
+                                    "name": "Combo (Coke + Curly Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1350,
+                                        "amount_display": "13.50"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "EXTRA",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "House Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 300,
+                                        "amount_display": "3.00"
+                                    }
+                                },
+                                {
+                                    "name": "Beef Patty",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 500,
+                                        "amount_display": "5.00"
+                                    }
+                                },
+                                {
+                                    "name": "American Cheddar Cheese",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                },
+                                {
+                                    "name": "Pickles (2pcs)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ADD ONS",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chic O Fries",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1900,
+                                        "amount_display": "19.00"
+                                    }
+                                },
+                                {
+                                    "name": "Chicken Strips",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 2150,
+                                        "amount_display": "21.50"
+                                    }
+                                },
+                                {
+                                    "name": "Coke",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                },
+                                {
+                                    "name": "Mineral Water",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "The OG Cheeseburger",
+                    "price": 2050,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043056719/photo/0ed217d9dabf4ffcba4a59f3a4b913f6_1769742226091992848.webp",
+                    "description": "Single beef patty, melty American cheese, crunchy pickles, lettuce, tomato and our house sauce.",
+                    "modifires": [
+                        {
+                            "name": "MAKE IT COMBO",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Combo (Coke + Straight Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1200,
+                                        "amount_display": "12.00"
+                                    }
+                                },
+                                {
+                                    "name": "Combo (Coke + Curly Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1350,
+                                        "amount_display": "13.50"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "EXTRA",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "House Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 300,
+                                        "amount_display": "3.00"
+                                    }
+                                },
+                                {
+                                    "name": "Beef Patty",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 500,
+                                        "amount_display": "5.00"
+                                    }
+                                },
+                                {
+                                    "name": "American Cheddar Cheese",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                },
+                                {
+                                    "name": "Pickles (2pcs)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ADD ONS",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chic O Fries",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1900,
+                                        "amount_display": "19.00"
+                                    }
+                                },
+                                {
+                                    "name": "Chicken Strips",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 2150,
+                                        "amount_display": "21.50"
+                                    }
+                                },
+                                {
+                                    "name": "Coke",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                },
+                                {
+                                    "name": "Mineral Water",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Double OG Cheeseburger",
+                    "price": 2750,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043066172/photo/menueditor_item_97398b70e10c43e18d57ce93d03a048f_1770030682755648774.webp",
+                    "description": "Double beef patty, melty American cheese, crunchy pickles, lettuce, tomato and our house sauce.",
+                    "modifires": [
+                        {
+                            "name": "MAKE IT COMBO",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Combo (Coke + Straight Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1200,
+                                        "amount_display": "12.00"
+                                    }
+                                },
+                                {
+                                    "name": "Combo (Coke + Curly Fries)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1350,
+                                        "amount_display": "13.50"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "EXTRA",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "House Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 300,
+                                        "amount_display": "3.00"
+                                    }
+                                },
+                                {
+                                    "name": "Beef Patty",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 500,
+                                        "amount_display": "5.00"
+                                    }
+                                },
+                                {
+                                    "name": "American Cheddar Cheese",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                },
+                                {
+                                    "name": "Pickles (2pcs)",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 120,
+                                        "amount_display": "1.20"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "ADD ONS",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chic O Fries",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 1900,
+                                        "amount_display": "19.00"
+                                    }
+                                },
+                                {
+                                    "name": "Chicken Strips",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 2150,
+                                        "amount_display": "21.50"
+                                    }
+                                },
+                                {
+                                    "name": "Coke",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                },
+                                {
+                                    "name": "Mineral Water",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 480,
+                                        "amount_display": "4.80"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "catagory": "Sides",
+            "items": [
+                {
+                    "name": "Curly Fries",
+                    "price": 1550,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043082088/photo/menueditor_item_0c6ce8c54a594f58970c54ba95848501_1770031396137105436.webp",
+                    "description": "Curly-cut topped 1 choices of sauce.",
+                    "modifires": [
+                        {
+                            "name": "ADD ONS (SAUCE)",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 150,
+                                        "amount_display": "1.50"
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CHOICE OF SAUCE",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Straight Fries",
+                    "price": 1450,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043096694/photo/773aba48e9924c46b237cdcecda50ae6_1769742206909141465.webp",
+                    "description": "Straight-cut topped 1 choices of sauce.",
+                    "modifires": [
+                        {
+                            "name": "ADD ONS (SAUCE)",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 150,
+                                        "amount_display": "1.50"
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CHOICE OF SAUCE",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Chic O Fries",
+                    "price": 1900,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043104418/photo/menueditor_item_c88bc4f08ba744c8b877def9936ac76d_1770031471686300263.webp",
+                    "description": "Straight- cut fries topped with crispy chicken terders and 1 choice of sauce.",
+                    "modifires": [
+                        {
+                            "name": "ADD ONS (SAUCE)",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 150,
+                                        "amount_display": "1.50"
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CHOICE OF SAUCE",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CHANGE TO CURLY",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Curly Fries",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 150,
+                                        "amount_display": "1.50"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Chicken Strips",
+                    "price": 2150,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043124073/photo/335ec477abce4c1989164b0aa684efb2_1769742136775436224.webp",
+                    "description": "Crispy chicken strips served with one free sauce.",
+                    "modifires": [
+                        {
+                            "name": "ADD ONS (SAUCE)",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 50,
+                                        "amount_display": "0.50"
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 150,
+                                        "amount_display": "1.50"
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": 200,
+                                        "amount_display": "2.00"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "name": "CHOICE OF SAUCE",
+                            "available": true,
+                            "all_modifires": [
+                                {
+                                    "name": "Chili",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Tomato",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Mayonnaise",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Cheese Sauce",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                },
+                                {
+                                    "name": "Creamy Onion",
+                                    "available": true,
+                                    "price": {
+                                        "amount_in_mirror": null,
+                                        "amount_display": null
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "catagory": "Drinks",
+            "items": [
+                {
+                    "name": "Coke",
+                    "price": 480,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043148258/photo/menueditor_item_deb6f24ba60741c1b398cb95a19aff28_1770032457891756554.webp",
+                    "description": "Coke will be provided randomly based on availability (Original / Zero / Less Sugar) and may be served cold or at room temperature.",
+                    "modifires": []
+                },
+                {
+                    "name": "Mineral Water",
+                    "price": 480,
+                    "image": "https://food-cms.grab.com/compressed_webp/items/MYITE20260130030043156007/photo/menueditor_item_e792470f88f24f2480242605e2fae357_1770032655510194746.webp",
+                    "description": "550ml bottled mineral water, served cold or at room temperature.",
+                    "modifires": []
+                }
+            ]
+        }
+    ]
+}
