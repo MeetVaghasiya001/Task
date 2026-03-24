@@ -15,46 +15,38 @@ with open('clean.json','r') as f:
 
 
 try:
-    cur.execute(
-        "INSERT INTO products (name, description, category, brand, policy) VALUES (%s,%s,%s,%s,%s)",
-        (
-            data.get("name"),
-            data.get("description"),
-            data.get("item_catagory"),
-            data.get("brand"),
-            data.get("policy")
-        )
-    )
-
-    pid = cur.lastrowid
-
-    cur.execute(
-        "INSERT INTO price (product_id, value, currency) VALUES (%s,%s,%s)",
-        (pid, data.get("price").get("value"), data.get("price").get("currency"))
-    )
-
-    r = data.get("ratings", {})
-    cur.execute(
-        "INSERT INTO ratings (product_id, rating, rating_count, review_count) VALUES (%s,%s,%s,%s)",
-        (pid, r.get("rating"), r.get("rating_count"), r.get("review_count"))
-    )
-
-
-    for img in data.get("item_images", []):
-        cur.execute(
-            "INSERT INTO images (product_id, image_url) VALUES (%s,%s)",
-            (pid, img)
-        )
-    cur.execute(
-        "INSERT INTO product_details (product_id, details) VALUES (%s,%s)",
-        (pid, json.dumps(data.get("product_detailes", {})))
-    )
-
-    seller = data.get('seller_detailes')
-    cur.execute("INSERT INTO seller (seller_id,name,RATING,start) VALUES (%s,%s,%s,%s)",(pid,seller.get('name'),seller.get('rating'),seller.get('start')))
-
+    cur.execute("""
+         CREATE TABLE IF NOT EXISTS product(
+	            PRODUCT_ID INTEGER AUTO_INCREMENT PRIMARY KEY,
+	            NAME VARCHAR(50) NOT NULL,
+                DESCRIPTION TEXT NOT NULL,
+                IMAGES JSON ,
+                ITEAM_CATAGORY VARCHAR(50) NOT NULL,
+                BRAND VARCHAR(50) NOT NULL,
+                PRICE JSON,
+                RATINGS JSON,
+                POLICY VARCHAR(50),
+                PRODUCT_DETAILES JSON,
+                SELLER_DETAILES JSON
+                )
+        """)
+    
+    cur.execute("""
+            INSERT INTO product(NAME,DESCRIPTION,IMAGES,ITEAM_CATAGORY,BRAND,PRICE,RATINGS,POLICY,PRODUCT_DETAILES,SELLER_DETAILES) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",(
+                data.get('name'),
+                data.get('description'),
+                json.dumps(data.get('item_images')),
+                data.get('item_catagory'),
+                data.get('brand'),
+                json.dumps(data.get('price')),
+                json.dumps(data.get('ratings')),
+                data.get('policy'),
+                json.dumps(data.get('product_detailes')),
+                json.dumps(data.get('seller_detailes'))
+            ))
+    print('Done!')
+   
     conn.commit()
-    print("Done!")
 
 except Exception as err:
     print("An Error:", err)
