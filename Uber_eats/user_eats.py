@@ -41,7 +41,6 @@ for items in menu:
     
 
 
-
 image = meta_json.get('image',[])
 data = {
     'name':name,
