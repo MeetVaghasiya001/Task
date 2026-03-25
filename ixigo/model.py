@@ -1,12 +1,14 @@
 from pydantic import BaseModel
 from typing import Optional,List
-from datetime import time,datetime,date
+from datetime import time,date
+
+
 
 
 class Layovers(BaseModel):
-    location : Optional[str]
-    durationInMinutes : Optional[int]
-    duration : Optional[str]
+    location : Optional[str] = None
+    durationInMinutes : Optional[int] = None 
+    duration : Optional[str] = None 
 
 class Ixigo(BaseModel):
     date : date

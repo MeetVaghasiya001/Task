@@ -125,21 +125,3 @@ for all_detailes in all_flight:
 
 conn.commit()
 conn.close()
-
-    
-        
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
