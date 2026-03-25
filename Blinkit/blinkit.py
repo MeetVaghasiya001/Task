@@ -53,15 +53,15 @@ for s_data in all_data:
 
 if product_varient:
     for s_product in product_varient:
-                if s_product.get('is_selected') == True:
-                    product['name'] = s_product.get('name')
-                    product['weight'] = s_product.get('weight')
-                    product['price'] = s_product.get('price')
-                    product['currency'] = 'INR'
-
+        if s_product.get('is_selected') == True:
+            product['name'] = s_product.get('name')
+            product['weight'] = s_product.get('weight')
+            product['price'] = s_product.get('price')
+            product['currency'] = 'INR'
 else:
     product['name'] = seo.get('product_name')
     product['price'] = seo.get('price')
+    product['weight'] = attributes.get('Unit')
     product['currency'] = 'INR'
                 
 photos = {
