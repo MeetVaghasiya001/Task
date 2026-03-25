@@ -15,9 +15,12 @@ product_varient = []
 attributes = {}
 
 
+
+seo = data.get('response').get('tracking').get('le_meta').get('custom_data').get('seo')
+
 if data.get('response').get('tracking'):
-    all_att = data.get('response').get('tracking').get('le_meta').get('custom_data').get('seo').get('attributes')
-    brand = data.get('response').get('tracking').get('le_meta').get('custom_data').get('seo').get('brand')
+    all_att = seo.get('attributes')
+    brand = seo.get('brand')
     for d in all_att:
         attributes[d.get('name')]=d.get('value')
 
@@ -47,12 +50,19 @@ for s_data in all_data:
                     'is_selected':v.get('data').get('selection_config').get('is_selected')
                 })
 
-            for s_product in product_varient:
+
+if product_varient:
+    for s_product in product_varient:
                 if s_product.get('is_selected') == True:
                     product['name'] = s_product.get('name')
                     product['weight'] = s_product.get('weight')
                     product['price'] = s_product.get('price')
                     product['currency'] = 'INR'
+
+else:
+    product['name'] = seo.get('product_name')
+    product['price'] = seo.get('price')
+    product['currency'] = 'INR'
                 
 photos = {
     'video':video,

@@ -11,7 +11,7 @@ class Product(BaseModel):
     name : str 
     brand : str 
     price : Optional[int] = 0 
-    weight : str 
+    weight : Optional[str]
     currency : str 
     product_varient : List[Varient]
     Gallary : Dict[str,List[str]]
