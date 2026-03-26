@@ -1,0 +1,619 @@
+{
+    "items": {
+        "Vegetables": [
+            {
+                "id": "UM0LWC92NJ",
+                "item": "Indian Tomato (Tamatar)",
+                "short_description": "Juicy, tangy & ideal for all Indian curries",
+                "brand": "Fruits and Vegetables",
+                "images": [
+                    "054e83b5ebe789cf4b7b146319df4cfc",
+                    "f00e32194bcd76550c7e3dc1fe2e4ac4"
+                ],
+                "total_price": 50,
+                "offer_price": 38,
+                "discount_value": 12,
+                "dicount": "24% OFF",
+                "weight": 1000.0
+            }
+        ],
+        "Board and Card Games": [
+            {
+                "id": "4Z15HANWGN",
+                "item": "WHITE & GOLD 555 PRIME Playing Cards",
+                "short_description": "Premium cards for smooth gameplay",
+                "brand": "WHITE & GOLD 555 PRIME",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/3fc91a67-ce72-4250-9e8f-d9631873b6e2_751273_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/f60e6816-76db-4245-8444-dd7e3eb6ffbd_751273_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/916e93a1-9c50-48a0-9f0f-a2df7c003e02_751273_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/2a384716-ebe9-45a6-95e6-6fb6d1fa8281_751273_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/b2ccaf23-f3f6-43e9-ac1c-9656eca7f173_751273_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/600ad6d7-8222-4730-8945-a4d36b9a8b14_751273_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/4e43ff34-3328-444d-b92a-d7e31bd36ab9_751273_7.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/16/adb658fd-3b5f-4d34-89e8-a3607199de98_751273_8.png"
+                ],
+                "total_price": 59,
+                "offer_price": 49,
+                "discount_value": 10,
+                "dicount": "16% OFF",
+                "weight": 100.0
+            }
+        ],
+        "Milk Based Drinks": [
+            {
+                "id": "M6KU67LVYP",
+                "item": "Nescafe Cafe Style Cold Coffee, Iced Latte",
+                "short_description": "Enjoy a Cafe Style Cold Coffee On The Go - Anytime, Anywhere",
+                "brand": "Nescafe",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/08d7335c-eedf-491e-a51e-9eb5eb57aa7e_111529_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/2ea91ade-a831-4fd6-9c41-77fe01dcbb12_111529_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/a04f6fc3-6f13-467a-a69e-c484745b2a6b_111529_3.png"
+                ],
+                "total_price": 150,
+                "offer_price": 138,
+                "discount_value": 12,
+                "dicount": "8% OFF",
+                "weight": 510.0
+            },
+            {
+                "id": "G2XDNNRM86",
+                "item": "Nescafe Cafe Style Cold Coffee, Iced Latte",
+                "short_description": "Enjoy a Cafe Style Cold Coffee On The Go - Anytime, Anywhere",
+                "brand": "Nescafe",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/08d7335c-eedf-491e-a51e-9eb5eb57aa7e_111529_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/2ea91ade-a831-4fd6-9c41-77fe01dcbb12_111529_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/a04f6fc3-6f13-467a-a69e-c484745b2a6b_111529_3.png"
+                ],
+                "total_price": 100,
+                "offer_price": 89,
+                "discount_value": 11,
+                "dicount": "11% OFF",
+                "weight": 340.0
+            },
+            {
+                "id": "O2AGNFDN88",
+                "item": "Nescafe Cafe Style Cold Coffee, Iced Latte",
+                "short_description": "Enjoy a Cafe Style Cold Coffee On The Go - Anytime, Anywhere",
+                "brand": "Nescafe",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/12/17/7b8a1549-5c1b-421d-8410-68a9d9b982c9_TKUVNU3W03_MN_16122025.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/2ea91ade-a831-4fd6-9c41-77fe01dcbb12_111529_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/4/21/a04f6fc3-6f13-467a-a69e-c484745b2a6b_111529_3.png"
+                ],
+                "total_price": 50,
+                "offer_price": 47,
+                "discount_value": 3,
+                "dicount": "6% OFF",
+                "weight": 170.0
+            }
+        ],
+        "Leafy and Seasonings": [
+            {
+                "id": "I4WRFTFYKW",
+                "item": "Coriander Leaves without root",
+                "short_description": "Fresh, aromatic, detox, garnish for soups & curries",
+                "brand": "Fruits and Vegetables",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2026/1/21/b6aaa4a1-7478-4d58-90cd-d60827750079_Coriander_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/1/21/d3099672-9324-42ea-9a4c-cce28fe17c81_Coriander_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/1/21/f301fe6c-eb05-4ea7-aa34-1dca93f45a7a_Coriander_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/1/21/5f37b733-eafc-4212-9d48-a7f7ef84b9b1_Coriander_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/1/22/b05a32fa-3d79-4434-85d8-b381c793ebc9_Coriander.png"
+                ],
+                "total_price": 13,
+                "offer_price": 10,
+                "discount_value": 3,
+                "dicount": "23% OFF",
+                "weight": 100.0
+            }
+        ],
+        "Cleaning Tools": [
+            {
+                "id": "V7V9501893",
+                "item": "Chakaachak High-quality Materials Dustpan (Orange)",
+                "short_description": "Simple dust collection tool",
+                "brand": "Chakaachak",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2024/8/4/05928ade-8bb9-470f-a49b-a47e3d6d5a29_22187_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/8/4/c204def6-5b4c-48cb-9909-63be4352044e_22187_2.jpg",
+                    "NI_CATALOG/IMAGES/CIW/2024/8/4/7231262b-8c13-45e6-9b37-a35f6095480d_22187_3.jpg",
+                    "NI_CATALOG/IMAGES/CIW/2024/8/4/20a05567-427a-497f-a982-48ffb3224644_22187_1.jpg",
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/08202b62-d39a-4e97-a22b-f10dd2b5a9ac_22187_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/8/4/2a4da4e0-b237-421b-8aac-55fe46f44fa4_22187_5.png"
+                ],
+                "total_price": 80,
+                "offer_price": 45,
+                "discount_value": 35,
+                "dicount": "43% OFF",
+                "weight": 10.0
+            }
+        ],
+        "Soda and Mixers": [
+            {
+                "id": "7JR2RVD86B",
+                "item": "Schweppes Original Ginger Ale Soda (Can)2pieces",
+                "short_description": "Classic ginger ale fizzy beverage",
+                "brand": "Schweppes",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/11/28/df8647db-2d63-4b26-8c27-ebac985b2479_495.png",
+                    "sn2uzrrmjovgwycquhnr",
+                    "cbrbmqcqdp7cprqqfcwx"
+                ],
+                "total_price": 120,
+                "offer_price": 116,
+                "discount_value": 4,
+                "dicount": "3% OFF",
+                "weight": 600.0
+            }
+        ],
+        "Cream Biscuits": [
+            {
+                "id": "KTY3KU1TC5",
+                "item": "Sunfeast Dark Fantasy Vanilla Cream",
+                "short_description": "Smooth vanilla bliss",
+                "brand": "Sunfeast Dark Fantasy",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f0b93cb0-9acf-484c-a5c8-e0d24830fbdc_15430_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/5a884e09-5bf4-4a17-9731-e2a95fd5f831_15430_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/1d7b211c-ef9f-4e6e-99a8-05fc80a4fa90_15430_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f7fc97eb-fd3a-4528-9e41-0183ee366458_15430_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/bc636841-5c96-4940-84bf-b951e563f392_15430_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f03fbd1e-0b6a-4cb1-8118-72552fe46797_15430_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f84cce85-ad0c-4512-b75e-4a65b3681e91_15430_7.png"
+                ],
+                "total_price": 264,
+                "offer_price": 151,
+                "discount_value": 113,
+                "dicount": "42% OFF",
+                "weight": 711.0
+            },
+            {
+                "id": "DZ4RHQ79JU",
+                "item": "Sunfeast Dark Fantasy Vanilla Cream",
+                "short_description": "Smooth vanilla center",
+                "brand": "Sunfeast Dark Fantasy",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f0b93cb0-9acf-484c-a5c8-e0d24830fbdc_15430_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/5a884e09-5bf4-4a17-9731-e2a95fd5f831_15430_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/1d7b211c-ef9f-4e6e-99a8-05fc80a4fa90_15430_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f7fc97eb-fd3a-4528-9e41-0183ee366458_15430_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/bc636841-5c96-4940-84bf-b951e563f392_15430_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f03fbd1e-0b6a-4cb1-8118-72552fe46797_15430_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f84cce85-ad0c-4512-b75e-4a65b3681e91_15430_7.png"
+                ],
+                "total_price": 176,
+                "offer_price": 104,
+                "discount_value": 72,
+                "dicount": "40% OFF",
+                "weight": 474.0
+            },
+            {
+                "id": "NT4G6L0A07",
+                "item": "Sunfeast Dark Fantasy Vanilla Cream",
+                "short_description": "Chocolate cookie with vanilla filling",
+                "brand": "Sunfeast Dark Fantasy",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/12/18/0c2bd26b-842d-4308-aa86-95e6aa3c7157_HVO3J3K0L3_MN_17122025.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/5a884e09-5bf4-4a17-9731-e2a95fd5f831_15430_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/1d7b211c-ef9f-4e6e-99a8-05fc80a4fa90_15430_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f7fc97eb-fd3a-4528-9e41-0183ee366458_15430_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/bc636841-5c96-4940-84bf-b951e563f392_15430_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f03fbd1e-0b6a-4cb1-8118-72552fe46797_15430_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/10/f84cce85-ad0c-4512-b75e-4a65b3681e91_15430_7.png"
+                ],
+                "total_price": 88,
+                "offer_price": 52,
+                "discount_value": 36,
+                "dicount": "40% OFF",
+                "weight": 237.0
+            }
+        ],
+        "Bracelets": [
+            {
+                "id": "XF4VTIJJP3",
+                "item": "NVR Evil Eye Crystal Elasticated Bracelet Unisex Onesize",
+                "short_description": "Stylish protective charm",
+                "brand": "NVR",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/6/17/12e9eb01-20c1-4fac-942b-fa301b8c08aa_186561_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/6/17/7eaad647-c769-4f39-956b-05f8e4158026_186561_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/6/17/8bcb6184-ac3c-4644-8a27-94431355fce4_186561_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/6/17/520d16e0-7726-43a1-8b20-97aaea44527d_186561_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/6/17/c426e76d-2b69-440a-8384-22bb4a6e944a_186561_5.png"
+                ],
+                "total_price": 999,
+                "offer_price": 912,
+                "discount_value": 87,
+                "dicount": "8% OFF",
+                "weight": 30.0
+            }
+        ],
+        "Soft Drinks": [
+            {
+                "id": "RQ6RW0LYB7",
+                "item": "Coca-Cola Zero Soft drink Pet Bottle",
+                "short_description": "",
+                "brand": "Coke Zero",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/11/28/758ac3e2-534a-4e9c-9b55-b8c81fb6adf5_19384.png",
+                    "mpgdi4cwdt2kkxlbuobe",
+                    "ramlzjtod82k5cegmu9l"
+                ],
+                "total_price": 160,
+                "offer_price": 115,
+                "discount_value": 45,
+                "dicount": "28% OFF",
+                "weight": 3000.0
+            },
+            {
+                "id": "271OA741MJ",
+                "item": "Coca-Cola Zero Soft drink Pet Bottle",
+                "short_description": "",
+                "brand": "Coke Zero",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/11/28/758ac3e2-534a-4e9c-9b55-b8c81fb6adf5_19384.png"
+                ],
+                "total_price": 120,
+                "offer_price": 86,
+                "discount_value": 34,
+                "dicount": "28% OFF",
+                "weight": 2250.0
+            },
+            {
+                "id": "QFJX3J83OG",
+                "item": "Coca-Cola Zero Soft drink Pet Bottle",
+                "short_description": "Zero sugar, classic Coca-Cola taste",
+                "brand": "Coke Zero",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/11/28/758ac3e2-534a-4e9c-9b55-b8c81fb6adf5_19384.png",
+                    "mpgdi4cwdt2kkxlbuobe",
+                    "ramlzjtod82k5cegmu9l"
+                ],
+                "total_price": 80,
+                "offer_price": 59,
+                "discount_value": 21,
+                "dicount": "26% OFF",
+                "weight": 1500.0
+            },
+            {
+                "id": "K1H2RAGY9Q",
+                "item": "Coca-Cola Zero Soft drink Pet Bottle",
+                "short_description": "Zero sugar spark",
+                "brand": "Coke Zero",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/11/28/758ac3e2-534a-4e9c-9b55-b8c81fb6adf5_19384.png",
+                    "mpgdi4cwdt2kkxlbuobe",
+                    "ramlzjtod82k5cegmu9l"
+                ],
+                "total_price": 40,
+                "offer_price": 36,
+                "discount_value": 4,
+                "dicount": "10% OFF",
+                "weight": 750.0
+            }
+        ],
+        "Chips": [
+            {
+                "id": "4WCW5JFVXJ",
+                "item": "Bingo Original Style Chilli Sprinkled Potato Chips",
+                "short_description": "Classic Chilli, Crunchy Potato Chips.",
+                "brand": "Bingo",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/12/17/be0dd314-4605-45bb-80a1-2e508e2bf8b3_H3BMVGUT77_MN_17122025.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/d97cc072-51d1-4c0c-8c43-1ec7f08fd1d4_15290_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/eb299764-6e34-45d6-b5ca-1a8a01db9b04_3750_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/448ab7e9-45b0-4af7-9186-f95ea23c79c1_15290_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/cee293ab-5383-4c5f-867d-c1f3a1504935_3750_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/588c7bd1-183a-429d-aa64-c1715452e1ed_3750_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/737ade6a-7017-42c2-bab5-0ac20a00feaa_15290_7.png"
+                ],
+                "total_price": 100,
+                "offer_price": 74,
+                "discount_value": 26,
+                "dicount": "26% OFF",
+                "weight": 180.0
+            },
+            {
+                "id": "C0GJW4C3GW",
+                "item": "Bingo Original Style Chilli Sprinkled Potato Chips",
+                "short_description": "Classic spicy potato chips with chili flavor",
+                "brand": "Bingo",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/12/17/be0dd314-4605-45bb-80a1-2e508e2bf8b3_H3BMVGUT77_MN_17122025.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/d97cc072-51d1-4c0c-8c43-1ec7f08fd1d4_15290_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/eb299764-6e34-45d6-b5ca-1a8a01db9b04_3750_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/448ab7e9-45b0-4af7-9186-f95ea23c79c1_15290_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/cee293ab-5383-4c5f-867d-c1f3a1504935_3750_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/588c7bd1-183a-429d-aa64-c1715452e1ed_3750_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/10/1/737ade6a-7017-42c2-bab5-0ac20a00feaa_15290_7.png"
+                ],
+                "total_price": 50,
+                "offer_price": 37,
+                "discount_value": 13,
+                "dicount": "26% OFF",
+                "weight": 90.0
+            }
+        ],
+        "Besan, Sooji and Maida": [
+            {
+                "id": "242QHXB39D",
+                "item": "Supreme Harvest Suji Rawa (Semolina)",
+                "short_description": "Fine quality sooji ideal for upma and halwa.",
+                "brand": "Supreme Harvest",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2024/7/12/154b4995-43f7-4272-ba3e-b6cffd508b14_attaandotherflours_7STCJSUN65_MN.png",
+                    "h6yoxs1mzjhyn9z84iro",
+                    "saibedutdopuykjkl02k"
+                ],
+                "total_price": 100,
+                "offer_price": 64,
+                "discount_value": 36,
+                "dicount": "36% OFF",
+                "weight": 1000.0
+            },
+            {
+                "id": "RQR93CAGV6",
+                "item": "Supreme Harvest Suji Rawa (Semolina)",
+                "short_description": "Fine-quality suji for versatile cooking",
+                "brand": "Supreme Harvest",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/12/16/4cb5dc61-7c55-4718-a84b-a0b6297557c2_7STCJSUN65_MN_16122025.png",
+                    "h6yoxs1mzjhyn9z84iro",
+                    "saibedutdopuykjkl02k"
+                ],
+                "total_price": 50,
+                "offer_price": 32,
+                "discount_value": 18,
+                "dicount": "36% OFF",
+                "weight": 500.0
+            }
+        ],
+        "Fruits": [
+            {
+                "id": "0LRF9HI88S",
+                "item": "Premium Kinnow Orange (Santra)",
+                "short_description": "Rich sweet-tangy flavour; extra-juicy with smooth bright skin",
+                "brand": "Fruits and Vegetables",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/11/20/99d907f9-3c19-4ade-ba1f-1000016bb55e_MD34XI61J2_MN_20112025.jpg",
+                    "6ef72fb4c604a1e4bbae4fba849b3d78",
+                    "5402be708f4a0a956f8429ee332d5f0b"
+                ],
+                "total_price": 122,
+                "offer_price": 96,
+                "discount_value": 26,
+                "dicount": "21% OFF",
+                "weight": 6.0
+            },
+            {
+                "id": "1HDZ5QFBSG",
+                "item": "Premium Kinnow Orange (Santra)",
+                "short_description": "Rich sweet-tangy flavour; extra-juicy with smooth bright skin",
+                "brand": "Fruits and Vegetables",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/12/2/cb66dabc-6892-4425-b086-900b5043a450_2168_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/12/2/487dd7a9-5ff3-42f6-95a2-8ed3e934014e_2168_3.png"
+                ],
+                "total_price": 61,
+                "offer_price": 49,
+                "discount_value": 12,
+                "dicount": "19% OFF",
+                "weight": 3.0
+            }
+        ],
+        "Atta": [
+            {
+                "id": "M1UXH1Z6F3",
+                "item": "Supreme Harvest Whole Wheat Atta",
+                "short_description": "Stone-ground whole wheat flour for soft rotis",
+                "brand": "Supreme Harvest",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/12/16/1042a1df-8b14-4bd9-a4c5-8ef1f62b4193_S47JK5WYYG_MN_15122025.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/12/16/f0721f94-200d-46e3-b4b9-15c427afc257_15558_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/12/16/b96b1ed3-4817-4368-8fc2-b3064efbfb82_15558_3.png"
+                ],
+                "total_price": 250,
+                "offer_price": 193,
+                "discount_value": 57,
+                "dicount": "22% OFF",
+                "weight": 5000.0
+            }
+        ],
+        "Indian Sweets": [
+            {
+                "id": "N74SXYJAZ3",
+                "item": "Paper Boat Chikki Family Pack",
+                "short_description": "Crunchy Sweet Chikki to Share and Enjoy",
+                "brand": "Paper Boat",
+                "images": [
+                    "68e3968ff39a2d7350fd2d30610e26c2",
+                    "d88c08be01c2a9114399c0f2364cae2f",
+                    "f8d9a83bdc74172a50342aede3aa5a62"
+                ],
+                "total_price": 126,
+                "offer_price": 119,
+                "discount_value": 7,
+                "dicount": "5% OFF",
+                "weight": 288.0
+            },
+            {
+                "id": "50XYZH0CJ2",
+                "item": "Paper Boat Chikki Family Pack",
+                "short_description": "Traditional jaggery & peanut brittle treat",
+                "brand": "Paper Boat",
+                "images": [
+                    "68e3968ff39a2d7350fd2d30610e26c2",
+                    "d88c08be01c2a9114399c0f2364cae2f",
+                    "f8d9a83bdc74172a50342aede3aa5a62"
+                ],
+                "total_price": 84,
+                "offer_price": 80,
+                "discount_value": 4,
+                "dicount": "4% OFF",
+                "weight": 192.0
+            },
+            {
+                "id": "5WHVQ93Q6V",
+                "item": "Paper Boat Chikki Family Pack",
+                "short_description": "Traditional peanut chikki in a family-size pack",
+                "brand": "Paper Boat",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2026/2/11/f04eaa1d-0137-4869-825a-d4fdf369cf52_CFPXGGA7UU_MN_11022026.png",
+                    "d88c08be01c2a9114399c0f2364cae2f",
+                    "f8d9a83bdc74172a50342aede3aa5a62"
+                ],
+                "total_price": 42,
+                "offer_price": 41,
+                "discount_value": 1,
+                "dicount": "2% OFF",
+                "weight": 96.0
+            }
+        ],
+        "Pens Pencils Highlighters": [
+            {
+                "id": "VW49AIZ15O",
+                "item": "Classmate Octane Ball Pens | Blue Ink | Pack of 5",
+                "short_description": "Smooth writing experience for everyday use",
+                "brand": "Classmate",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/96dd1d28-d246-4e27-aedd-5f996838705d_6007_1.jpg",
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/2af49969-6037-4f08-be1c-a98a8f042ea8_6007_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/e94603f7-251e-462f-8011-2cdd75ded17e_6007_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/6e196014-430d-401f-92f5-cb0bdb32652c_6007_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/e5d0a22e-4a54-4541-b0e2-4dd15dff2f0d_6007_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/2ef9a5d2-8d36-4328-8133-0e57a8c6f1c6_6007_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/11/8/2623eecc-6699-4e2a-a5a2-5636ea30a713_6007_7.jpg"
+                ],
+                "total_price": 50,
+                "offer_price": 46,
+                "discount_value": 4,
+                "dicount": "8% OFF",
+                "weight": 5.0
+            }
+        ],
+        "Earbuds and Headsets": [
+            {
+                "id": "H2384MV3L8",
+                "item": "Hammer Airflow Plus In-Ear Truly Wireless Earbuds With Mic, 23 Hours Playtime, Sound Isolation, IPX4, Bluetooth v5.1 (Green)",
+                "short_description": "Long play, clear sound",
+                "brand": "Hammer",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/7/25/1abd8cd0-d5b0-434f-9f85-5b59b1f9fbe9_53UAG2RD0A.png",
+                    "1195e85adb23284b65c9a075026ff639",
+                    "6aa69d1c3c3851a5eb860f060bb2628d",
+                    "025c3ba96d2faed4992426c4521dc3da",
+                    "b6b67d570401a459c9856efd620f7e5a",
+                    "34f81b99ebd1d285430456d63efbd28a",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/665d5140-a65c-40ce-b7dc-4db6901b4c55_80930.png"
+                ],
+                "total_price": 4999,
+                "offer_price": 621,
+                "discount_value": 4378,
+                "dicount": "87% OFF",
+                "weight": 1.0
+            }
+        ],
+        "Powerbanks and Chargers": [
+            {
+                "id": "M188HHQSIB",
+                "item": "Hammer 3.25A Fast Charging 1.5 m Type C to Type C Charging Cable, 65 Watts 480 Mbps (Blue)",
+                "short_description": "Strong cable for rapid charging",
+                "brand": "Hammer",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2024/6/25/e78929ac-3167-4cee-9ad3-2d3fe9d76824_ElectronicsandWearables_F9CVZLQCC7_MN.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/5/22/54ae74b7-9715-4a6d-9dcf-81540e65a567_ElectronicsandWearables_F9CVZLQCC7_AL1.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/5/22/6952e375-c2ab-469e-aab6-0282a0705340_ElectronicsandWearables_F9CVZLQCC7_AL2.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/5/22/2a3142d9-2086-41ff-b20e-57b038538c63_ElectronicsandWearables_F9CVZLQCC7_AL3.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/5/22/753c8f05-bbb2-4afb-b6a9-c7d887ca2844_ElectronicsandWearables_F9CVZLQCC7_AL4.png",
+                    "NI_CATALOG/IMAGES/CIW/2024/5/22/b4fac765-8173-4d9a-b82c-bfc585879fce_ElectronicsandWearables_F9CVZLQCC7_AL5.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/665d5140-a65c-40ce-b7dc-4db6901b4c55_80930.png"
+                ],
+                "total_price": 999,
+                "offer_price": 129,
+                "discount_value": 870,
+                "dicount": "87% OFF",
+                "weight": 30.0
+            }
+        ],
+        "Cooking Sauces": [
+            {
+                "id": "NTPHLLAOIB",
+                "item": "Knorr Pizza & Pasta Sauce",
+                "short_description": "",
+                "brand": "Knorr",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/b971f68e-62e6-4f4e-8ad0-c960fa3983ce_14932_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/dbfcba3f-245e-4ff0-8a84-648ddd022fec_14932_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/92925fe1-13ca-4296-ae1f-e4ea46dbc3e0_14932_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/3f10a683-c80b-4f26-9f26-80abd25eaee0_14932_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/15b5d0a2-7b71-4831-90d5-c559b2232791_14932_5.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/3040210e-8c05-4773-9125-c7c1511e14d4_14932_6.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/3844b20c-4fec-4ecd-b951-d57e551931f9_14932_7.png",
+                    "NI_CATALOG/IMAGES/CIW/2026/2/12/2ac7e71a-6692-4d5b-b825-dbfd5dba2889_14932_8.png"
+                ],
+                "total_price": 60,
+                "offer_price": 56,
+                "discount_value": 4,
+                "dicount": "6% OFF",
+                "weight": 200.0
+            }
+        ],
+        "Ghee": [
+            {
+                "id": "0PZTO22C3V",
+                "item": "Amul Pure Ghee Carton Pack",
+                "short_description": "Trusted ghee with rich aroma from Amul",
+                "brand": "Amul",
+                "images": [
+                    "ypsgqzenpbdf8re1d8o6"
+                ],
+                "total_price": 310,
+                "offer_price": 307,
+                "discount_value": 3,
+                "dicount": "1% OFF",
+                "weight": 500.0
+            }
+        ],
+        "Sugar": [
+            {
+                "id": "L8C6UP72GN",
+                "item": "Fortune Sugar",
+                "short_description": "Pure Sweetness for Every Occasion",
+                "brand": "Fortune",
+                "images": [
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/25917134-3883-46cf-b82c-0a284431beb9_18286_1.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/4d0c1e9b-ef05-4cca-a151-1767b360348f_18286_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/eedcc509-7d4a-4558-a638-676e71596e8c_18286_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/fdbcac17-a76b-4444-a177-81d6ccf9f35d_18286_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/79ec17cf-a94b-4976-9fe5-bffb03e54242_18286_5.png"
+                ],
+                "total_price": 150,
+                "offer_price": 117,
+                "discount_value": 33,
+                "dicount": "22% OFF",
+                "weight": 2000.0
+            },
+            {
+                "id": "1YFRJ7QOVV",
+                "item": "Fortune Sugar",
+                "short_description": "High-purity granulated sugar",
+                "brand": "Fortune",
+                "images": [
+                    "NI_CATALOG/IMAGES/ciw/2025/12/18/19ae34d5-1d66-482b-a42b-b24143c1d44a_V34QW1RPLX_MN_18122025.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/4d0c1e9b-ef05-4cca-a151-1767b360348f_18286_2.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/eedcc509-7d4a-4558-a638-676e71596e8c_18286_3.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/fdbcac17-a76b-4444-a177-81d6ccf9f35d_18286_4.png",
+                    "NI_CATALOG/IMAGES/CIW/2025/9/23/79ec17cf-a94b-4976-9fe5-bffb03e54242_18286_5.png"
+                ],
+                "total_price": 75,
+                "offer_price": 59,
+                "discount_value": 16,
+                "dicount": "21% OFF",
+                "weight": 1000.0
+            }
+        ]
+    }
+}

@@ -84,5 +84,3 @@ validate = Product(**data)
 
 with open('clean.json','w') as f:
     json.dump(validate.model_dump(),f,indent=4,default=str)
-
-
