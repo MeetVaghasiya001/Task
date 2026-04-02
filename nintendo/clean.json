@@ -1,0 +1,36 @@
+{
+    "product_name": "STAR OCEAN THE SECOND STORY R",
+    "discription": "Buy STAR OCEAN THE SECOND STORY R and shop other great Nintendo products online at the official My Nintendo Store.",
+    "sku_id": "7100062079",
+    "images": {
+        "open_image": {
+            "image": "https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/cf5c6b1ef6ae06f2841170513e83d9f1322025375523052447b3debe607b59e6"
+        },
+        "other_images": [
+            "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/cf5c6b1ef6ae06f2841170513e83d9f1322025375523052447b3debe607b59e6",
+            "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/e78c0a263f0f3c80d9d1a73571e498598e9cc196dd3a370035dd1686904ccaee",
+            "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/a6f0d97da780a95187345faca84b56cdfc37448fa8d1cff1af0bfecd3c91d3d7",
+            "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/a011b4efe19c76be36b13c746745361a5711ea884fcaabad984958e8d49140d5",
+            "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/f8409c10b68dba26fcf59d68e948978087f8f1d443059985f6cae45e34e7ef72",
+            "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/4e5973aaf5fdb786d3ce40249a8ec8a5a4a81cdaf40036374e90591adb6971d0",
+            "https://assets.nintendo.com/image/upload/q_auto:best/f_auto/dpr_2.0/store/software/switch/70010000062079/93a1ca46e376bc3b7e6b21d5536e249e5fb80a0c57d3dd90ca759d88f57616fe"
+        ]
+    },
+    "price": "24.99",
+    "currecny": "USD",
+    "seller": "Nintendo",
+    "catagory": "Games",
+    "game_platform": "Nintendo Switch",
+    "genre": null,
+    "play_mode": [
+        "TV mode",
+        "Tabletop mode",
+        "Handheld mode"
+    ],
+    "number_of_playes": {
+        "min": 1,
+        "max": 0
+    },
+    "publisher": "SQUARE ENIX",
+    "all_sizes": null
+}

@@ -1,0 +1,44 @@
+{
+    "item_name": "Chill Fill French Fries",
+    "subtitle": "400 g",
+    "image": [
+        "https://rukminim1.flixcart.com/image/{@width}/{@height}/xif0q/ready-meal/3/x/v/400-french-fries-400g-1-chill-fill-original-imah6ka7f6ytqxeu.jpeg?q={@quality}",
+        "https://rukminim1.flixcart.com/image/{@width}/{@height}/xif0q/ready-meal/e/n/5/-original-imahe5gz3kzzkpzj.jpeg?q={@quality}"
+    ],
+    "brand": "Chill Fill",
+    "price": [
+        {
+            "name": "Maximum Retail Price",
+            "value": 125
+        },
+        {
+            "name": "Selling Price",
+            "value": 66
+        }
+    ],
+    "rating": null,
+    "product_highlights": {
+        "Pack of": "1",
+        "Brand": "Chill Fill",
+        "Model Name": "French Fries",
+        "Quantity": "400 g",
+        "Container Type": "Pouch",
+        "Maximum Shelf Life": "24 Months",
+        "Food Preference": "Vegetarian",
+        "Cooking Instructions": "Step 1 : Preheat the oil in kadhai (max. temperature upto 175'c) Step 2 : Take the product from the freezer. Fry directly -do not thaw. Step 3 : Put the desired quantity gently in hot oil and deep fry for 3 minutes. Step 4 : Seal & keep the remanining product in the freezer.",
+        "Food Type": "Frozen",
+        "Ingredients": "Potato ( 92% ), Palmolein Oil.",
+        "Nutrient Content": "Energy: 144.70 Kcal, Protein: 3.2 g, Carbohydrate: 25.1.g, Total Sugar: 0.6 g, Sodium: 60.9 mg, Total Fat :3.5 g ,Saturated Fat (g) 1.4",
+        "Net Quantity": "400 g",
+        "FSSAI Number": "10722999000860",
+        "null": "Flipkart endeavours to ensure that the sellers provide accurate information on the platform. It is pertinent to note that, actual product packaging and materials may contain more and different information, which may include nutritional information/allergen declaration/special instruction for intended use/warning/directions, health & nutritional claims, etc. We recommend that consumers always read the label carefully before using or consuming any products. Please do not solely rely on the information provided on this website. For additional information, please get in touch with the manufacturer."
+    },
+    "manufacture": {
+        "Manufacturer's Details": "Morbi-Rajkot Hihway,Near Village-lajai,Morbi-363641 Gujarat",
+        "Importer's Details": "Morbi-Rajkot Hihway,Near Village-lajai,Morbi-363641 Gujarat",
+        "Packer's Details": "Morbi-Rajkot Hihway,Near Village-lajai,Morbi-363641 Gujarat",
+        "Generic Name": "Ready Meals",
+        "Expiry Date": "23 Jan, 2027",
+        "Country of Origin": "India"
+    }
+}

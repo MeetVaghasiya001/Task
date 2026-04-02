@@ -1,0 +1,361 @@
+{
+    "product": [
+        {
+            "product_id": "158557668_prod8510102",
+            "product_skuId": "158557668",
+            "product_name": "Sojourn Jacket",
+            "on_sale": "No",
+            "price": 148.0,
+            "currency": "USD",
+            "sale_price": 0.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3FYDS_033454_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3FYDS_033454_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3FYDS_033454_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3FYDS_033454_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3FYDS_033454_5",
+                "https://images.lululemon.com/is/image/lululemon/LM3FYDS_033454_6",
+                "https://images.lululemon.com/is/image/lululemon/LM3FYDS_033454_7"
+            ],
+            "colors": [
+                {
+                    "color_name": "Light Ivory",
+                    "color_image": [
+                        "White|https://images.lululemon.com/is/image/lululemon/white_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                },
+                {
+                    "color_name": "Onyx Grey",
+                    "color_image": [
+                        "Grey|https://images.lululemon.com/is/image/lululemon/grey_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                },
+                {
+                    "color_name": "True Navy",
+                    "color_image": [
+                        "Navy|https://images.lululemon.com/is/image/lululemon/32664?$swatch$",
+                        "Blue|https://images.lululemon.com/is/image/lululemon/27754"
+                    ]
+                },
+                {
+                    "color_name": "Black",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                }
+            ]
+        },
+        {
+            "product_id": "158581418_fzem5p3aec-md",
+            "product_skuId": "158581418",
+            "product_name": "Satin Stripe Coaches Jacket",
+            "on_sale": "Yes",
+            "price": 168.0,
+            "currency": "USD",
+            "sale_price": 89.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3GDWS_075424_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3GDWS_075424_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3GDWS_075424_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3GDWS_075424_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3GDWS_075424_5",
+                "https://images.lululemon.com/is/image/lululemon/LM3GDWS_075424_6",
+                "https://images.lululemon.com/is/image/lululemon/LM3GDWS_075424_7"
+            ],
+            "colors": [
+                {
+                    "color_name": "Impact Stripe Clubhouse Blue",
+                    "color_image": [
+                        "Blue|https://images.lululemon.com/is/image/lululemon/27754",
+                        "Striped|https://images.lululemon.com/is/image/lululemon/42593?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053",
+                        "Printed|https://images.lululemon.com/is/image/lululemon/65769"
+                    ]
+                },
+                {
+                    "color_name": "Impact Stripe Walnut Crunch",
+                    "color_image": [
+                        "Brown|https://images.lululemon.com/is/image/lululemon/52868",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053",
+                        "Striped|https://images.lululemon.com/is/image/lululemon/42593?$swatch$",
+                        "Printed|https://images.lululemon.com/is/image/lululemon/65769"
+                    ]
+                },
+                {
+                    "color_name": "Impact Stripe Black",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Striped|https://images.lululemon.com/is/image/lululemon/42593?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053",
+                        "Printed|https://images.lululemon.com/is/image/lululemon/65769"
+                    ]
+                }
+            ]
+        },
+        {
+            "product_id": "158581626_xlec8qm3as",
+            "product_skuId": "158581626",
+            "product_name": "Pique Relaxed-Fit Track Jacket",
+            "on_sale": "No",
+            "price": 148.0,
+            "currency": "USD",
+            "sale_price": 0.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3GF0S_072756_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3GF0S_072756_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3GF0S_072756_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3GF0S_072756_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3GF0S_072756_5",
+                "https://images.lululemon.com/is/image/lululemon/LM3GF0S_072756_6",
+                "https://images.lululemon.com/is/image/lululemon/LM3GF0S_072756_7"
+            ],
+            "colors": [
+                {
+                    "color_name": "Burgundy Bay",
+                    "color_image": [
+                        "Burgundy|https://images.lululemon.com/is/image/lululemon/30699",
+                        "Red|https://images.lululemon.com/is/image/lululemon/red_swatch?$swatch$"
+                    ]
+                },
+                {
+                    "color_name": "Black",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                },
+                {
+                    "color_name": "True Navy",
+                    "color_image": [
+                        "Navy|https://images.lululemon.com/is/image/lululemon/32664?$swatch$",
+                        "Blue|https://images.lululemon.com/is/image/lululemon/27754"
+                    ]
+                }
+            ]
+        },
+        {
+            "product_id": "158571763_prod20007291",
+            "product_skuId": "158571763",
+            "product_name": "Heavyweight Soft Jersey Half Zip",
+            "on_sale": "No",
+            "price": 128.0,
+            "currency": "USD",
+            "sale_price": 0.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3GGIS_031382_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3GGIS_031382_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3GGIS_031382_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3GGIS_031382_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3GGIS_031382_5",
+                "https://images.lululemon.com/is/image/lululemon/LM3GGIS_031382_6"
+            ],
+            "colors": [
+                {
+                    "color_name": "True Navy",
+                    "color_image": [
+                        "Navy|https://images.lululemon.com/is/image/lululemon/32664?$swatch$",
+                        "Blue|https://images.lululemon.com/is/image/lululemon/27754"
+                    ]
+                },
+                {
+                    "color_name": "Willow Leaf",
+                    "color_image": [
+                        "Green|https://images.lululemon.com/is/image/lululemon/63407",
+                        "Pastel|https://images.lululemon.com/is/image/lululemon/68491"
+                    ]
+                },
+                {
+                    "color_name": "Coal",
+                    "color_image": [
+                        "Grey|https://images.lululemon.com/is/image/lululemon/grey_swatch?$swatch$"
+                    ]
+                },
+                {
+                    "color_name": "Black",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                }
+            ]
+        },
+        {
+            "product_id": "158570990_prod20009439",
+            "product_skuId": "158570990",
+            "product_name": "Heavyweight Soft Jersey Pullover Hoodie",
+            "on_sale": "No",
+            "price": 128.0,
+            "currency": "USD",
+            "sale_price": 0.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3FXXS_072763_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3FXXS_072763_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3FXXS_072763_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3FXXS_072763_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3FXXS_072763_5",
+                "https://images.lululemon.com/is/image/lululemon/LM3FXXS_072763_6"
+            ],
+            "colors": [
+                {
+                    "color_name": "Willow Leaf",
+                    "color_image": [
+                        "Green|https://images.lululemon.com/is/image/lululemon/63407",
+                        "Pastel|https://images.lululemon.com/is/image/lululemon/68491"
+                    ]
+                },
+                {
+                    "color_name": "True Navy",
+                    "color_image": [
+                        "Navy|https://images.lululemon.com/is/image/lululemon/32664?$swatch$",
+                        "Blue|https://images.lululemon.com/is/image/lululemon/27754"
+                    ]
+                },
+                {
+                    "color_name": "Heathered Black/Heathered Obsidian",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                },
+                {
+                    "color_name": "Heathered True Navy/Heathered Shale Blue",
+                    "color_image": [
+                        "Blue|https://images.lululemon.com/is/image/lululemon/27754",
+                        "Navy|https://images.lululemon.com/is/image/lululemon/32664?$swatch$"
+                    ]
+                },
+                {
+                    "color_name": "Coal",
+                    "color_image": [
+                        "Grey|https://images.lululemon.com/is/image/lululemon/grey_swatch?$swatch$"
+                    ]
+                },
+                {
+                    "color_name": "Black",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                }
+            ]
+        },
+        {
+            "product_id": "158571930_prod11570599",
+            "product_skuId": "158571930",
+            "product_name": "Waffle-Knit Half Zip",
+            "on_sale": "No",
+            "price": 128.0,
+            "currency": "USD",
+            "sale_price": 0.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_5",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_6",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_7",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_8",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX7S_072756_9"
+            ],
+            "colors": [
+                {
+                    "color_name": "Burgundy Bay",
+                    "color_image": [
+                        "Burgundy|https://images.lululemon.com/is/image/lululemon/30699",
+                        "Red|https://images.lululemon.com/is/image/lululemon/red_swatch?$swatch$"
+                    ]
+                },
+                {
+                    "color_name": "Silver Drop",
+                    "color_image": [
+                        "Grey|https://images.lululemon.com/is/image/lululemon/grey_swatch?$swatch$"
+                    ]
+                },
+                {
+                    "color_name": "Black",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                }
+            ]
+        },
+        {
+            "product_id": "158644549_whaawkbupo",
+            "product_skuId": "158644549",
+            "product_name": "Grand Standard Long-Sleeve Polo",
+            "on_sale": "No",
+            "price": 128.0,
+            "currency": "USD",
+            "sale_price": 0.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3GJMS_072756_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3GJMS_072756_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3GJMS_072756_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3GJMS_072756_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3GJMS_072756_5"
+            ],
+            "colors": [
+                {
+                    "color_name": "Burgundy Bay",
+                    "color_image": [
+                        "Burgundy|https://images.lululemon.com/is/image/lululemon/30699",
+                        "Red|https://images.lululemon.com/is/image/lululemon/red_swatch?$swatch$"
+                    ]
+                },
+                {
+                    "color_name": "Coconut Ivory",
+                    "color_image": [
+                        "White|https://images.lululemon.com/is/image/lululemon/white_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                },
+                {
+                    "color_name": "Black",
+                    "color_image": [
+                        "Black|https://images.lululemon.com/is/image/lululemon/black_swatch?$swatch$",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                },
+                {
+                    "color_name": "True Navy",
+                    "color_image": [
+                        "Navy|https://images.lululemon.com/is/image/lululemon/32664?$swatch$",
+                        "Blue|https://images.lululemon.com/is/image/lululemon/27754"
+                    ]
+                }
+            ]
+        },
+        {
+            "product_id": "154884416_prod11560154",
+            "product_skuId": "154884416",
+            "product_name": "Textured Spacer Anorak",
+            "on_sale": "No",
+            "price": 148.0,
+            "currency": "USD",
+            "sale_price": 0.0,
+            "product_images": [
+                "https://images.lululemon.com/is/image/lululemon/LM3EX9S_035955_1",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX9S_035955_2",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX9S_035955_3",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX9S_035955_4",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX9S_035955_5",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX9S_035955_6",
+                "https://images.lululemon.com/is/image/lululemon/LM3EX9S_035955_7"
+            ],
+            "colors": [
+                {
+                    "color_name": "Nomad",
+                    "color_image": [
+                        "Brown|https://images.lululemon.com/is/image/lululemon/52868",
+                        "Neutral|https://images.lululemon.com/is/image/lululemon/62053"
+                    ]
+                }
+            ]
+        }
+    ]
+}

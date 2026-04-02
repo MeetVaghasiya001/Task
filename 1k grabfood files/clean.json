@@ -1,0 +1,11 @@
+{
+    "merchant": null,
+    "promotions": null,
+    "enableServiceBasedMenu": false,
+    "enableSTO": false,
+    "enableSTOReboot": false,
+    "featureFlags": {
+        "hideRecommendedCategory": false,
+        "isMartMerchant": true
+    }
+}
