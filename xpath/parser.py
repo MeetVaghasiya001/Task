@@ -1,5 +1,6 @@
 from lxml import html
 import json
+from model import *
 
 with open('A Light in the Attic _ Books to Scrape - Sandbox.html','r',encoding='utf-8') as f:
     data = f.read()
@@ -34,5 +35,7 @@ data = {
     'product_information':p_info
 }
 
+
+validate = Book(**data)
 with open('clean.json','w') as f:
-    json.dump(data,f,indent=4,default=str,ensure_ascii=False)
+    json.dump(validate.model_dump(),f,indent=4,default=str,ensure_ascii=False)
