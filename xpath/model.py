@@ -3,10 +3,10 @@ from typing import List,Dict,Any
 
 
 class Book(BaseModel):
-    name : List[str]
+    name : str
     image:List[str]
-    price : List[str]
+    price : str
     stock : str 
-    warning : List[str]
-    description : List[str]
+    warning :str
+    description : str
     product_information:Dict[str,Any]
