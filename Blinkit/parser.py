@@ -73,10 +73,7 @@ def gz_unzip(filepath):
         'attributes':attributes
     }
 
-    validate = Product(**data)
-
-    if validate:
-        return (
+    return (
             data.get('name'),
             data.get('brand'),
             data.get('price'),
@@ -86,5 +83,19 @@ def gz_unzip(filepath):
             json.dumps(data.get('Gallary') or {}),
             json.dumps(data.get('attributes') or {})
         )
-    else:
-        return None
+
+    # validate = Product(**data)
+
+    # if validate:
+    #     return (
+    #         data.get('name'),
+    #         data.get('brand'),
+    #         data.get('price'),
+    #         data.get('weight'),
+    #         data.get('currency'),
+    #         json.dumps(data.get('product_varient') or {}),
+    #         json.dumps(data.get('Gallary') or {}),
+    #         json.dumps(data.get('attributes') or {})
+    #     )
+    # else:
+    #     return None

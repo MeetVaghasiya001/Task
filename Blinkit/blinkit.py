@@ -1,33 +1,33 @@
-import json
-from model import *
 import os
-from parser import gz_unzip
 import time
 import queue
 import threading
+import json
+from parser import gz_unzip
 import mysql.connector
 
-st = time.time()
+FOLDER_PATH = "C:/Users/meet.vaghasiya/Desktop/bif files/pdp"
+DB_CONFIG = {
+    'host': "localhost",
+    'user': "root",
+    'password': "Actowiz",
+    'database': "mydb"
+}
+BATCH_SIZE = 1500
 
-q = queue.Queue(maxsize=5000)
-r = queue.Queue(maxsize=10000)
+file_queue = queue.Queue(maxsize=2000)
+data_queue = queue.Queue(maxsize=8000)
 
 def create_db():
-    conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Actowiz",
-        database="mydb"
-    )
-
+    conn = mysql.connector.connect(**DB_CONFIG)
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS products (
-            id INTEGER AUTO_INCREMENT PRIMARY KEY ,
+            id INTEGER AUTO_INCREMENT PRIMARY KEY,
             name TEXT,
             brand TEXT,
             price INT,
-            weight varchar(50),
+            weight VARCHAR(50),
             currency TEXT,
             product_varient JSON,
             Gallary JSON,
@@ -37,110 +37,92 @@ def create_db():
     conn.commit()
     conn.close()
 
-create_db()
 
-
-def add_db():
-    batch = []
-
-    conn = mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="Actowiz",
-        database="mydb"
-    )
-
-    cursor = conn.cursor()
-
+def worker():
     while True:
-        db_data = r.get()
-
-        if db_data is None:
+        file_path = file_queue.get()
+        if file_path is None:
+            file_queue.task_done()
             break
+        row = gz_unzip(file_path)
+        if row:
+            data_queue.put(row)
+        file_queue.task_done()
 
-        if db_data:
-            batch.append(db_data)
-        
-        try:
-            if len(batch) >= 500:
+def db_worker():
+    batch = []
+    conn = mysql.connector.connect(**DB_CONFIG)
+    cursor = conn.cursor()
+    while True:
+        row = data_queue.get()
+        if row is None:
+            data_queue.task_done()
+            break
+        batch.append(row)
+
+        if len(batch) >= BATCH_SIZE:
+            try:
                 cursor.executemany('''
                     INSERT INTO products (name, brand, price, weight, currency, product_varient, Gallary, attributes)
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
                 ''', batch)
-
                 conn.commit()
-                batch.clear()
-                print('500 data enter')
-        except Exception as e:
-            print(f'error-{e}')
+                print(f"Inserted batch of {len(batch)} rows")
+            except Exception as e:
+                print(f"DB insert error: {e}")
+            batch.clear()
+        data_queue.task_done()
         
-        r.task_done()
-
     if batch:
-        cursor.executemany('''
-            INSERT INTO products (name, brand, price, weight, currency, product_varient, Gallary, attributes)
-            VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-        ''', batch)
-        conn.commit()
+        try:
+            cursor.executemany('''
+                INSERT INTO products (name, brand, price, weight, currency, product_varient, Gallary, attributes)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            ''', batch)
+            conn.commit()
+            print(f"Inserted final batch of {len(batch)} rows")
+        except Exception as e:
+            print(f"DB insert error: {e}")
     conn.close()
 
 
-def process():
-    while True:
-        file = q.get()
-        if file is None:
-            q.task_done()
-            break
+st = time.time()
 
-        row = gz_unzip(file)
-
-        
-        try:
-            if row:
-                r.put(row)
-        except Exception as e:
-            print(f'error-{e}')
-
-        q.task_done()  
-        
-
-folder_path = "C:/Users/meet.vaghasiya/Desktop/bif files/pdp"
+create_db()
 
 threads = []
-for _ in range(10):
-    t = threading.Thread(target=process)
+
+for _ in range(8):
+    t = threading.Thread(target=worker)
     t.start()
     threads.append(t)
 
-db = []
+db=[]
 for _ in range(2):
-    db_thread = threading.Thread(target=add_db)
-    db_thread.start()
-    db.append(db_thread)
+    t = threading.Thread(target=db_worker)
+    t.start()
+    db.append(t)
 
-for root, dirs, files in os.walk(folder_path):
+for root, _, files in os.walk(FOLDER_PATH):
     for f in files:
         if f.endswith('.gz'):
-            q.put(os.path.join(root, f))
+            file_queue.put(os.path.join(root, f))
 
-
-q.join()
-
+file_queue.join()
 for _ in threads:
-    q.put(None)
+    file_queue.put(None)
 
 for t in threads:
     t.join()
 
-r.join()
+data_queue.join()
 
 for _ in db:
-    r.put(None)
+    data_queue.put(None)
 
-for d in db:
-    d.join()
+for t in db:
+    t.join()
 
 et = time.time()
+print(f"Total time: {(et - st)/60:.2f} minutes")
 
-
-print(f'Time: {(et - st) / 60:.2f} minutes')

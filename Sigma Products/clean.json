@@ -1,0 +1,70 @@
+{
+    "name": "ECM Gel from Engelbreth-Holm-Swarm murine sarcoma",
+    "product_description": "liquid, BioReagent, suitable for cell culture",
+    "brand": "Sigma-Aldrich",
+    "synonyms": [
+        "Basement membrane extract (BME)",
+        "EHS matrix"
+    ],
+    "description": {
+        "Application": [
+            "ECM gel can used with epithelial cells, endothelial cells, muscle cells, nerve cells and tumor cells.  "
+        ],
+        "Biochem/physiol Actions": [
+            "The ECM gel will undergo thermally activated polymerization when brought to 20-40&#176;C, forming a reconstituted basement membrane.  PC12 cells will show neurite formation within 2 days when they are grown on a thin layer of this ECM gel.<BR/><BR/>Every mouse colony used for the production of this product is routinely screened for several pathogens. Tested and found negative for LDEV."
+        ],
+        "Preparation Note": [
+            "This product is prepared from Engelbreth-Holm-Swarm sarcoma in mice; dialyzed against chloroform. Gel should be thawed overnight at 2-8°C before use and dispensed to a multiwall plate using a plate and pipettes that are pre-cooled to 2-8°C.  The gel may also be diluted up to twofold with 2-8°C Dulbecco&#8242;s Modified Eagle&#8242;s Medium, and should be done before gel is added to the plate.  The product will gel within 5 minutes at 20°C.  For prolonged manipulations, work should be conducted below 10°C.  Cells can be plated on top of a thin gel layer of 0.5 mm or cultured inside a 1 mm layer.  If you culture cells inside, add the cells to the gel prior to plating at a recommended density of 3-4 x 10<SUP>4</SUP> cells per mL.  To dissociate cells from this gel, use protease in PBS without calcium, magnesium, or EDTA, at a concentration of 0.6-2.4 units per mL.  "
+        ],
+        "Other Notes": [
+            "ECM was prepared to a protein concentration of 8-12 mg/mL (in DMEM), containing laminin as a major component, collagen type IV, heparin sulfate proteoglycan, entactin, and other minor components. Addition of collagen type IV to the ECM gel increases polymerization.<BR/><BR/>Product contains 50 mg/L Gentamicin Sulfate."
+        ],
+        "Disclaimer": [
+            "For long term storage, keep product at -20°C.  The ECM gel may be stored at 2-8°C for up to 72 hours.  "
+        ]
+    },
+    "about_item": {
+        "UNSPSC Code": "12352207",
+        "NACRES": "NA.75",
+        "MDL number": "MFCD00283131"
+    },
+    "attribute": {
+        "product line": [
+            "BioReagent"
+        ],
+        "form": [
+            "liquid"
+        ],
+        "concentration": [
+            "8-12&#160;mg/mL"
+        ],
+        "technique(s)": [
+            "cell culture | mammalian: suitable"
+        ],
+        "web metadata keyword.default": [
+            "3-D cell culture, matrix, hydrogel formation, attached cells matricies"
+        ],
+        "UniProt accession no.": [
+            "<a href=\"http://www.uniprot.org/uniprot/P02468\">P02468</a>",
+            "<a href=\"http://www.uniprot.org/uniprot/P02469\">P02469</a>",
+            "<a href=\"http://www.uniprot.org/uniprot/P10493\">P10493</a>",
+            "<a href=\"http://www.uniprot.org/uniprot/P19137\">P19137</a>",
+            "<a href=\"http://www.uniprot.org/uniprot/P43407\">P43407</a>",
+            "<a href=\"http://www.uniprot.org/uniprot/Q61001\">Q61001</a>",
+            "<a href=\"http://www.uniprot.org/uniprot/Q61092\">Q61092</a>",
+            "<a href=\"http://www.uniprot.org/uniprot/Q61789\">Q61789</a>"
+        ],
+        "shipped in": [
+            "dry ice"
+        ],
+        "storage temp.": [
+            "&#8722;20°C"
+        ],
+        "Quality Level": [
+            "<a rel=\"nofollow\" href='/life-science/quality-and-regulatory-management/m-clarity-program'>300</a>"
+        ],
+        "Gene Information": [
+            "mouse  ...  <a href=/genes/lama1>Lama1(16772)</a>,   <a href=/genes/lama3>Lama3(16774)</a>,   <a href=/genes/lama5>Lama5(16776)</a>,   <a href=/genes/lamb1-1>Lamb1-1(16777)</a>,   <a href=/genes/lamc1>Lamc1(226519)</a>,   <a href=/genes/lamc2>Lamc2(16782)</a>,   <a href=/genes/nid1>Nid1(18073)</a>,   <a href=/genes/sdc2>Sdc2(15529)</a>   <BR>"
+        ]
+    }
+}
