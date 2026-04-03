@@ -1,0 +1,41 @@
+{
+    "title": " Burger King restaurants In Ahmedabad, Gujarat ",
+    "stores": [
+        {
+            "name": "Burger King",
+            "address": "Shop No 5, Gr Flr, 3rd Eye 2 BuildingChimanlal Girdharlal RoadAhmedabad - 380006",
+            "phone": "+918097422632",
+            "timings": "9AM - 5AM"
+        },
+        {
+            "name": "Burger King",
+            "address": "Unit 6, Gr Flr, Wide Angle Multiplex, CrossroadSG RoadAhmedabad - 380015",
+            "phone": "+917948916665",
+            "timings": "10AM - 4AM"
+        },
+        {
+            "name": "Burger King",
+            "address": "Shop No 1, Venus Atlantis Business Park, 100 Feet RdPrahlad NagarAhmedabad - 380015",
+            "phone": "+918657951454",
+            "timings": "10AM - 5AM"
+        },
+        {
+            "name": "Burger King",
+            "address": "UN 103A, Ground Floor, Himalaya Mall, Drive In RoadMemnagarAhmedabad - 380015",
+            "phone": "+917948980409",
+            "timings": "10AM - 5AM"
+        },
+        {
+            "name": "Burger King",
+            "address": "UN TF FS/10 & TF FS/11, One Mall, Food CourtSarkari Vasahat RoadAhmedabad - 380054",
+            "phone": "+917948921788",
+            "timings": "Open until 11:59 PM"
+        },
+        {
+            "name": "Burger King",
+            "address": "Unit No FH/04, Palladium Mall, Sarkhej Gandhinagar HwyThaltejAhmedabad - 380059",
+            "phone": "+919913954582",
+            "timings": "Open until 11:00 PM"
+        }
+    ]
+}
