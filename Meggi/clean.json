@@ -1,0 +1,189 @@
+{
+    "product": [
+        {
+            "catagory_name": "Noodles",
+            "catagory_link": "https://www.maggi.in/noodles/",
+            "products": [
+                {
+                    "product_name": "MAGGIÂ® 2-Minute Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-2-minute-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/maggi-2minutes-noodles-617x900.png?itok=UfjJJW9r"
+                },
+                {
+                    "product_name": "MAGGIÂ® Special Masala Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-2-minute-special-masala-instant-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/maggi-special-masala-spicy-yummy.png?itok=_HNnjI5M"
+                },
+                {
+                    "product_name": "MAGGIÂ® Veggie Masala Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-veggie-masala-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/maggi-masala-veg-617x900.png?itok=HTu0_tXb"
+                },
+                {
+                    "product_name": "MAGGIÂ® Vegetable Spinach Atta Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-vegetable-spinach-atta-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Maggi%20Spinach%20Render%20copy%201-min.png?itok=2r6sEuPO"
+                },
+                {
+                    "product_name": "MAGGIÂ® Chicken Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-chicken-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/2024-05/Maggi%20Chicken%20BP_RC_Single%20Pack_44312675_FOP.png?itok=c6RmlYo8"
+                },
+                {
+                    "product_name": "MAGGIÂ® 2-Minute Noodles - No Onion No\n                                      Garlic",
+                    "product_url": "https://www.maggi.in/en/product/maggi-2-minute-noodles-no-onion-no-garlic/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/maggi-without-onion-and-gralic.png?itok=3vXJBgM5"
+                },
+                {
+                    "product_name": "MAGGIÂ® Nutri-liciousÂ® Atta Masala Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-nutri-licious-atta-masala-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/maggi-masala-veg-aata-noodles.png?itok=2UGOmBcK"
+                },
+                {
+                    "product_name": "MAGGIÂ® Nutri-liciousÂ® Oats Masala Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-nutri-licious-oats-masala-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/maggi-masala-oats.png?itok=SeAvDCOZ"
+                },
+                {
+                    "product_name": "MAGGI Korean BBQ Veg Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-korean-bbq-veg-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/2024-08/korean_bbq_fop_veg2-pdp.jpg?itok=7VLzhY7d"
+                },
+                {
+                    "product_name": "MAGGI Korean BBQ Chicken Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-korean-bbq-chicken-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/2024-08/korean_bbq_fop_non-veg1-pdp.jpg?itok=h_410Nmp"
+                }
+            ]
+        },
+        {
+            "catagory_name": "On-The-Go Noodles & Ready to Eat",
+            "catagory_link": "https://www.maggi.in/go-noodles/",
+            "products": [
+                {
+                    "product_name": "MAGGIÂ® Masala Cuppa",
+                    "product_url": "https://www.maggi.in/en/product/maggi-masala-cuppa-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Cuppa-Noodles-617x900-%28Masala-cuppa-noodles%29.png?itok=tK4Ja77c"
+                },
+                {
+                    "product_name": "MAGGIÂ® Chicken Cuppa",
+                    "product_url": "https://www.maggi.in/en/product/maggi-chicken-cuppa-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Cuppa-Noodles-617x900-%28Chicken-cuppa-noodles%29.png?itok=732hpPNg"
+                },
+                {
+                    "product_name": "MAGGIÂ® Chilly Chow Cuppa",
+                    "product_url": "https://www.maggi.in/en/product/maggi-chilly-chow-cuppa-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Cuppa-Noodles-617x900-%28Chilly-Chow-Noodles%29.png?itok=-3mpvlDw"
+                },
+                {
+                    "product_name": "MAGGI Cuppa Korean Spicy Cheesy Instant\n                                      Noodles",
+                    "product_url": "https://www.maggi.in/en/product/maggi-cuppa-korean-spicy-cheesy-instant-noodles/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/2024-08/MAGGI%20Cuppa%20Korean%20Spicy%20Cheesy%20Instant%20Noodles.jpg?itok=eAxTRndj"
+                }
+            ]
+        },
+        {
+            "catagory_name": "Cooking Aids",
+            "catagory_link": "https://www.maggi.in/cooking-aids/",
+            "products": [
+                {
+                    "product_name": "MAGGIÂ® Masala-ae-Magic",
+                    "product_url": "https://www.maggi.in/en/product/maggi-masala-ae-magic/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/MeM-Sachet-Render-617x900.png?itok=k_drBkEz"
+                },
+                {
+                    "product_name": "MAGGIÂ® Coconut Milk Powder",
+                    "product_url": "https://www.maggi.in/en/product/maggi-coconut-milk-powder/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/2024-05/Maggi_Creamy%20CMP_100g_FOP.png?itok=6osIFrbT"
+                },
+                {
+                    "product_name": "MAGGIÂ® Magic Cubes Vegetarian Masala",
+                    "product_url": "https://www.maggi.in/en/product/maggi-magic-cubes-vegetarian-masala/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/N-Maggi-617x900.png?itok=pWKbXKUp"
+                },
+                {
+                    "product_name": "MAGGIÂ® Paneer-ae-Magic Shahi Paneer Masala",
+                    "product_url": "https://www.maggi.in/en/product/maggi-paneer-ae-magic-shahi-paneer-masala/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Shahi-Paneer.png?itok=5oyHD-tR"
+                },
+                {
+                    "product_name": "MAGGIÂ® Magic Cubes Chicken",
+                    "product_url": "https://www.maggi.in/en/product/maggi-magic-cubes-chicken/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Chiken-617x900.png?itok=COpUjx24"
+                }
+            ]
+        },
+        {
+            "catagory_name": "Pazzta",
+            "catagory_link": "https://www.maggi.in/pazzta/",
+            "products": [
+                {
+                    "product_name": "MAGGIÂ® Pazzta Cheesy Tomato Twist",
+                    "product_url": "https://www.maggi.in/en/product/maggi-pazzta-cheesy-tomato-twist/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Pazzta-617x900-cheesy-tomato-twist.png?itok=USsqkxzC"
+                },
+                {
+                    "product_name": "MAGGIÂ® Pazzta Mushroom Penne",
+                    "product_url": "https://www.maggi.in/en/product/maggi-pazzta-mushroom-penne/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Pazzta-617x900-mushroom-penne.png?itok=MDJMjnwN"
+                },
+                {
+                    "product_name": "MAGGIÂ® Pazzta Masala Penne",
+                    "product_url": "https://www.maggi.in/en/product/maggi-pazzta-masala-penne/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Pazzta-617x900-masala-penne.png?itok=rbeJiVS-"
+                },
+                {
+                    "product_name": "MAGGIÂ® Pazzta Cheese Macaroni",
+                    "product_url": "https://www.maggi.in/en/product/maggi-pazzta-cheese-macaroni/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Pazzta-617x900-cheese-macaroni.png?itok=CRcSHta5"
+                }
+            ]
+        },
+        {
+            "catagory_name": "Sauces",
+            "catagory_link": "https://www.maggi.in/sauces/",
+            "products": [
+                {
+                    "product_name": "MAGGIÂ® Hot & Sweet Tomato Chilli Sauce",
+                    "product_url": "https://www.maggi.in/en/product/maggi-hot-sweet-tomato-chilli-sauce/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Maggi-Hot-and-Sweet-Ketchup-2020_1kg_Smile_3D.png?itok=izUe_VOf"
+                },
+                {
+                    "product_name": "MAGGIÂ® Rich Tomato Ketchup",
+                    "product_url": "https://www.maggi.in/en/product/maggi-rich-tomato-ketchup/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Sauces-Desktop-617x900-%28Rich-tomato-ketchup%29.png?itok=MOgDzM0X"
+                },
+                {
+                    "product_name": "MAGGIÂ® Rich Tomato Sauce (No Onion No\n                                      Garlic)",
+                    "product_url": "https://www.maggi.in/en/product/maggi-rich-tomato-sauce-no-onion-no-garlic/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Sauces-Desktop-617x900-%28Rich-tomato-sauce%29.png?itok=hIdefZKi"
+                },
+                {
+                    "product_name": "MAGGIÂ® Pichkoo Hot & Sweet Tomato\n                                      Chilli Sauce",
+                    "product_url": "https://www.maggi.in/en/product/maggi-pichkoo-hot-sweet-tomato-chilli-sauce/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/H%26S-Pichkoo-Doy-pack_Smile_3D.png?itok=xTJfevBS"
+                },
+                {
+                    "product_name": "MAGGIÂ® Pichkoo Rich Tomato Ketchup",
+                    "product_url": "https://www.maggi.in/en/product/maggi-pichkoo-rich-tomato-ketchup/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Sauces-Desktop-617x900%28Rich-tomato-pichkoo%29.png?itok=hzAKvljp"
+                },
+                {
+                    "product_name": "MAGGIÂ® Pichkoo Imli Sauce",
+                    "product_url": "https://www.maggi.in/en/product/maggi-pichkoo-imli-sauce/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/Pichkoo_Desktop-617x900.png?itok=X97cLPuw"
+                },
+                {
+                    "product_name": "MaggiÂ® Hot & Sweet Extra Hot Tomato\n                                      Chilli Sauce",
+                    "product_url": "https://www.maggi.in/en/product/maggi-hot-sweet-extra-hot-tomato-chilli-sauce/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/EXTRA_HOT_SAUCE_617x900.png?itok=IChbP5fk"
+                },
+                {
+                    "product_name": "MaggiÂ® Hot & Sweet Sriracha Style\n                                      Tangy Tomato Chilli Sauce",
+                    "product_url": "https://www.maggi.in/en/product/hot-sweet-sriracha-tangy-tomato-chilli-sauce/",
+                    "image_name": "https://www.maggi.in/sites/default/files/styles/maggi_image_desktop_playlist_product/public/SRIRACHA_STYLE_617x900.png?itok=lEYGUbix"
+                }
+            ]
+        }
+    ]
+}

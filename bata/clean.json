@@ -1,0 +1,534 @@
+{
+    "@context": "http://schema.org/",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/hush-puppies-black-slip-on-formal-shoes-for-men-500_2024_8556042.html",
+            "item": {
+                "@type": "Product",
+                "name": "Hush Puppies Black Slip On Formal Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw6ce82db2/images/large/8556042_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8556042",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "HUSH PUPPIES"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1750,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/power-grey-outdoor-shoes-for-men-500_2023_8362000.html",
+            "item": {
+                "@type": "Product",
+                "name": "Power Grey Outdoor Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw8b7949ce/images/large/8362000_1.jpeg?sw=800&sh=800",
+                "sku": "500_2023_8362000",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "POWER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1609,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/power-blue-outdoor-shoes-for-men-500_2023_8369000.html",
+            "item": {
+                "@type": "Product",
+                "name": "Power Blue Outdoor Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw637a5ea4/images/large/8369000_1.jpeg?sw=800&sh=800",
+                "sku": "500_2023_8369000",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "POWER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1494,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "url": "https://www.bata.com/in/collections/wedding-collection/hush-puppies-tan-casual-sandals-for-men-500_2023_8643123.html",
+            "item": {
+                "@type": "Product",
+                "name": "Hush Puppies Tan Casual Sandals For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwb337a2b5/images/large/8643123_1.jpeg?sw=800&sh=800",
+                "sku": "500_2023_8643123",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "HUSH PUPPIES"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 2799,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 5,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/formals/hush-puppies-brown-slip-on-formal-shoes-for-men-500_2022_8554546.html",
+            "item": {
+                "@type": "Product",
+                "name": "Hush Puppies Brown Slip On Formal Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw6638fe69/images/large/8554546_1.jpeg?sw=800&sh=800",
+                "sku": "500_2022_8554546",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "HUSH PUPPIES"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 2500,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://www.bata.com/in/men/shoes/slippers-e-flipflop/everyday-lifestyle/hush-puppies-black-slippers-for-men-500_2022_8746153.html",
+            "item": {
+                "@type": "Product",
+                "name": "Hush Puppies Black Slippers For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw41af46fd/images/large/8746153_1.jpeg?sw=800&sh=800",
+                "sku": "500_2022_8746153",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "HUSH PUPPIES"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1150,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/sandals/bata-tan-sandals-for-men-500_2024_8613151.html",
+            "item": {
+                "@type": "Product",
+                "name": "Bata Tan Sandals For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw43aa6b2e/images/large/8613151_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8613151",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BATA"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 779,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 8,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/formals/bata-brown-formal-shoes-for-men-500_2024_8214523.html",
+            "item": {
+                "@type": "Product",
+                "name": "BATA BROWN FORMAL SHOES FOR MEN",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw420f4316/images/large/8214523_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8214523",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BATA"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 909,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/slippers-e-flipflop/floatz-grey-sandals-for-men-500_2021_8712733.html",
+            "item": {
+                "@type": "Product",
+                "name": "Floatz Grey Sandals for Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwa1afd1c8/images/large/8712733_1.jpeg?sw=800&sh=800",
+                "sku": "500_2021_8712733",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "FLOATZ"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 769,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 10,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/loafers/bata-tan-loafers-for-men-500_2022_8513008.html",
+            "item": {
+                "@type": "Product",
+                "name": "Bata Tan Loafers for Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw88a8181f/images/large/8513008_1.jpeg?sw=800&sh=800",
+                "sku": "500_2022_8513008",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BATA"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 719,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 11,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/loafers/bata-black-loafers-for-men-500_2023_8516101.html",
+            "item": {
+                "@type": "Product",
+                "name": "Bata Black Loafers for Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw22976849/images/large/8516101_1.jpeg?sw=800&sh=800",
+                "sku": "500_2023_8516101",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BATA"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1049,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 12,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/bata-black-formal-shoes-for-men-500_2024_8516749.html",
+            "item": {
+                "@type": "Product",
+                "name": "BATA BLACK FORMAL SHOES FOR MEN",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwf1b46c83/images/large/8516749_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8516749",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BATA"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 879,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 13,
+            "url": "https://www.bata.com/in/men/shoes/slippers-e-flipflop/everyday-lifestyle/hush-puppies-brown-everyday-lifestyle-flip-flop-for-men-500_2024_8744207.html",
+            "item": {
+                "@type": "Product",
+                "name": "Hush Puppies Brown Everyday Lifestyle Flip Flop For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw2fa46958/images/large/8744207_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8744207",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "HUSH PUPPIES"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1250,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 14,
+            "url": "https://www.bata.com/in/men/shoes/sports/running/power-white-running-shoes-for-men-500_2024_8391095.html",
+            "item": {
+                "@type": "Product",
+                "name": "Power White Running Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw2c9c87ad/images/large/8391095_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8391095",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "POWER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1019,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 15,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/sandals/power-olive-sports-sandals-for-men-500_2021_8617309.html",
+            "item": {
+                "@type": "Product",
+                "name": "Power Olive Sports Sandals For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw6369ead9/images/large/8617309_1.jpeg?sw=800&sh=800",
+                "sku": "500_2021_8617309",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "POWER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 769,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 16,
+            "url": "https://www.bata.com/in/men/shoes/sports/running/power-navy-running-shoes-for-men-500_2024_8399291.html",
+            "item": {
+                "@type": "Product",
+                "name": "Power Navy Running Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw7d4840e6/images/large/8399291_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8399291",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "POWER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1150,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 17,
+            "url": "https://www.bata.com/in/men/shoes/slippers-e-flipflop/everyday-lifestyle/bata-dark-grey-thong-for-men-500_2022_8772620.html",
+            "item": {
+                "@type": "Product",
+                "name": "Bata Dark Grey Thong For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwcf28fca5/images/large/8772620_1.jpeg?sw=800&sh=800",
+                "sku": "500_2022_8772620",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BATA"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 487,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 18,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/hush-puppies-black-slip-on-formal-shoes-for-men-500_2024_8546406.html",
+            "item": {
+                "@type": "Product",
+                "name": "Hush Puppies Black Slip On Formal Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw7048874e/images/large/8546406_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8546406",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "HUSH PUPPIES"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1800,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 19,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/formals/bata-dark-brown-formal-shoes-for-men-500_2024_8514151.html",
+            "item": {
+                "@type": "Product",
+                "name": "Bata Dark Brown Formal Shoes for Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwcb822444/images/large/8514151_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8514151",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "BATA"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 699,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 20,
+            "url": "https://www.bata.com/in/men/shoes/slippers-e-flipflop/everyday-lifestyle/floatz-offwhite-flip-flops-for-men-500_2023_8711622.html",
+            "item": {
+                "@type": "Product",
+                "name": "Floatz Offwhite Flip-Flops For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwca957767/images/large/8711622_1.jpeg?sw=800&sh=800",
+                "sku": "500_2023_8711622",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "FLOATZ"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 440,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 21,
+            "url": "https://www.bata.com/in/men/shoes/sports/running/power-grey-running-shoes-for-men-500_2024_8392091.html",
+            "item": {
+                "@type": "Product",
+                "name": "Power Grey Running Shoes For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwda50207d/images/large/8392091_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8392091",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "POWER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1150,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 22,
+            "url": "https://www.bata.com/in/men/shoes/slippers-e-flipflop/outdoors/floatz-grey-flip-flops-for-men-500_2024_8712072.html",
+            "item": {
+                "@type": "Product",
+                "name": "Floatz Grey Flip-Flops For Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw6222ceca/images/large/8712072_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8712072",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "FLOATZ"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 719,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 23,
+            "url": "https://www.bata.com/in/men/shoes/casual-shoes/slip-on/weinbrenner-dark-brown-casual-shoes-for-men-500_2024_8514087.html",
+            "item": {
+                "@type": "Product",
+                "name": "Weinbrenner Dark Brown Casual Shoes for Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dwfe1f841a/images/large/8514087_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8514087",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "WEINBRENNER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1450,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 24,
+            "url": "https://www.bata.com/in/collections/online-exclusive/men/weinbrenner-tan-outdoor-shoes-for-men-500_2024_8313083.html",
+            "item": {
+                "@type": "Product",
+                "name": "Weinbrenner Tan Outdoor Shoes for Men",
+                "image": "https://www.bata.com/dw/image/v2/BCLG_PRD/on/demandware.static/-/Sites-bata-in-master-catalog/default/dw656e260e/images/large/8313083_1.jpeg?sw=800&sh=800",
+                "sku": "500_2024_8313083",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "WEINBRENNER"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "priceCurrency": "INR",
+                    "price": 1250,
+                    "itemCondition": "https://schema.org/NewCondition",
+                    "availability": "https://schema.org/InStock"
+                }
+            }
+        }
+    ]
+}
