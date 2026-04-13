@@ -1,6 +1,7 @@
 from lxml import html
 import json
 from parser import request
+from urllib.parse import urljoin
 
 
 
@@ -42,23 +43,45 @@ def get_page_url(s_url):
     
 
 def get_products(url):
+    main_url = 'https://www.nykaafashion.com'
+    all_p_url = []
+    count = 1
+    cat_id = url.split("/c/")[1].split("?")[0]
+    
     while True:
-        cat_id = url.split("/c/")[1].split("?")[0]
-        
+        params = {
+            'PageSize': '36',
+            'filter_format': 'v2',
+            'apiVersion': '6',
+            'currency': 'INR',
+            'country_code': 'IN',
+            'deviceType': 'WEBSITE',
+            'sort': 'popularity',
+            'device_os': 'desktop',
+            'categoryId': cat_id,
+            'currentPage': count,
+            'new_tags_filter': 'latestseason_new',
+        }
         
         api= 'https://www.nykaafashion.com/rest/appapi/V2/categories/products'
-        data = request(api)
+        data = request(api,params)
         if data:
-            data['params']['categoryId'] = cat_id 
-            page_count = int(data['params']['currentPage'])
-            page_count += 1
+            all_data = json.loads(data['text'])
 
-            print(page_count)
-            
+            all_products = all_data.get('response').get('products')
 
-            # all_data = json.loads(data['text'])
-            # print(all_data)
+            if not all_products:
+                print('No more products')
+                break
 
+            count += 1
+            for p in all_products:
+                all_p_url.append(urljoin(main_url,p.get('actionUrl')))
+        else:
+            break
+    
+
+    print(all_p_url)
     
 
 get_products('https://www.nykaafashion.com/women/westernwear/gowns/c/153?transaction_id=969e86fa9d12a1870caba6ed2d2d273f&intcmp=nykaa:other:nf-westernwear:default:categories:SLIDING_WIDGET_V2:2:gowns:-1:969e86fa9d12a1870caba6ed2d2d273f')

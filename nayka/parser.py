@@ -1,6 +1,6 @@
 from curl_cffi import requests as re
 
-def request(url):
+def request(url,params = None):
     headers = {
         'domain': 'NYKAA_FASHION',
         'sec-ch-ua-platform': '"Windows"',
@@ -11,25 +11,10 @@ def request(url):
         'sec-ch-ua-mobile': '?0',
     }
 
-    params = {
-        'PageSize': '36',
-        'filter_format': 'v2',
-        'apiVersion': '6',
-        'currency': 'INR',
-        'country_code': 'IN',
-        'deviceType': 'WEBSITE',
-        'sort': 'popularity',
-        'device_os': 'desktop',
-        'categoryId': '0',
-        'currentPage': '1',
-        'new_tags_filter': 'latestseason_new',
-    }
-    
 
     responce = re.get(url,params=params,headers=headers,impersonate='edge99')
 
     if responce.status_code == 200:
-        print('Done')
         return {'text':responce.text,'params':params}
     else:
         print(responce.status_code)
