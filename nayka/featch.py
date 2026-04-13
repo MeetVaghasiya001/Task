@@ -25,6 +25,9 @@ def urls(main_url):
             
     return urls
 
+for u in urls('https://www.nykaafashion.com'):
+    print('---------------------------------------')
+    print(u)
 
 def get_page_url(s_url):
     url = s_url.get('urls')
@@ -81,10 +84,10 @@ def get_products(url):
             break
     
 
-    print(all_p_url)
+    return all_p_url
     
 
-get_products('https://www.nykaafashion.com/women/westernwear/gowns/c/153?transaction_id=969e86fa9d12a1870caba6ed2d2d273f&intcmp=nykaa:other:nf-westernwear:default:categories:SLIDING_WIDGET_V2:2:gowns:-1:969e86fa9d12a1870caba6ed2d2d273f')
+
 
 
         
