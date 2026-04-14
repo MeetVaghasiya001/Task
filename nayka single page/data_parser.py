@@ -2,7 +2,7 @@ from request_data import *
 from lxml import html
 import json
 
-data = request('https://www.nykaafashion.com/little-collars-reindeer-ethnic-jacket-kurta-pajama-for-boys-cream-set-of-3/p/16717340')
+data = request('https://www.nykaafashion.com/u-s-polo-assn-navy-blue-pure-cotton-oversized-t-shirt/p/18162753')
 
 tree = html.fromstring(data)
 
@@ -23,6 +23,8 @@ discount_price = p_data.get('discountedPrice')
 catagory_id = p_data.get('categoryId')
 color = p_data.get('color').get('name')
 tages = [i.get('title') for i in p_data.get('tag_list')]
+rating = p_data.get('review_rating_json').get('star_rating')
+rating_count = p_data.get('review_rating_json').get('star_rating_count')
 
 product_detail = {}
 
@@ -65,16 +67,18 @@ size = [{
 data = {
     'product':p_name,
     'brand':title,
+    'rating':rating,
+    'rating_count':rating_count,
     'product_image':product_image,
     'sku':sku,
     'p_price':p_price,
     'discount_price':discount_price,
     'catagory_id':catagory_id,
     'color':color,
-    'tages':tages,
+    'tages':tages if tages else None,
     'product_detail':product_detail,
-    'color_option':color_option,
-    'size':size,
+    'color_option':color_option if color_option else None,
+    'size':size ,
     'policies':policies
 }
 

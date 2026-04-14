@@ -1,138 +1,163 @@
 {
-    "product": "Reindeer Ethnic Jacket Kurta Pajama for Boys-Cream (Set of 3)",
-    "brand": "Little Collars",
+    "product": "Navy Blue Pure Cotton Oversized T-Shirt",
+    "brand": "U.S. POLO ASSN.",
+    "rating": 4,
+    "rating_count": 31,
     "product_image": [
-        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f78ded6LC-1588-CREAM_1.jpg?rnd=20200526195200",
-        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f78ded6LC-1588-CREAM_2.jpg?rnd=20200526195200",
-        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f78ded6LC-1588-CREAM_3.jpg?rnd=20200526195200",
-        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f78ded6LC-1588-CREAM_4.jpg?rnd=20200526195200",
-        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f78ded6LC-1588-CREAM_5.jpg?rnd=20200526195200",
-        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f78ded6LC-1588-CREAM_6.jpg?rnd=20200526195200",
-        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/f/7/f78ded6LC-1588-CREAM_7.jpg?rnd=20200526195200"
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/647df7aOEE04195PL_1.jpg?rnd=20200526195200",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/647df7aOEE04195PL_2.jpg?rnd=20200526195200",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/647df7aOEE04195PL_3.jpg?rnd=20200526195200",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/647df7aOEE04195PL_4.jpg?rnd=20200526195200",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/647df7aOEE04195PL_5.jpg?rnd=20200526195200",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/647df7aOEE04195PL_6.jpg?rnd=20200526195200",
+        "https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/6/4/647df7aOEE04195PL_7.jpg?rnd=20200526195200"
     ],
-    "sku": "LITAW00000875",
-    "p_price": 1325,
-    "discount_price": 1325,
+    "sku": "USPOL00208324",
+    "p_price": 899,
+    "discount_price": 863,
     "catagory_id": [
-        "58957",
+        "6824",
+        "6825",
+        "6559",
         "2",
-        "6273",
-        "6266",
-        "102",
-        "6267",
-        "66570",
-        "66859",
-        "65776",
-        "66137",
-        "68350",
-        "70184",
-        "70531",
-        "70561",
-        "71451",
-        "72154",
-        "72559",
-        "72561",
-        "72634",
-        "73828",
-        "74098",
+        "6823",
+        "73827",
+        "74752",
         "75581",
-        "74718",
+        "75806",
+        "76363",
+        "76380",
         "76990",
-        "78270",
-        "78265",
         "78713",
-        "78746",
         "78747",
-        "79344",
-        "80689",
-        "80690",
-        "80691",
+        "80547",
+        "81746",
         "82021",
+        "82228",
         "82229",
-        "82230",
+        "82401",
+        "85142",
+        "85619",
+        "85620",
+        "85621",
+        "85624",
         "86384",
+        "86415",
         "86466",
-        "87516",
+        "86411",
+        "86499",
+        "86564",
         "87660",
-        "87060",
+        "88384",
         "88658",
         "88292",
-        "88297",
+        "88296",
         "89523",
+        "89564",
         "90646",
         "91064",
-        "74896",
-        "93963",
+        "93768",
+        "93769",
+        "93767",
+        "93778",
+        "94135",
         "94683",
+        "94915",
         "95347",
+        "95437",
+        "95055",
+        "95059",
+        "95463",
+        "95464",
+        "95465",
+        "95660",
+        "95892",
+        "95478",
+        "96633",
+        "74896",
+        "97961",
+        "98371",
+        "98084",
+        "98085",
         "99736",
-        "72087",
-        "63201"
+        "100356",
+        "102"
     ],
-    "color": "Cream",
-    "tages": [
-        "BESTSELLER"
-    ],
+    "color": "Navy Blue",
+    "tages": null,
     "product_detail": {
         "attribute": {
             "Material": "Cotton",
-            "Pattern": "Woven",
-            "Occasion": "Festive",
-            "Neckline": "Mandarin Neck",
-            "Closure": "Button Fly",
-            "Pocket Description": "Front Pocket",
+            "Pattern": "Solid/Plain",
+            "Occasion": "Casual",
+            "Fit": "Oversized",
+            "Neckline": "Round Neck",
+            "Closure": "Pull On",
             "Pack Size": "Single",
-            "Salwar Suits &  Sets Subcategory": "Jacket Sets",
-            "Leg Style": "Straight",
-            "Rise Style": "Mid Waist",
-            "Sleeve Style": "Full Sleeves"
+            "Sleeve Style": "Half Sleeves"
         },
         "Care instructions": "Machine Wash",
-        "Pack contains": "1 Jacket, 1 Pajama, 1 Kurta",
-        "Know your product": "This Little Collars fashion-forward silhouette is timeless and aesthetically beautiful. An ideal piece for all Rakhi/Diwali/ Ramadan parties and weddings! The jacket is paired with a silk kurta and pajama set. Ornamental Reindeer hand embroidery adds glamour and elegance to this set.",
+        "Pack contains": "1 T-shirt",
+        "Know your product": "The super soft and breathable build of this t-shirt allows day-long comfort to the wearer and is framed with a round neckline.",
         "Return and exchange policy": "This product is eligible for returns or replacement. Please initiate returns/replacements from the 'My Orders' section in the App within 7 days of delivery. Kindly ensure the product is in its original condition with all tags attached.",
         "return_period": 7
     },
-    "color_option": [],
+    "color_option": [
+        {
+            "sku": "USPOL00208323",
+            "in_stock": true,
+            "color": "Olive"
+        },
+        {
+            "sku": "USPOL00208325",
+            "in_stock": true,
+            "color": "Grey"
+        },
+        {
+            "sku": "USPOL00208322",
+            "in_stock": true,
+            "color": "Black"
+        },
+        {
+            "sku": "USPOL00208321",
+            "in_stock": true,
+            "color": "White"
+        },
+        {
+            "sku": "USPOL00208326",
+            "in_stock": true,
+            "color": "Brown"
+        }
+    ],
     "size": [
         {
-            "sku": "LITAW00000813",
-            "price": 1325,
-            "size": "6-12 Months"
+            "sku": "USPOL00208281",
+            "price": 899,
+            "size": "S"
         },
         {
-            "sku": "LITAW00000814",
-            "price": 1399,
-            "size": "1-2 Years"
+            "sku": "USPOL00208282",
+            "price": 899,
+            "size": "M"
         },
         {
-            "sku": "LITAW00000815",
-            "price": 1475,
-            "size": "2-3 Years"
+            "sku": "USPOL00208283",
+            "price": 899,
+            "size": "L"
         },
         {
-            "sku": "LITAW00000816",
-            "price": 1550,
-            "size": "3-4 Years"
+            "sku": "USPOL00208284",
+            "price": 899,
+            "size": "XL"
         },
         {
-            "sku": "LITAW00000817",
-            "price": 1625,
-            "size": "4-5 Years"
-        },
-        {
-            "sku": "LITAW00000818",
-            "price": 1699,
-            "size": "5-6 Years"
-        },
-        {
-            "sku": "LITAW00000819",
-            "price": 1775,
-            "size": "6-7 Years"
+            "sku": "USPOL00208285",
+            "price": 899,
+            "size": "2XL"
         }
     ],
     "policies": {
-        "delivery_details": "Free delivery available",
+        "delivery_details": "Free delivery on ₹999+ orders",
         "cash_on_delivery": "COD available",
         "return_and_exchanges": "7-day return and size exchange"
     }
