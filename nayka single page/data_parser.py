@@ -1,6 +1,7 @@
 from request_data import * 
 from lxml import html
 import json
+from model import Product
 
 data = request('https://www.nykaafashion.com/u-s-polo-assn-navy-blue-pure-cotton-oversized-t-shirt/p/18162753')
 
@@ -81,5 +82,8 @@ data = {
     'policies':policies
 }
 
+
+validate = Product(**data)
+
 with open('clean.json','w',encoding='utf-8') as f:
-    json.dump(data,f,indent=4,default=str,ensure_ascii=False)
+    json.dump(validate.model_dump(),f,indent=4,default=str,ensure_ascii=False)

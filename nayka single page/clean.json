@@ -102,6 +102,11 @@
         "Return and exchange policy": "This product is eligible for returns or replacement. Please initiate returns/replacements from the 'My Orders' section in the App within 7 days of delivery. Kindly ensure the product is in its original condition with all tags attached.",
         "return_period": 7
     },
+    "policies": {
+        "delivery_details": "Free delivery on ₹999+ orders",
+        "cash_on_delivery": "COD available",
+        "return_and_exchanges": "7-day return and size exchange"
+    },
     "color_option": [
         {
             "sku": "USPOL00208323",
@@ -155,10 +160,5 @@
             "price": 899,
             "size": "2XL"
         }
-    ],
-    "policies": {
-        "delivery_details": "Free delivery on ₹999+ orders",
-        "cash_on_delivery": "COD available",
-        "return_and_exchanges": "7-day return and size exchange"
-    }
+    ]
 }
