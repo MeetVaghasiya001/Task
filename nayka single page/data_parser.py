@@ -10,8 +10,7 @@ script = tree.xpath("//script[@id='__PRELOADED_STATE__']/text()")
 
 for s in script:
     all_data = json.loads(s)
-with open('p_json.json','w',encoding='utf-8') as f:
-    json.dump(all_data,f,indent=4,default=str)
+
 p_data = all_data.get('details').get('skuData').get('product')
 
 title = p_data.get('title')
