@@ -18,16 +18,13 @@ def urls(main_url):
     
     for a in all_divs:
         if a.get('inventoryId') == '69d7f01d536836e6da760ad8':
-            urls = [{
+            final_urls = [{
                 'catagory':u.get('params').get('imageLabel'),
                 'urls':u.get('params').get('url')
                 } for u in a.get('widgetData').get('children')]
             
-    return urls
+    return final_urls
 
-for u in urls('https://www.nykaafashion.com'):
-    print('---------------------------------------')
-    print(u)
 
 def get_page_url(s_url):
     url = s_url.get('urls')
@@ -49,40 +46,46 @@ def get_products(url):
     main_url = 'https://www.nykaafashion.com'
     all_p_url = []
     count = 1
+    all_cat = []
     cat_id = url.split("/c/")[1].split("?")[0]
     
-    while True:
-        params = {
-            'PageSize': '36',
-            'filter_format': 'v2',
-            'apiVersion': '6',
-            'currency': 'INR',
-            'country_code': 'IN',
-            'deviceType': 'WEBSITE',
-            'sort': 'popularity',
-            'device_os': 'desktop',
-            'categoryId': cat_id,
-            'currentPage': count,
-            'new_tags_filter': 'latestseason_new',
-        }
-        
-        api= 'https://www.nykaafashion.com/rest/appapi/V2/categories/products'
-        data = request(api,params)
-        if data:
-            all_data = json.loads(data['text'])
+    if cat_id not in all_cat:
+        all_cat.append(cat_id)
+        while True:
+            params = {
+                'PageSize': '36',
+                'filter_format': 'v2',
+                'apiVersion': '6',
+                'currency': 'INR',
+                'country_code': 'IN',
+                'deviceType': 'WEBSITE',
+                'sort': 'popularity',
+                'device_os': 'desktop',
+                'categoryId': cat_id,
+                'currentPage': count,
+                'new_tags_filter': 'latestseason_new',
+            }
+            
+            api= 'https://www.nykaafashion.com/rest/appapi/V2/categories/products'
+            data = request(api,params)
+            if data:
+                all_data = json.loads(data['text'])
 
-            all_products = all_data.get('response').get('products')
+                all_products = all_data.get('response').get('products')
 
-            if not all_products:
-                print('No more products')
+                if all_products is None:
+                    print('No more products')
+                    break
+
+                count += 1
+                for p in all_products:
+                    all_p_url.append(urljoin(main_url,p.get('actionUrl')))
+                print(f'{cat_id}-{params['currentPage']}-{len(all_p_url)}')
+            else:
                 break
-
-            count += 1
-            for p in all_products:
-                all_p_url.append(urljoin(main_url,p.get('actionUrl')))
-        else:
-            break
-    
+    else:
+        print('Idavalible already!!') 
+        return   
 
     return all_p_url
     

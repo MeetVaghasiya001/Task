@@ -1,76 +1,30 @@
-from featch import * 
-import queue
-import threading
-
-main_q = queue.Queue(maxsize=20)
-inner_queue = queue.Queue(maxsize=100)
+from featch import *
+from concurrent.futures import ThreadPoolExecutor
 
 all_url = urls('https://www.nykaafashion.com')
-all_products = []
-def worker():
-    while True:
-        inner_url = inner_queue.get()
 
-        if inner_url is None:
-            inner_queue.task_done()
-            break
-        try:
-            page_url = get_page_url(inner_url)
-            products = get_products(page_url)
-            print(f'{page_url} was done')
-            all_products.append(products)
+def process_page(args):
+    category, page_url = args
+    try:
+        links = get_products(page_url)
+        print(category, len(links))
+        return {'catagory': category, 'url': links} if links else None
+    except:
+        return None
 
-        except Exception as e:
-            print(f'Error-{e}')
-        
-        inner_queue.task_done()
+tasks = [
+    (a.get('catagory'), p)
+    for a in all_url
+    for p in get_page_url(a)
+]
 
-def process():
-    while True:
-        url = main_q.get()
-        
-        if url is None:
-            main_q.task_done()
-            break
+products = []
 
-        inner_queue.put(url)
-        print(url)
+with ThreadPoolExecutor(max_workers=10) as executor:
+    for r in executor.map(process_page, tasks):
+        if r:
+            products.append(r)
+            print(r)
 
-        main_q.task_done()
-
-thread = []
-for t in range(4):
-    t = threading.Thread(target=process)
-    t.start()
-    thread.append(t)
-
-inner_thread = []
-for i in range(3):
-    t = threading.Thread(target=worker)
-    t.start()
-    inner_thread.append(t)
-
-
-for u in all_url:
-    main_q.put(u['urls'])
-    
-
-for _ in thread:
-    main_q.put(None)
-
-
-main_q.join()
-
-for _ in inner_thread:
-    inner_queue.put(None)
-
-inner_queue.join()
-
-for t in thread:
-    t.join()
-
-for t in inner_thread:
-    t.join()
-
-
-
+print(len(products))
+print(products)
