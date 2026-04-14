@@ -42,16 +42,24 @@ def get_page_url(s_url):
     return page_urls
     
 
+seen_cat = set()
+seen_product = set()
+
 def get_products(url):
     main_url = 'https://www.nykaafashion.com'
     all_p_url = []
     count = 1
-    all_cat = []
     cat_id = url.split("/c/")[1].split("?")[0]
     
-    if cat_id not in all_cat:
-        all_cat.append(cat_id)
-        while True:
+    if cat_id in seen_cat:
+        print('--------------------------------------------------------')
+        print(f'{cat_id}-already added')
+        print('--------------------------------------------------------')
+        return []
+    
+    seen_cat.add(cat_id)
+    print(f'{cat_id} was process')
+    while True:
             params = {
                 'PageSize': '36',
                 'filter_format': 'v2',
@@ -68,9 +76,9 @@ def get_products(url):
             
             api= 'https://www.nykaafashion.com/rest/appapi/V2/categories/products'
             data = request(api,params)
-            if data:
-                all_data = json.loads(data['text'])
+            if data['text'] is not None:
 
+                all_data = json.loads(data['text'])
                 all_products = all_data.get('response').get('products')
 
                 if all_products is None:
@@ -79,14 +87,14 @@ def get_products(url):
 
                 count += 1
                 for p in all_products:
-                    all_p_url.append(urljoin(main_url,p.get('actionUrl')))
-                print(f'{cat_id}-{params['currentPage']}-{len(all_p_url)}')
+                    p_url = urljoin(main_url,p.get('actionUrl'))
+                    if p_url in seen_product:
+                        continue
+                    seen_product.add(p_url)
+                    all_p_url.append(p_url)
             else:
                 break
-    else:
-        print('Idavalible already!!') 
-        return   
-
+    
     return all_p_url
     
 

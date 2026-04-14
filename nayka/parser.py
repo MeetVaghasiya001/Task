@@ -15,10 +15,15 @@ def request(url,params = None):
     responce = re.get(url,params=params,headers=headers,impersonate='edge99')
 
     if responce.status_code == 200:
-        return {'text':responce.text,'params':params}
+        return {
+            'text':responce.text,
+            'params':params
+            }
     else:
         print(responce.status_code)
-        return 'error'
+        return {
+            'text':None,
+            }
     
 
 

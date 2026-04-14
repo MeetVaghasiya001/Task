@@ -3,7 +3,7 @@ from lxml import html
 import json
 from model import Product
 
-data = request('https://www.nykaafashion.com/u-s-polo-assn-navy-blue-pure-cotton-oversized-t-shirt/p/18162753')
+data = request('https://www.nykaafashion.com/custard-stylish-blue-fit-and-flare-short-dress-for-women/p/26594177')
 
 tree = html.fromstring(data)
 
