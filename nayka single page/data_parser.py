@@ -70,8 +70,8 @@ def get_page_data(url):
     data = {
         'product':p_name,
         'brand':title,
-        'rating':rating,
-        'rating_count':rating_count,
+        'rating':rating if rating else 0,
+        'rating_count':rating_count if rating_count else 0,
         'product_image':product_image,
         'sku':sku,
         'p_price':p_price,

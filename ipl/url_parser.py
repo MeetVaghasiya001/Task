@@ -6,35 +6,26 @@ from urllib.parse import urljoin
 import time
 
 
-def get_page_data(url, retries=3):
-    for _ in range(retries):
-        data = request(url)
+def get_page_data(url):
+    data = request(url)
 
-        if not data:
-            time.sleep(2)
-            continue
+    if not data:
+        return
+    try:
+        tree = html.fromstring(data)
+        script = tree.xpath('//script[contains(text(),"__INITIAL_STATE__")]')
 
-        try:
-            tree = html.fromstring(data)
-            script = tree.xpath('//script[contains(text(),"__INITIAL_STATE__")]')
+        if not script:
+            return 
 
-            if not script:
-                time.sleep(2)
-                continue
+        script_text = script[0].text
+        match = re.search(r'window\.__INITIAL_STATE__\s*=\s*({.*?});', script_text, re.DOTALL)
 
-            script_text = script[0].text
-            match = re.search(r'window\.__INITIAL_STATE__\s*=\s*({.*?});', script_text, re.DOTALL)
-
-            if not match:
-                time.sleep(2)
-                continue
-
-            return match.group(1)
-
-        except:
-            time.sleep(2)
-
-    return None
+        if not match:
+            return
+        return match.group(1)
+    except Exception as e:
+        print(f'Error-{e}')
 
 def extract_data(page_data):
 
