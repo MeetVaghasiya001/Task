@@ -41,7 +41,7 @@ for a in all_matches:
                 'bowlers':[{
                     'bowlers_name':b.get('displayName'),
                     'all_stats':{s.get('name'):s.get('value') for s in b.get('stats')}
-                } for b in v.get('batsmen')]
+                } for b in v.get('bowlers')]
             }
 
         full_details.append(match_data)
