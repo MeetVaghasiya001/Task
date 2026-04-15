@@ -3,7 +3,6 @@ from lxml import html
 import re
 import json
 from urllib.parse import urljoin
-import time
 
 
 def get_page_data(url):

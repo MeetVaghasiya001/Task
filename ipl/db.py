@@ -13,6 +13,7 @@ def connection():
 
     return conn,cur 
 
+
 def create_db():
     conn,cur = connection()
     cur.execute("""

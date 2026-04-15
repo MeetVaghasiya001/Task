@@ -16,60 +16,65 @@ all_matches = extract_data(main_responce)
 
 count = 0
 
-conn,cur = connection()
 create_db()
+conn,cur = connection()
 
-
-
-cur.execute("SELECT match_url FROM matches")
-all_match_urls = {row[0] for row in cur.fetchall()}
 
 def process(a):
     match_url = a.get('score')
 
-    if match_url not in all_match_urls:
-        if match_url:
-            page_d = get_page_data(match_url)
-            if not page_d:
-                print(f'skipp-{match_url}')
-                return None
+    conn,cur = connection()
 
-            match_responce = json.loads(page_d)
+    cur.execute("SELECT match_url FROM matches WHERE match_url = %s",(match_url,))
+    exists = cur.fetchone()
 
-            all_data = match_responce.get('gamePackage').get('scorecard').get('innings')
-            teams = match_responce.get('gamePackage').get('gameStrip').get('teams')
-            raw_date = a.get('date')
+    if exists:
+        print('url already eists!')
+        return None
+    
+    
+    if match_url:
+        page_d = get_page_data(match_url)
+        if not page_d:
+            print(f'skipp-{match_url}')
+            return None
 
-            match_date = datetime.strptime(raw_date, "%Y-%m-%dT%H:%MZ")
+        match_responce = json.loads(page_d)
 
-            match_data ={
-                'match':a.get('match'),
-                'date':match_date,
-                'winner':match_responce.get('gamePackage').get('summary'),
-                'score':{
-                    teams.get('home').get('name'):teams.get('home').get('score'),
-                    teams.get('away').get('name'):teams.get('away').get('score')
-                    },
-                'match_url':match_url,
-                'innings':{}
-            }
-            if match_data['winner']:
-                for k,v in all_data.items():
-                    match_data['innings'][k] = {
-                        'team':v.get('title'),
-                        'batsmen':[{
-                            'batsman_name':b.get('displayName'),
-                            'all_stats':{s.get('name'):s.get('value') for s in b.get('stats')}
-                        } for b in v.get('batsmen')],
-                        'bowlers':[{
-                            'bowlers_name':b.get('displayName'),
-                            'all_stats':{s.get('name'):s.get('value') for s in b.get('stats')}
-                        } for b in v.get('bowlers')]
-                    }
+        all_data = match_responce.get('gamePackage').get('scorecard').get('innings')
+        teams = match_responce.get('gamePackage').get('gameStrip').get('teams')
+        raw_date = a.get('date')
 
-                return match_data           
+        match_date = datetime.strptime(raw_date, "%Y-%m-%dT%H:%MZ")
+
+        match_data ={
+            'match':a.get('match'),
+            'date':match_date,
+            'winner':match_responce.get('gamePackage').get('summary'),
+            'score':{
+                teams.get('home').get('name'):teams.get('home').get('score'),
+                teams.get('away').get('name'):teams.get('away').get('score')
+                },
+            'match_url':match_url,
+            'innings':{}
+        }
+        if match_data['winner']:
+            for k,v in all_data.items():
+                match_data['innings'][k] = {
+                    'team':v.get('title'),
+                    'batsmen':[{
+                        'batsman_name':b.get('displayName'),
+                        'all_stats':{s.get('name'):s.get('value') for s in b.get('stats')}
+                    } for b in v.get('batsmen')],
+                    'bowlers':[{
+                        'bowlers_name':b.get('displayName'),
+                        'all_stats':{s.get('name'):s.get('value') for s in b.get('stats')}
+                    } for b in v.get('bowlers')]
+                }
+
+            return match_data           
     else:
-        print('url Already fetch')
+        return
 
     return None
         
