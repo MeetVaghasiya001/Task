@@ -5,9 +5,10 @@
         "artist": "Ella Langley",
         "image": "https://charts-static.billboard.com/img/2025/11/ellalangley-yci-choosintexas-3s2-180x180.jpg",
         "other": {
-            "LWZ": "1",
+            "LW": "1",
             "PEAK": "1",
-            "WEEKS": "25"
+            "WEEKS": "25",
+            "LWZ": "1"
         },
         "meta_data": {
             "Debut Position": "39",

@@ -20,6 +20,7 @@ def create_db():
         CREATE TABLE IF NOT EXISTS matches(
                 m_id INT AUTO_INCREMENT PRIMARY KEY,
                 match_name VARCHAR(255),
+                winner VARCHAR(255),
                 date DATETIME,
                 score JSON,
                 match_url TEXT,

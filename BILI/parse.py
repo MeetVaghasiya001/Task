@@ -1,5 +1,34 @@
 from lxml import html
 import json
+import mysql.connector
+
+conn = mysql.connector.connect(
+        host="localhost",
+        user="root",
+        password="Actowiz",
+        database="mydb"
+    )
+
+cur = conn.cursor()
+
+cur.execute("""
+    CREATE TABLE IF NOT EXISTS song(
+            s_id INT AUTO_INCREMENT PRIMARY KEY,
+            song_name VARCHAR(255),
+            artist VARCHAR(255),
+            image VARCHAR(255),
+            lw VARCHAR(255),
+            peak INT,
+            weeks INT,
+            debut_position VARCHAR(255),
+            debut_chart_date VARCHAR(255),
+            peak_position VARCHAR(255),
+            peak_chart_date VARCHAR(255),
+            share JSON,
+            awards VARCHAR(255)
+            )
+
+""")
 
 with open("new_billboard.html", "r", encoding="utf-8") as f:
     data = f.read()
@@ -66,6 +95,8 @@ for s in all_data:
 
         if d.xpath("./@class")[0] == "o-chart-awards-list":
             debute_data["Awards"] = ",".join([i.xpath("string(.//p/text())").strip() for i in d.xpath(".//div")])
+    
+    
     song.append(
         {
             "count": count,
@@ -78,6 +109,25 @@ for s in all_data:
             "meta_data": debute_data,
         }
     )
+    cur.execute("""
+        INSERT INTO song(song_name,artist,image,lw,peak,weeks,debut_position,debut_chart_date,peak_position,peak_chart_date,share,awards) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+    """,(
+        song[-1].get('song_name'),
+        song[-1].get('artist'),
+        song[-1].get('image'),
+        song[-1].get('other').get('LW'),
+        song[-1].get('other').get('PEAK'),
+        song[-1].get('other').get('WEEKS'),
+        song[-1].get('meta_data').get('Debut Position'),
+        song[-1].get('meta_data').get('Debut Chart Date'),
+        song[-1].get('meta_data').get('Peak Position'),
+        song[-1].get('meta_data').get('Peak Chart Date'),
+        json.dumps(song[-1].get('meta_data').get('Share')),
+        song[-1].get('meta_data').get('Awards') if song[-1].get('meta_data').get('Awards') else None,
+    ))
+
+    conn.commit()
+conn.close()
 
 with open("clean.json", "w", encoding="utf-8") as f:
     json.dump(song, f, indent=4, default=str)

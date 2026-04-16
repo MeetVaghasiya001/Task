@@ -13,12 +13,10 @@ main_url = 'https://www.espn.in/cricket/scores/series/8048/season/2026/indian-pr
 main_responce = get_page_data(main_url)
 
 all_matches = extract_data(main_responce)
-
 count = 0
 
 create_db()
 conn,cur = connection()
-
 
 def process(a):
     match_url = a.get('score')
@@ -29,7 +27,6 @@ def process(a):
     exists = cur.fetchone()
 
     if exists:
-        print('url already eists!')
         return None
     
     
@@ -62,15 +59,14 @@ def process(a):
             for k,v in all_data.items():
                 match_data['innings'][k] = {
                     'team':v.get('title'),
-                    'batsmen':[{
-                        'batsman_name':b.get('displayName'),
-                        'all_stats':{s.get('name'):s.get('value') for s in b.get('stats')}
-                    } for b in v.get('batsmen')],
-                    'bowlers':[{
-                        'bowlers_name':b.get('displayName'),
-                        'all_stats':{s.get('name'):s.get('value') for s in b.get('stats')}
-                    } for b in v.get('bowlers')]
+                    'batsmen':{
+                            b.get('displayName'):{ s.get('name'):s.get('value') for s in b.get('stats')} for b in v.get('batsmen') if b.get('displayName')
+                            },
+                    'bowlers':{
+                            b.get('displayName'):{ s.get('name'):s.get('value') for s in b.get('stats')} for b in v.get('bowlers') if b.get('displayName')
+                            }
                 }
+            
 
             return match_data           
     else:
@@ -79,25 +75,26 @@ def process(a):
     return None
         
 
-with ThreadPoolExecutor(max_workers=10) as execute:
+with ThreadPoolExecutor(max_workers=5) as execute:
     result = execute.map(process,all_matches)
     
-    for r in result:
-        if not r:
-            continue
-        count += 1
-        print(count)
-        cur.execute("""
-                INSERT INTO matches(match_name,date,score,match_url,innings) VALUES(%s,%s,%s,%s,%s)
-            """,(
-                r['match'],
-                r['date'],
-                json.dumps(r['score']),
-                r['match_url'],
-                json.dumps(r['innings'])
-            ))
+for r in result:
+    if not r:
+        continue
+    count += 1
+    print(count)
+    cur.execute("""
+            INSERT INTO matches(match_name,winner,date,score,match_url,innings) VALUES(%s,%s,%s,%s,%s,%s)
+        """,(
+            r['match'],
+            r['winner'],
+            r['date'],
+            json.dumps(r['score']),
+            r['match_url'],
+            json.dumps(r['innings'])
+        ))
 
-        conn.commit()
+conn.commit()
 
 conn.close()
 
