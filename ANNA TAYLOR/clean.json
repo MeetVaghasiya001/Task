@@ -1,70 +1,161 @@
 {
-    "product_catagory_id": "847520",
-    "name": "Weekend Crew Neck Jacket",
+    "product_catagory_id": "852912",
+    "name": "The Shorter Two Button Blazer in Bi-Stretch",
     "brand": "Ann Taylor",
+    "price": "$198.00",
     "suggested_gender": "female",
+    "selected_size": "Classic",
+    "description": "Tailored to perfection, this single-breasted blazer effortlessly elevates your look. Peaked lapel. Long button-open sleeves allow for versatility in styling. Two button front. Front flap besom pockets. Back vent. Lined.",
+    "rating": "3.6 out of 5 Customer Rating",
+    "reviews": "15",
     "images": [
-        "https://anninc.scene7.com/is/image/AN/847520_3832?$fullBpdp$",
-        "https://anninc.scene7.com/is/image/AN/847520_3832_ALT1?$fullBpdp$",
-        "https://anninc.scene7.com/is/image/AN/847520_3832_ALT2?$fullBpdp$"
+        "https://anninc.scene7.com/is/image/AN/852912_2222?$fullBpdp$",
+        "https://anninc.scene7.com/is/image/AN/852912_2222_ALT1?$fullBpdp$",
+        "https://anninc.scene7.com/is/image/AN/852912_2222_ALT2?$fullBpdp$",
+        "https://anninc.scene7.com/is/image/AN/852912_2222_ALT3?$fullBpdp$"
     ],
     "all_size": [
         "Classic",
         "Petite"
     ],
-    "selected_size": "Classic",
-    "description": "Discover Ann Taylor Weekend. Designed for a relaxed fit, this crew neck jacket can be styled with the sleeves rolled up to reveal a chic striped pattern. Crew neck. Long sleeves with button cuffs. Front button closures. Front button patch pockets. Lined.",
     "product_detailes": {
-        "Fit": "Relaxed fit",
-        "Length": "18 1/2\" long",
-        "additional details": "For heights 5'4\" and below, try our petite fit.",
-        "Fabric & Care": "97% Cotton, 3% SpandexMachine WashableImported",
+        "Fit": "Tailored fit",
+        "Length": "22\" long",
+        "Fabric & Care": "Shell: 66% Polyester, 28% Rayon, 6% Spandex; Lining: 100% PolyesterMachine WashableImported",
         "hit": "Hits at waist",
-        "Style #": "847520"
+        "Style #": "852912"
     },
-    "rating": "5 out of 5 Customer Rating",
-    "reviews": "0",
     "product_varients": [
         {
-            "sku": "40666549",
-            "color": "Lemon Pavlova",
-            "price": 169.0,
+            "sku": "39069061",
+            "color": "Black",
+            "price": 198.0,
             "currency": "USD"
         },
         {
-            "sku": "40666556",
-            "color": "Lemon Pavlova",
-            "price": 169.0,
+            "sku": "39069078",
+            "color": "Black",
+            "price": 198.0,
             "currency": "USD"
         },
         {
-            "sku": "40666563",
-            "color": "Lemon Pavlova",
-            "price": 169.0,
+            "sku": "39069085",
+            "color": "Black",
+            "price": 198.0,
             "currency": "USD"
         },
         {
-            "sku": "40666570",
-            "color": "Lemon Pavlova",
-            "price": 169.0,
+            "sku": "39069092",
+            "color": "Black",
+            "price": 198.0,
             "currency": "USD"
         },
         {
-            "sku": "40666587",
-            "color": "Lemon Pavlova",
-            "price": 169.0,
+            "sku": "39069108",
+            "color": "Black",
+            "price": 198.0,
             "currency": "USD"
         },
         {
-            "sku": "40666594",
-            "color": "Lemon Pavlova",
-            "price": 169.0,
+            "sku": "39069115",
+            "color": "Black",
+            "price": 198.0,
             "currency": "USD"
         },
         {
-            "sku": "40666600",
-            "color": "Lemon Pavlova",
-            "price": 169.0,
+            "sku": "39069122",
+            "color": "Black",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069139",
+            "color": "Black",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069146",
+            "color": "Black",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069153",
+            "color": "Black",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069160",
+            "color": "Black",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069184",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069191",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069207",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069214",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069221",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069238",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069245",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069252",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069269",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069276",
+            "color": "Pure Sapphire",
+            "price": 198.0,
+            "currency": "USD"
+        },
+        {
+            "sku": "39069283",
+            "color": "Pure Sapphire",
+            "price": 198.0,
             "currency": "USD"
         }
     ]

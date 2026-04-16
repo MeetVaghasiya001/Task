@@ -3,7 +3,9 @@ from lxml import html
 import json
 from model import Product
 
-all_data = request('https://www.anntaylor.com/clothing/jackets-and-blazers/cata000017/weekend-crew-neck-jacket/847520.html?priceSort=DES')
+
+
+all_data = request('https://www.anntaylor.com/clothing/suits/cata000013/shorter-two-button-blazer-bi-stretch/852912.html?priceSort=DES')
 
 tree = html.fromstring(all_data)
 
@@ -33,6 +35,7 @@ product_images=tree.xpath("//div[@class='carousel-item-a product-main main-image
 selected_size =tree.xpath("string(//span[contains(@class,'selectedFitType')]/text())").strip()
 
 pdp_table = tree.xpath("//table[contains(@class,'ds-pdp-details')]/tr")
+price=tree.xpath("string(//span[contains(@class,'price-digit esw-general-price bfx-price')]/text())")
 
 for p in pdp_table:
     product_details[
@@ -45,17 +48,18 @@ clean_page_data={
     'product_catagory_id':product_id,
     'name':product_name,
     'brand':product_brand,
+    'price':price,
     'suggested_gender':suugested_gender,
-    'images':product_images,
-    'all_size':all_size,
     'selected_size':selected_size,
     'description':product_description,
-    'product_detailes':product_details,
     'rating':rating,
     'reviews':reviews,
+    'images':product_images,
+    'all_size':all_size,
+    'product_detailes':product_details,
     'product_varients':product_varients
 }
 
 validate = Product(**clean_page_data)
 with open('clean.json','w',encoding='utf-8') as f:
-    json.dump(validate.model_dump(),f,indent=4,default=str)
+    json.dump(validate.model_dump(),f,indent=4,default=str,ensure_ascii=False)
