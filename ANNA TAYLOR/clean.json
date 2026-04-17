@@ -1,161 +1,162 @@
 {
-    "product_catagory_id": "852912",
-    "name": "The Shorter Two Button Blazer in Bi-Stretch",
+    "product_catagory_id": "856747",
+    "name": "The Petite High Rise Skinny Trouser in Bi-Stretch",
     "brand": "Ann Taylor",
-    "price": "$198.00",
+    "price": "$119.00",
     "suggested_gender": "female",
-    "selected_size": "Classic",
-    "description": "Tailored to perfection, this single-breasted blazer effortlessly elevates your look. Peaked lapel. Long button-open sleeves allow for versatility in styling. Two button front. Front flap besom pockets. Back vent. Lined.",
-    "rating": "3.6 out of 5 Customer Rating",
-    "reviews": "15",
+    "selected_size": "Petite",
+    "description": "Our refined four-way stretch fabric holds its shape while flattering yours � so you stay polished and comfortable from AM to PM. Front zip with hook-and-bar closure. Front off-seam pockets. Back besom pockets.",
+    "rating": "4.6 out of 5 Customer Rating",
+    "reviews": "10",
     "images": [
-        "https://anninc.scene7.com/is/image/AN/852912_2222?$fullBpdp$",
-        "https://anninc.scene7.com/is/image/AN/852912_2222_ALT1?$fullBpdp$",
-        "https://anninc.scene7.com/is/image/AN/852912_2222_ALT2?$fullBpdp$",
-        "https://anninc.scene7.com/is/image/AN/852912_2222_ALT3?$fullBpdp$"
+        "https://anninc.scene7.com/is/image/AN/856747_2222?$fullBpdp$",
+        "https://anninc.scene7.com/is/image/AN/856747_2222_ALT1?$fullBpdp$",
+        "https://anninc.scene7.com/is/image/AN/856747_2222_ALT2?$fullBpdp$"
     ],
     "all_size": [
         "Classic",
         "Petite"
     ],
     "product_detailes": {
-        "Fit": "Tailored fit",
-        "Length": "22\" long",
-        "Fabric & Care": "Shell: 66% Polyester, 28% Rayon, 6% Spandex; Lining: 100% PolyesterMachine WashableImported",
-        "hit": "Hits at waist",
-        "Style #": "852912"
+        "Fit": "Tailored & fitted",
+        "rise": "Highest rise: sits at natural waist",
+        "Length": "Full length: 30\" inseam with 18 1/2\" leg opening",
+        "leg shape": "Trouser – a pant with a bit of flare that lengthens legs",
+        "additional details": "Wrinkle resistant",
+        "Fabric & Care": "66% Polyester, 28% Rayon, 6% SpandexMachine WashableImported",
+        "Style #": "856747"
     },
     "product_varients": [
         {
-            "sku": "39069061",
+            "sku": "38004940",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069078",
+            "sku": "38004957",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069085",
+            "sku": "38004964",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069092",
+            "sku": "38004971",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069108",
+            "sku": "38004988",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069115",
+            "sku": "38004995",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069122",
+            "sku": "38005008",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069139",
+            "sku": "38005015",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069146",
+            "sku": "38005022",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069153",
+            "sku": "38005039",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069160",
+            "sku": "38005046",
             "color": "Black",
-            "price": 198.0,
+            "price": 129.0,
             "currency": "USD"
         },
         {
-            "sku": "39069184",
+            "sku": "39087010",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069191",
+            "sku": "39087027",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069207",
+            "sku": "39087034",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069214",
+            "sku": "39087041",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069221",
+            "sku": "39087058",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069238",
+            "sku": "39087065",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069245",
+            "sku": "39087072",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069252",
+            "sku": "39087089",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069269",
+            "sku": "39087096",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069276",
+            "sku": "39087102",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         },
         {
-            "sku": "39069283",
+            "sku": "39087119",
             "color": "Pure Sapphire",
-            "price": 198.0,
+            "price": 119.0,
             "currency": "USD"
         }
     ]

@@ -7,7 +7,7 @@ def request(url):
     }
 
 
-    responce = re.get(url,headers=headers)
+    responce = re.get(url,headers=headers,timeout=20)
 
     if responce.status_code == 200:
         return responce.text

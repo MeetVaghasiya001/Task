@@ -4,8 +4,7 @@ import json
 from model import Product
 
 
-
-all_data = request('https://www.anntaylor.com/clothing/suits/cata000013/shorter-two-button-blazer-bi-stretch/852912.html?priceSort=DES')
+all_data = request('https://www.anntaylor.com/petites/petite-suits/cat550044/petite-high-rise-skinny-trouser-bi-stretch/856747.html?dwvar_856747_color=2222')
 
 tree = html.fromstring(all_data)
 
@@ -38,8 +37,8 @@ pdp_table = tree.xpath("//table[contains(@class,'ds-pdp-details')]/tr")
 price=tree.xpath("string(//span[contains(@class,'price-digit esw-general-price bfx-price')]/text())")
 
 for p in pdp_table:
-    product_details[
-    p.xpath("string(.//td//h2[contains(@class,'ds-product-detail-title')])").strip()] = "".join(v.strip() for v in p.xpath(".//td[contains(@class,'ds-product-detail-des')]//text()") if v.strip())
+    product_details[p.xpath("string(.//td//h2[contains(@class,'ds-product-detail-title')])").strip()] = "".join(v.strip() for v in p.xpath(".//td[contains(@class,'ds-product-detail-des')]//text()") if v.strip())
+
 all_size=tree.xpath("//div[@class='productFitSets ds-size-type-swatches']/a/text()")
 reviews=tree.xpath("string(//div[@class='pdp-review-section-sub-left']/span/text())")
 rating = tree.xpath("string(//div[@class='ratings pull-right']//span//text())")
