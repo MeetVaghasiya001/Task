@@ -1,61 +1,111 @@
+from parsers import * 
+from concurrent.futures import ThreadPoolExecutor
+from db import connection,create_db
 from request_data import request
-import json
-from lxml import html
-from urllib.parse import urljoin
-import json
-import requests as re
 
+all_urls = main('https://www.rottentomatoes.com/browse/movies_in_theaters/sort:newest')
 
+create_db()
 
-def find_url(url):
-    res = re.get(url)
-    all_json = json.loads(res.text)
+def process(url):
+    main_url ='https://www.rottentomatoes.com/'
+    data = extract_page_data(url)
 
-    return all_json
-
-
-def main(url):
-    main_url = 'https://www.rottentomatoes.com/'
-    all_data = request(url)
-    tree = html.fromstring(all_data)
-
-    script = tree.xpath("//script[@type='application/ld+json']/text()")
-    for s in script:
-        full_json = json.loads(s)
-    page_1 = full_json.get('itemListElement').get('itemListElement')
-    all_movie_data = [{
-        'movie_name':i.get('name'),
-        'date':i.get('dateCreated'),
-        'image':i.get('image'),
-        'url':i.get('url')
-    } for i in page_1]
-    unique = tree.xpath("//script[contains(@id,'pageInfo')]/text()")[0]
-    end_cursor = json.loads(unique)
-    unique_key = end_cursor.get('endCursor')
-
-    while True:
-        api_url = f'https://www.rottentomatoes.com/cnapi/browse/movies_in_theaters/sort:newest?after={unique_key}'
-        other_page = find_url(api_url)
-        cursor = other_page.get('pageInfo').get('endCursor')
-
-        if not cursor:
-            break
-
-        unique_key = cursor
-
-        all_movie_data.extend([{
-            'movie_name':i.get('title'),
-            'date':i.get('releaseDateText'),
-            'image':i.get('posterUri'),
-            'url':urljoin(main_url,i.get('mediaUrl'))
-        } for i in other_page.get('grid').get('list')])
     
-    with open('all_movies.json','w',encoding='utf-8') as f:
-        json.dump(all_movie_data,f,indent=4,default=str)
+    cast_url = urljoin(main_url,data.xpath("string(//section[@aria-labelledby='cast-and-crew-label']//rt-button/@href)").strip())
+    
+    cast_page = request(cast_url)
+    cast_tree = html.fromstring(cast_page)
+    all_cast = {}
 
+    for c in cast_tree.xpath("//cast-and-crew-card"):
+        all_cast[c.xpath("string(.//rt-text[@slot='title']/text())").strip()] = c.xpath("string(.//rt-text[@slot='credits']/text())").strip()
+
+    reviews_href = data.xpath("string(//section[@aria-labelledby='critics-reviews-label']//rt-button/@href)").strip()
+    all_reviews = []
+    if reviews_href:
+        reviews = request(urljoin(main_url,reviews_href))
+        review_tree = html.fromstring(reviews)
+        json_obj =review_tree.xpath("//script[@data-json='props']/text()")
+        if not json_obj:
+            print('No data')
+            return
+        json_obj_2 = json.loads(json_obj[0])
+
+        page_id = json_obj_2.get('media').get('emsId')
         
-    
+        review_url= f'https://www.rottentomatoes.com/napi/rtcf/v1/movies/{page_id}/reviews?after=&before=&pageCount=20&topOnly=false&type=critic&verified=false'
 
-main("https://www.rottentomatoes.com/browse/movies_in_theaters/sort:newest")
+        review_data = find_url(review_url)
+        for i in (review_data.get('reviews')) or [] :
+            all_reviews.append(
+                {
+                    'name': (i.get('critic') or {}).get('displayName'),
+                    'review': i.get('reviewQuote'),
+                    'count': i.get('originalScore'),
+                    'review_type': i.get('scoreSentiment')
+                }
+                )
+            
 
-# find_url('https://www.rottentomatoes.com/cnapi/browse/movies_in_theaters/sort:newest?after=Mjg%3D')
+    video_href = data.xpath("string(//rt-button[@data-qa='videos-view-all-link']/@href)")
+    video_main_href=urljoin(main_url,video_href)
+    request_video=extract_page_data(video_main_href)
+    videos = []
+
+    videos_xpath = request_video.xpath("//div[@data-qa='video-item']")
+
+    for v in videos_xpath:
+        title = v.xpath(".//a[@data-qa='video-item-title']/text()")
+        link = v.xpath(".//a[@data-qa='video-item-title']/@href")
+        duration = v.xpath(".//span[@data-qa='video-item-duration']/text()")
+        thumbnail = v.xpath(".//img[@data-qa='video-img']/@srcset")
+
+        videos.append({
+            "title": title[0].strip() if title else None,
+            "url": urljoin(main_url, link[0]) if link else None,
+            "duration": duration[0].strip() if duration else None,
+            "thumbnail": thumbnail[0] if thumbnail else None
+        })
+        
+    data = {
+        'movie_name':data.xpath("string(//rt-text[@size='1.25,1.75']/text())"),
+        'score':data.xpath("string(//rt-text[@slot='critics-score'])") or "0%",
+        'desc':data.xpath("string(//div[@slot='description']//rt-text)").strip(),
+        'img':data.xpath("string(//img[@slot='poster']/@src)"),
+        'videos':videos,
+        'want_to_know':data.xpath("string(//div[@id='critics-consensus']//p)").strip() or None,
+        'cast':all_cast,
+        'all_reviews':all_reviews,
+
+    }
+
+    print(f'{data.get('movie_name')} was added!!')
+        
+    return data
+
+with ThreadPoolExecutor(max_workers=5) as exceute:
+    result = exceute.map(process,all_urls)
+
+    conn,cur = connection()
+
+    for r in result:
+        if not r:
+            continue
+        cur.execute("""
+            INSERT INTO movie(movie_name,score,description,img,videos,want_to_know,cast,reviews) VALUES(%s,%s,%s,%s,%s,%s,%s,%s)
+        """,(
+            r.get('movie_name'),
+            r.get('score'),
+            r.get('desc'),
+            r.get('img'),
+            json.dumps(r.get('videos')),
+            r.get('want_to_know'),
+            json.dumps(r.get('cast')),
+            json.dumps(r.get('all_reviews'))
+        ))
+
+        conn.commit()
+
+print('all done!!')
+conn.close()

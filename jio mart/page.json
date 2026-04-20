@@ -1,0 +1,123 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Movie",
+    "actor": [
+        {
+            "@type": "Person",
+            "name": "Jason Segel",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/jason_segal",
+            "image": "https://resizing.flixster.com/YztLS0jXnBOen3F9-KrQ49_whoU=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/GNLZZGG002QZ511.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Samara Weaving",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/samara_weaving",
+            "image": "https://resizing.flixster.com/8JnFH3FMjdR28BhhtBs8Cp7q-Jc=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/586246_v9_bd.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Timothy Olyphant",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/timothy_olyphant",
+            "image": "https://resizing.flixster.com/OpvSKb7RidJQ4fUjSS931wTtSbw=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/164843_v9_bb.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Juliette Lewis",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/juliette_lewis",
+            "image": "https://resizing.flixster.com/xHIFm2JVfPxNw3WePl5qiGQLtCI=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/73352_v9_bd.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Paul Guilfoyle",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/paul_guilfoyle_2",
+            "image": "https://resizing.flixster.com/I7p3cXxMTqFoaENJb-FdQZjS_Xw=/100x120/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/80407_v9_bb.jpg"
+        }
+    ],
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "bestRating": "100",
+        "description": "The Tomatometer rating \u2013 based on the published opinions of hundreds of film and television critics \u2013 is a trusted measurement of movie and TV programming quality for millions of moviegoers. It represents the percentage of professional critic reviews that are positive for a given film or television show.",
+        "name": "Tomatometer",
+        "ratingCount": 33,
+        "ratingValue": "70",
+        "reviewCount": 33,
+        "worstRating": "0"
+    },
+    "contentRating": "R",
+    "dateCreated": "2026-03-14",
+    "director": [
+        {
+            "@type": "Person",
+            "name": "Jorma Taccone",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/1180165-jorma_taccone",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        }
+    ],
+    "description": "Discover reviews, ratings, and trailers for Over Your Dead Body (2026) on Rotten Tomatoes. Stay updated with critic and audience scores today!",
+    "genre": [
+        "Comedy"
+    ],
+    "image": "https://resizing.flixster.com/i04jiP6zSWyJP_f2sxZXjgGiwnI=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzczNThjMTQyLTczMDAtNDFkMi1iNTM5LTdhOTc1YmFjZmFmZC5qcGc=",
+    "name": "Over Your Dead Body (2026)",
+    "producer": [
+        {
+            "@type": "Person",
+            "name": "Kjetil Omberg",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/kjetil_omberg",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "J\u00f8rgen Storm Rosenberg",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/jorgen_storm_rosenberg",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Tommy Wirkola",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/tommy_wirkola",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Jorma Taccone",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/1180165-jorma_taccone",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Maxime Cottray",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/maxime_cottray",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Nate Bolotin",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/nate_bolotin",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Timo Argillander",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/timo_argillander",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        },
+        {
+            "@type": "Person",
+            "name": "Andrea Scarso",
+            "sameAs": "https://www.rottentomatoes.com/celebrity/andrea_scarso_2",
+            "image": "https://images.fandango.com/cms/assets/b0cefeb0-b6a8-11ed-81d8-51a487a38835--poster-default-thumbnail.jpg"
+        }
+    ],
+    "url": "https://www.rottentomatoes.com/m/over_your_dead_body_2026",
+    "video": {
+        "@type": "VideoObject",
+        "thumbnailUrl": "https://statcdn.fandango.com/MPX/image/NBCU_Fandango/542/535/thumb_DAE64AE5-4468-4325-8016-3766A2E87760.jpg",
+        "name": "Over Your Dead Body: Red Band Trailer 2",
+        "duration": "1:53",
+        "sourceOrganization": "MPX",
+        "uploadDate": "2026-04-02T15:27:50",
+        "description": "",
+        "contentUrl": "https://www.rottentomatoes.com/m/over_your_dead_body_2026/videos/d6VLNXgZFpHb"
+    }
+}

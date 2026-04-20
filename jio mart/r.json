@@ -1,0 +1,663 @@
+{
+    "reviews": [
+        {
+            "reviewId": "103119382",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "2.5/4",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://www.slantmagazine.com/film/fuze-review-aaron-taylor-johnson-theo-james-david-mackenzie/",
+            "createDate": "2026-04-18T14:18:56.000Z",
+            "reviewQuote": "The film is much more interested in the logistics of bomb defusal than any of its characters&#46;",
+            "language": "English",
+            "critic": {
+                "displayName": "Ross McIndoe",
+                "initials": "RM",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/ross-mcindoe",
+                "isTopCritic": false,
+                "tomatometerApproved": true,
+                "vanity": "ross-mcindoe",
+                "encryptedCriticId": "xyeRmYZe",
+                "displayImageUrl": "https://resizing.flixster.com/et4FX6gAnzFNhOfJT3_dd_4lBmg=/128x128/v1.YzsxMDAwMDAzMjEzO2o7MjA2MTk7MjA0ODsxNDk2OzE0OTY",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Slant Magazine",
+                "editorialUrl": "http://slantmagazine.com/",
+                "isTopPublication": true,
+                "tomatometerApproved": true,
+                "encryptedPublicationId": "p5rPaple",
+                "publicationId": "821"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103118809",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3.5/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.dailytelegraph.com.au/entertainment/fuze-review-worthingtons-underrated-talent-on-display-in-frenetic-new-thriller/news-story/dcfe27697e1082e677c92d434c7e7498",
+            "createDate": "2026-04-16T19:06:47.000Z",
+            "reviewQuote": "Though a few late-breaking plot twists strain credibility to its absolute breaking point, Fuze never once goes close to wearing out its welcome.\n\n",
+            "language": "English",
+            "critic": {
+                "displayName": "Leigh Paatsch",
+                "initials": "LP",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/leigh-paatsch",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "leigh-paatsch",
+                "encryptedCriticId": "7ZWO8WZm",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Daily Telegraph (Australia)",
+                "editorialUrl": "https://www.dailytelegraph.com.au/",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "encryptedPublicationId": "ErmoKnyb",
+                "publicationId": "2044"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103118595",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://tinyurl.com/4dpf8eej",
+            "createDate": "2026-04-16T06:53:47.000Z",
+            "reviewQuote": "A terrific&#44; tight&#44; race-against-time crime thriller&#46;&#46;&#46;&#91;Director David Mackenzie&#93; does a bang-up job ratcheting up the tension&#46;&#46;&#46;The guy sure knows how to tighten the screws&#46;",
+            "language": "English",
+            "critic": {
+                "displayName": "Jim Schembri",
+                "initials": "JS",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/jim-schembri",
+                "isTopCritic": false,
+                "tomatometerApproved": true,
+                "vanity": "jim-schembri",
+                "encryptedCriticId": "OrVkwplk",
+                "displayImageUrl": "https://resizing.flixster.com/xcOSW6UKMVuDXMgyCqPx3qH24G8=/128x128/v1.YzsxMDAwMDAyNzUwO2o7MjA2MTk7MjA0ODs0NzU7NDc1",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "jimschembri.com",
+                "editorialUrl": "jimschembri.com",
+                "isTopPublication": false,
+                "tomatometerApproved": false,
+                "encryptedPublicationId": "7ZWe58lm",
+                "publicationId": "2937"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103118573",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://thejamreport.com/2026/04/16/review-fuze-is-a-ticking-clock-thriller-that-almost-runs-out-of-time/",
+            "createDate": "2026-04-15T23:07:24.000Z",
+            "reviewQuote": "This is not a film that reinvents the genre&#44; nor is it one that lingers particularly long after it ends&#46; But as a piece of crowd-pleasing entertainment&#44; it does more than enough to justify the ride&#46;",
+            "language": "English",
+            "critic": {
+                "displayName": "Doug Jamieson",
+                "initials": "DJ",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/doug-jamieson",
+                "isTopCritic": false,
+                "tomatometerApproved": true,
+                "vanity": "doug-jamieson",
+                "encryptedCriticId": "5yMqNDyg",
+                "displayImageUrl": "https://resizing.flixster.com/XY70nHM-N1dh7h0tyRP03NPX4M4=/128x128/v1.YzszMTMzO2o7MjA1NjU7MjA0ODszMDA7MzAw",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "The Jam Report",
+                "editorialUrl": "https://thejamreport.com/",
+                "isTopPublication": false,
+                "tomatometerApproved": false,
+                "encryptedPublicationId": "BZ5D2jy9",
+                "publicationId": "3187"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103118415",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3.5/5",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://www.theage.com.au/culture/movies/heist-thriller-fuze-and-other-new-movies-everyone-will-be-talking-about-this-week-20260415-p5zo2l.html",
+            "createDate": "2026-04-15T17:58:56.000Z",
+            "reviewQuote": "Character and dialogue are not exactly a priority, but you pick up the essentials as the script hurries you back and forth between plot strands.",
+            "language": "English",
+            "critic": {
+                "displayName": "Sandra Hall",
+                "initials": "SH",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/sandra-hall",
+                "isTopCritic": true,
+                "tomatometerApproved": true,
+                "vanity": "sandra-hall",
+                "encryptedCriticId": "krLo97Zw",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "The Age (Australia)",
+                "editorialUrl": "",
+                "isTopPublication": true,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/T-MwjXU96PMmiJ1U-nqx03k03YM=/256x256/v1.YzsxMDAwMDAzNzgzO3A7MjA2MTk7MjA0ODs0NTA7NDUw",
+                "encryptedPublicationId": "9ZkKA4ZG",
+                "publicationId": "2041"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103118241",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "B-",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.blu-ray.com/Fuze/1846402/#Review",
+            "createDate": "2026-04-14T21:45:27.000Z",
+            "reviewQuote": "The payoff here doesn&#8217;t match the set-up&#44; leaving &quot;Fuze&quot; winded as it attempts to land an ending&#46;",
+            "language": "English",
+            "critic": {
+                "displayName": "Brian Orndorf",
+                "initials": "BO",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/brian-orndorf",
+                "isTopCritic": false,
+                "tomatometerApproved": true,
+                "vanity": "brian-orndorf",
+                "encryptedCriticId": "6lKj8Prp",
+                "displayImageUrl": "https://resizing.flixster.com/XP-UYeS228McMgiCsVThlG5hn3w=/128x128/v1.YzsyMjM3O2o7MjA1NjU7MjA0ODsyNTA7Mjg1",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Blu-ray.com",
+                "editorialUrl": "",
+                "isTopPublication": false,
+                "tomatometerApproved": false,
+                "encryptedPublicationId": "4y39Kqrn",
+                "publicationId": "2468"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103116937",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "13.5/20",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.filmink.com.au/reviews/fuze/",
+            "createDate": "2026-04-10T06:27:10.000Z",
+            "reviewQuote": "&#8230; a stylish and stripped-down heist caper &#8230;",
+            "language": "English",
+            "critic": {
+                "displayName": "Cain Noble-Davies",
+                "initials": "CN",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/cain-noble-davies",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "cain-noble-davies",
+                "encryptedCriticId": "7ld2mXZO",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "FILMINK (Australia)",
+                "editorialUrl": "http://www.filmink.com.au/home/",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "encryptedPublicationId": "AoZvwnrw",
+                "publicationId": "1014"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103116815",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3/5",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://www.irishtimes.com/culture/film/review/2026/04/01/fuze-review-bomb-disposal-thriller-opens-with-suspense-but-struggles-to-sustain-the-blast/",
+            "createDate": "2026-04-09T22:44:07.000Z",
+            "reviewQuote": "Cast in impressive depth &#8211; Theo James and Sam Worthington lead the heist &#8211; Fuze just about sustains interest over that often too-busy closing section&#46; Mackenzie knows how to shoot a car chase and a gun fight&#46;",
+            "language": "English",
+            "critic": {
+                "displayName": "Donald Clarke",
+                "initials": "DC",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/donald-clarke",
+                "isTopCritic": true,
+                "tomatometerApproved": true,
+                "vanity": "donald-clarke",
+                "encryptedCriticId": "pZ6Emmye",
+                "displayImageUrl": "https://resizing.flixster.com/G0pagHEEKoyikfg8F6wZ0O8x5Xo=/128x128/v1.YzsyNzkwO2c7MjA1NjU7MjA0ODsxNTA7MTUw",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Irish Times",
+                "editorialUrl": "http://www.irishtimes.com/culture/film/film-reviews",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "encryptedPublicationId": "AQrqE6rn",
+                "publicationId": "228"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103116002",
+            "scoreSentiment": "NEGATIVE",
+            "originalScore": "3/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.dailymail.co.uk/tvshowbiz/article-15702799/BRIAN-VINER-Drama-Like-Richard-Curtis-romcom-wickedly-dark-heart.html?ico=authors_pagination_desktop",
+            "createDate": "2026-04-07T21:38:56.000Z",
+            "reviewQuote": "The narrative goes bonkers, with so many twists, double-twists and betrayals, followed by a clunky comic flourish at the end, that on the way out I didn't even trust the cinema employee who said, with apparent sincerity: 'Have a good night'.",
+            "language": "English",
+            "critic": {
+                "displayName": "Brian Viner",
+                "initials": "BV",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/brian-viner",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "brian-viner",
+                "encryptedCriticId": "XrAVxjlw",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Daily Mail (UK)",
+                "editorialUrl": "",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/01cTE1K-Gdo87O9lpOS7PFbaKBw=/256x256/v1.YzsxMDAwMDAzNjIxO2o7MjA2MTk7MjA0ODs0MDA7NDAw",
+                "encryptedPublicationId": "p5rP2kye",
+                "publicationId": "265"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103115987",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "4/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.theartsdesk.com/film/fuze-review-daylight-robbery",
+            "createDate": "2026-04-07T21:08:07.000Z",
+            "reviewQuote": "Fuze references Britain\u2019s role in Afghanistan and refugee stereotypes, and freshly sketches contemporary London before switching much further afield. Such depths mainly serve its capacity to entertain...",
+            "language": "English",
+            "critic": {
+                "displayName": "Nick Hasted",
+                "initials": "NH",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/nick-hasted",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "nick-hasted",
+                "encryptedCriticId": "GlgeD4Zp",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "The Arts Desk",
+                "editorialUrl": "http://www.theartsdesk.com/film",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/ZxDUxYhq5Qzz3-zsRmU3iBX3Pgs=/256x256/v1.YzsxMDAwMDAzNzg0O3A7MjA2MTk7MjA0ODs0MDA7NDAw",
+                "encryptedPublicationId": "4rwkmnrA",
+                "publicationId": "2602"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103115981",
+            "scoreSentiment": "NEGATIVE",
+            "originalScore": "2/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.express.co.uk/entertainment/films/2189846/Fuze-film-review-aaron-taylor-johnson-Theo-James",
+            "createDate": "2026-04-07T20:53:15.000Z",
+            "reviewQuote": "What could have been the ingredients for an unassuming pleasant surprise with a twist that leaves you shellshocked ultimately fails to detonate with any impact.",
+            "language": "English",
+            "critic": {
+                "displayName": "Lucas Hill-Paul",
+                "initials": "LH",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/lucas-hill-paul",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "lucas-hill-paul",
+                "encryptedCriticId": "yxpYwQYy",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Daily Express (UK)",
+                "editorialUrl": "http://www.express.co.uk/entertainment/films",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/47FUHvrtSMPK3sO1dB7AJwW_S-A=/256x256/v1.YzsxMDAwMDAzNjE5O3A7MjA2MTk7MjA0ODs1MTI7NTEy",
+                "encryptedPublicationId": "4yzjkwyP",
+                "publicationId": "2149"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103115950",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3/5",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://www.empireonline.com/movies/reviews/fuze/",
+            "createDate": "2026-04-07T19:51:19.000Z",
+            "reviewQuote": "It\u2019s thinner than the paper it\u2019s written on, and full of questionable choices \u2014 but in a switch-your-brain-off kind of way, this will adequately activate your heist glands. Light the fuze!",
+            "language": "English",
+            "critic": {
+                "displayName": "John Nugent",
+                "initials": "JN",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/john-nugent",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "john-nugent",
+                "encryptedCriticId": "YrjNbLrx",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Empire Magazine",
+                "editorialUrl": "",
+                "isTopPublication": true,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/DYV-jkQicY6vjQFNWfMJwXbzplc=/256x256/v1.YzsxMDAwMDAzNjM5O2o7MjA2MTk7MjA0ODs3MjA7NzIw",
+                "encryptedPublicationId": "1XrAqGrw",
+                "publicationId": "148"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103115875",
+            "scoreSentiment": "POSITIVE",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://observer.co.uk/culture/film/article/wendy-ides-pick-of-other-films-fuze-night-stage-the-super-mario-galaxy-movie-and-more",
+            "createDate": "2026-04-07T17:43:11.000Z",
+            "reviewQuote": "Notwithstanding a couple of \ufeffsilly moments, this is an enjoyabl\ufeffe if pulpy watch.",
+            "language": "English",
+            "critic": {
+                "displayName": "Wendy Ide",
+                "initials": "WI",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/wendy-ide",
+                "isTopCritic": true,
+                "tomatometerApproved": true,
+                "vanity": "wendy-ide",
+                "encryptedCriticId": "jlOJ60r0",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Observer (UK)",
+                "editorialUrl": "",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/Ds5HsHsjpZgjYNNu81oQWi9-eWk=/256x256/v1.YzsxMDAwMDAzNzMxO2o7MjA2MTk7MjA0ODs0MDA7NDAw",
+                "encryptedPublicationId": "W4y3aDrn",
+                "publicationId": "1768"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103115059",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "4/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.thesun.co.uk/tv/38704470/drama-film-review-kooky-stressful-dark-comedy/",
+            "createDate": "2026-04-03T19:25:10.000Z",
+            "reviewQuote": "Taylor-Johnson and James both put in fine performances \u2013 dialling up the tension while not giving away too much about their complex characters.\n",
+            "language": "English",
+            "critic": {
+                "displayName": "Dulcie Pearce",
+                "initials": "DP",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/dulcie-pearce",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "dulcie-pearce",
+                "encryptedCriticId": "4rwdPDlA",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "The Sun (UK)",
+                "editorialUrl": "http://www.thesun.co.uk/sol/homepage/showbiz/",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/Rva4TypiaEqQJZHV6hLwNYaybmk=/256x256/v1.YzsxMDAwMDAzNzk4O3A7MjA2MTk7MjA0ODs1MTI7NTEy",
+                "encryptedPublicationId": "Npy0JdrE",
+                "publicationId": "1759"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103114996",
+            "scoreSentiment": "NEGATIVE",
+            "originalScore": "3/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://filmhounds.co.uk/2026/04/03/fuze-film-review-let-down-by-a-lacklustre-narrative/",
+            "createDate": "2026-04-03T16:16:28.000Z",
+            "reviewQuote": "That&#8217;s the unfortunate reality of Fuze&#58; all the elements of a cracking crime caper let down by a lacklustre narrative&#46; Mackenzie and his cast bring their A-game&#44; but there is only so much they can do with light material&#46;",
+            "language": "English",
+            "critic": {
+                "displayName": "Gavin Spoors",
+                "initials": "GS",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/gavin-spoors",
+                "isTopCritic": false,
+                "tomatometerApproved": true,
+                "vanity": "gavin-spoors",
+                "encryptedCriticId": "y0V1jwMr",
+                "displayImageUrl": "https://resizing.flixster.com/Cwe4_IDX5YmRQMW2BNPe9rZsbWY=/128x128/v1.YzsxMDAwMDAzNDM4O2o7MjA2MTk7MjA0ODs2NTI7NjUy",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "FILMHOUNDS Magazine",
+                "editorialUrl": "https://filmhounds.co.uk/",
+                "isTopPublication": false,
+                "tomatometerApproved": false,
+                "encryptedPublicationId": "7ZWewnlm",
+                "publicationId": "3837"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103114950",
+            "scoreSentiment": "NEGATIVE",
+            "originalScore": "2/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://cineramafilm.com/2026/04/03/fuze-review/",
+            "createDate": "2026-04-03T11:33:12.000Z",
+            "reviewQuote": "For those looking for a fun crime picture&#44; there&#8217;s plenty to sink your teeth into&#46; It&#8217;s just a shame there&#8217;s not much substance beyond face-value thrills&#46;",
+            "language": "English",
+            "critic": {
+                "displayName": "Calum Cooper",
+                "initials": "CC",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/calum-cooper",
+                "isTopCritic": false,
+                "tomatometerApproved": true,
+                "vanity": "calum-cooper",
+                "encryptedCriticId": "yxpY2DMy",
+                "displayImageUrl": "https://resizing.flixster.com/goG6jjg9sP0mxY3wheRWf3niXeA=/128x128/v1.YzsxMDAwMDAzMjMwO2o7MjA2MTk7MjA0ODsxODc5OzI1MDk",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Cinerama Film",
+                "isTopPublication": false,
+                "tomatometerApproved": false,
+                "encryptedPublicationId": "yegzL5br",
+                "publicationId": "100009766"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103114907",
+            "scoreSentiment": "POSITIVE",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://www.youtube.com/watch?v=7dO0Wg213SQ",
+            "createDate": "2026-04-02T23:39:13.000Z",
+            "reviewQuote": "It's lively, watchable fare.",
+            "language": "English",
+            "critic": {
+                "displayName": "Mark Kermode",
+                "initials": "MK",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/mark-kermode",
+                "isTopCritic": true,
+                "tomatometerApproved": true,
+                "vanity": "mark-kermode",
+                "encryptedCriticId": "5rPoepZe",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Kermode and Mayo's Take (YouTube)",
+                "isTopPublication": false,
+                "tomatometerApproved": false,
+                "encryptedPublicationId": "ld6ANN0Z",
+                "publicationId": "100009998"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103114824",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3/5",
+            "isTopReview": false,
+            "publicationReviewUrl": "https://www.scotsman.com/arts-and-culture/film-and-tv/film-reviews-fuze-the-super-mario-galaxy-movie-6530886",
+            "createDate": "2026-04-02T18:49:19.000Z",
+            "reviewQuote": "...Fuze does become slicker and more cinematic...at least until it over-eggs things with some what-happened-next explanatory text that weirdly tries to reframe what we\u2019ve just watched as a jokey caper movie. For the most part, though, this is a blast.",
+            "language": "English",
+            "critic": {
+                "displayName": "Alistair Harkness",
+                "initials": "AH",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/alistair-harkness",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "alistair-harkness",
+                "encryptedCriticId": "oradMVZg",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Scotsman",
+                "editorialUrl": "http://www.scotsman.com/lifestyle/culture/film",
+                "isTopPublication": false,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/QHAdKWU7S5V1Jmnw2dJJO2UCp9Y=/256x256/v1.YzsxMDAwMDAzNzk1O2o7MjA2MTk7MjA0ODsyMDQ4OzIwNDg",
+                "encryptedPublicationId": "MaloN6rw",
+                "publicationId": "1211"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103114815",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3/5",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://www.ft.com/content/4b3b1720-256c-4eb8-af25-b3e696686fd5?syn-25a6b1a6=1",
+            "createDate": "2026-04-02T18:30:48.000Z",
+            "reviewQuote": "Much about what ensues is cheerfully hokey. ...But there is also a real joie de vivre to how Mackenzie and writer Ben Hopkins contrive twist after twist, making actors and genres collide as if playing with mismatched action figures.\u00a0\n",
+            "language": "English",
+            "critic": {
+                "displayName": "Danny Leigh",
+                "initials": "DL",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/danny-leigh",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "danny-leigh",
+                "encryptedCriticId": "4yzR4KyP",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "Financial Times",
+                "editorialUrl": "https://www.ft.com/film",
+                "isTopPublication": true,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/QBWIUqH5-52Hwhp4dHzliNyQvtU=/256x256/v1.YzsxMDAwMDAzNjQ5O3A7MjA2MTk7MjA0ODsxMjAwOzE1MTc",
+                "encryptedPublicationId": "Ovl4PQlz",
+                "publicationId": "1882"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        },
+        {
+            "reviewId": "103114814",
+            "scoreSentiment": "POSITIVE",
+            "originalScore": "3/5",
+            "isTopReview": true,
+            "publicationReviewUrl": "https://www.thetimes.com/culture/film/article/fuze-review-theo-james-aaron-taylor-johnson-z6d08cd6v",
+            "createDate": "2026-04-02T18:28:19.000Z",
+            "reviewQuote": " The twists are many and some predictable, but the mood here is mostly, and unapologetically, guilty-pleasure hokum.",
+            "language": "English",
+            "critic": {
+                "displayName": "Kevin Maher",
+                "initials": "KM",
+                "rottenTomatoesUrl": "https://www.rottentomatoes.com/critic/kevin-maher",
+                "isTopCritic": false,
+                "tomatometerApproved": false,
+                "vanity": "kevin-maher",
+                "encryptedCriticId": "ErmKJnyb",
+                "displayImageUrl": "https://resizing.flixster.com/fDZGDR4V43rJbZuZ5QHWQVEtuyc=/128x128/v1.YzszNDc1O3A7MjA1NjU7MjA0ODszNDA7MzQw",
+                "criticsGroups": []
+            },
+            "publication": {
+                "name": "The Times (UK)",
+                "editorialUrl": "http://www.thetimes.co.uk/tto/arts/",
+                "isTopPublication": true,
+                "tomatometerApproved": true,
+                "publicationImageUrl": "https://resizing.flixster.com/LbrhzEqJVNmc_wQ97AN7HuDoJa0=/256x256/v1.YzsxMDAwMDAzODA3O3A7MjA2MTk7MjA0ODszMDA7MzAw",
+                "encryptedPublicationId": "zjlO74l0",
+                "publicationId": "823"
+            },
+            "reactionSummary": {
+                "reactions": [],
+                "totalCount": 0
+            }
+        }
+    ],
+    "pageInfo": {
+        "hasNextPage": true,
+        "hasPreviousPage": false,
+        "endCursor": "MQ=="
+    }
+}
