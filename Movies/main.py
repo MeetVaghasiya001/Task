@@ -71,13 +71,12 @@ def process(url):
     data = {
         'movie_name':data.xpath("string(//rt-text[@size='1.25,1.75']/text())"),
         'score':data.xpath("string(//rt-text[@slot='critics-score'])") or "0%",
-        'desc':data.xpath("string(//div[@slot='description']//rt-text)").strip(),
+        'desc':data.xpath("string(//div[@slot='description']//rt-text)").strip() or None,
         'img':data.xpath("string(//img[@slot='poster']/@src)"),
-        'videos':videos,
+        'videos':videos or None,
         'want_to_know':data.xpath("string(//div[@id='critics-consensus']//p)").strip() or None,
         'cast':all_cast,
         'all_reviews':all_reviews,
-
     }
 
     print(f'{data.get('movie_name')} was added!!')
