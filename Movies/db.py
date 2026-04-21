@@ -22,6 +22,7 @@ def create_db():
             score VARCHAR(255),
             description TEXT,
             img TEXT,
+            reviews_count VARCHAR(255),
             videos JSON,
             want_to_know TEXT,
             cast JSON,
